@@ -1,0 +1,14 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M32.5 36.25V73.75" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32.5 23.75V27.5" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 23.75V27.5" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 70V73.75" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 52.5V61.25" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 36.25V45" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M67.5 52.5V61.25" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.7084 36.25H29.7917C29.1667 36.25 28.75 35.8125 28.75 35.1563V28.5937C28.75 27.9375 29.1667 27.5 29.7917 27.5H52.7084C53.3332 27.5 53.75 27.9375 53.75 28.5937V35.1563C53.75 35.5937 53.125 36.25 52.7084 36.25Z" stroke="#00CCF5" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M67.5 70V73.75" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M67.5 23.75V45" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.2084 52.5H47.2916C46.6666 52.5 46.25 52.1249 46.25 51.5625V45.9375C46.25 45.3749 46.6666 45 47.2916 45H70.2084C70.8334 45 71.25 45.3749 71.25 45.9375V51.5625C71.25 51.9375 70.625 52.5 70.2084 52.5Z" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.2084 70H47.2916C46.6666 70 46.25 69.5626 46.25 68.9063V62.3437C46.25 61.6874 46.6666 61.25 47.2916 61.25H70.2084C70.8334 61.25 71.25 61.6874 71.25 62.3437V68.9063C71.25 69.3437 70.625 70 70.2084 70Z" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

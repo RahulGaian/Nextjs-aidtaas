@@ -79,15 +79,6 @@
     border-radius: 20px;
 }
 
-#bg_headingsolution{
-    height: fit-content;
-    background: radial-gradient(
-        300px 250px at 30% 50%,
-        rgba(234, 169, 229, 0.4) 10%,
-        rgba(217, 217, 217, 0) 90%
-      );
-}
-
 #link{
     width: max-content;
     text-decoration: none;

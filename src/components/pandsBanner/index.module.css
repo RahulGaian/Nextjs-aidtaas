@@ -1,0 +1,98 @@
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap"); */
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 78px;
+}
+
+.contentContainer {
+    width: 1700px;
+    min-height: 700px;
+    max-height: fit-content;
+    display: flex;
+    padding-top: 150px;
+    align-items: center;    
+}
+
+.leftcont {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    padding-right: 10%;
+}
+
+.leftcont>h1 {
+    color: #ce31c4;
+    font-family: "DM Sans";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500 !important;
+    margin-bottom: 19px;
+}
+
+.leftcont>p {
+    color: #313131;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 119px;
+}
+
+.leftcont button {
+    width: 216px;
+    height: 53px;
+    display: flex;
+    padding: 30px 42px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ad00a2;
+    background: #ad00a2;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+}
+
+.leftcont button:hover{
+    cursor: pointer;
+}
+
+.rightcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.rightcont>img {
+    width: 702px;
+    height: 465px;
+    border-radius: 20px;
+}
+
+#bg_headingsolution{
+    height: fit-content;
+    background: radial-gradient(
+        300px 250px at 30% 50%,
+        rgba(234, 169, 229, 0.4) 10%,
+        rgba(217, 217, 217, 0) 90%
+      );
+}
+
+#link{
+    width: max-content;
+    text-decoration: none;
+}
+
+#link:hover{
+    cursor: pointer;
+}

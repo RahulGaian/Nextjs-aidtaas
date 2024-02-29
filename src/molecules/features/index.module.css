@@ -1,0 +1,584 @@
+.featureContainer {
+  /* position: relative; */
+  height: auto;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decorator-1 {
+  position: absolute;
+  width: 987.94px;
+  height: 600.22px;
+  left: 80%;
+  top: -200px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(124, 92, 252, 0.4) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  filter: blur(77px);
+}
+
+.decorator-2 {
+  position: absolute;
+  width: 1385.37px;
+  height: 1246.83px;
+  left: -212.62px;
+  top: 212.64px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(173, 0, 162, 0.4) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  filter: blur(77px);
+  transform: matrix(1, 0.01, -0.02, 1, 0, 0);
+}
+
+.decorator-3 {
+  position: absolute;
+  width: 1385.4px;
+  height: 925px;
+  left: 1371px;
+  top: 1032.37px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 142, 173, 0.4) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  filter: blur(77px);
+}
+
+.decorator-4 {
+  position: absolute;
+  width: 991.55px;
+  height: 964.86px;
+  left: 1371px;
+  top: 2184px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(124, 92, 252, 0.4) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  filter: blur(77px);
+}
+.decorator-1,
+.decorator-2,
+.decorator-3,
+.decorator-4 {
+  opacity: 0.6;
+}
+
+.featureBoxHeadingplt {
+  /* position: absolute; */
+  width: 1700px;
+  /* height: 112px; */
+  /* left: 40%; */
+  /* top: 890px; */
+  /* background: #FFFFFF; */
+  /* box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15); */
+  border-radius: 10px;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureBoxHeadingplt > h1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 58px;
+  /* identical to box height, or 85% */
+  background: linear-gradient(
+    90deg,
+    #9919ae -1.56%,
+    #513dd0 51.65%,
+    #cb5efe 104.86%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+}
+
+.featureBoxSubHeading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.featureBoxSubHeading > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #9919ae;
+}
+
+.featureBoxDescription {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featureBoxDescription > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cardsContainer {
+  width: 1700px;
+}
+
+.cardImgContainer > Image {
+  /* width: 20rem !important; */
+  width: 20rem !important;
+  /* min-width: 12rem !important; */
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  column-gap: 2rem;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.cardWrapper:nth-child(1) {
+  padding-top: 5rem;
+}
+
+.cardWrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.cardImageContainer {
+  width: 75%;
+}
+
+.cardDetailContainer {
+  width: 50%;
+}
+
+.cardDetailContainer > h1 {
+  font-family: "DM Sans";
+  width: 100%;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 50px;
+  /* or 119% */
+  color: #2c2c2c;
+}
+
+.cardDetailContainer > p {
+  padding-top: 0.375rem;
+  width: 100%;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 150% */
+  color: #1a1a1a;
+}
+/* .cardWrapper:last-child {    
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(237, 168, 232, 0.4) 0%, rgba(217, 217, 217, 0.00) 100%);
+} */
+/* .cardWrapper:first-child {
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(193, 181, 238, 0.8) 0%, rgba(217, 217, 217, 0.00) 100%);
+} */
+.app_description {
+  width: 80%;
+  margin: 5rem auto;
+  padding: 4rem 8rem;
+  background: rgba(179, 173, 250, 0.61);
+  border-radius: 20px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.app__casestudy {
+  width: 80%;
+  margin: 8rem auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__casestudy_image {
+  width: 55%;
+}
+
+.app__casestudy_image img {
+  width: 100%;
+  height: 100%;
+}
+
+.app__casestudy_content {
+  width: 40%;
+}
+
+.app__casestudy_content .content_heading {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #1a1a1a;
+}
+
+.app__casestudy_content .content_description {
+  margin: 1rem 0 2rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #1a1a1a;
+}
+
+.app__casestudy_content .content_button {
+  padding: 1.6rem 2rem;
+  border: 2px solid #ad00a2;
+  border-radius: 8px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 0px;
+  text-align: center;
+  color: #ad00a2;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .featureBoxHeadingplt,
+  .cardsContainer {
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .featureBoxHeadingplt,
+  .cardsContainer {
+    width: 1250px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 1000px) {
+  .featureBoxHeadingplt,
+  .cardsContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .featureBoxHeadingplt,
+  .cardsContainer {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1166px) {
+  .cardWrapper {
+    column-gap: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cardWrapper {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .app__casestudy {
+    width: 100%;
+    margin: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .app__casestudy_image {
+    width: 45%;
+    min-height: fit-content;
+  }
+  .app__casestudy_image img {
+    width: 100%;
+    min-height: fit-content;
+  }
+  .app__casestudy_content {
+    width: 51%;
+    margin: 0.7rem;
+  }
+  .app__casestudy_content .content_heading {
+    padding: 0.3rem;
+    font-size: 29px;
+    line-height: 40px;
+  }
+  .app__casestudy_content .content_description {
+    margin: 0.4rem;
+    margin-bottom: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+  .app_description {
+    width: 90%;
+    margin: 2rem;
+    padding: 4rem 8rem;
+  }
+  .cardDetailContainer > h1 {
+    width: 100%;
+    font-size: 42px;
+    line-height: 50px;
+    /* or 119% */
+  }
+
+  .featureBoxHeading {
+    width: 100% !important;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 80%;
+    height: 70px;
+    /* top: 68rem; */
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .featureContainer {
+    padding: 5rem 2rem 0rem 2rem;
+  }
+
+  .featureBoxDescription {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .featureBoxHeading {
+    width: 100% !important;
+    margin-bottom: 2rem;
+    left: 10%;
+    width: 80%;
+    height: 70px;
+    top: 68rem;
+  }
+  .cardDetailContainer {
+    width: 90%;
+  }
+  .featureBoxHeading > h1 {
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .cardWrapper {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0rem;
+    padding-right: 2rem;
+    text-align: center;
+  }
+
+  .cardWrapper:nth-child(1) {
+    padding-top: 8rem;
+  }
+
+  .cardWrapper:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .cardImageContainer {
+    width: 100%;
+  }
+
+  .cardDetailContainer {
+    width: 100%;
+  }
+
+  .cardDetailContainer > h1 {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    padding-top: 2rem;
+  }
+
+  .cardDetailContainer > p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .app_description {
+    width: 96%;
+    margin: 3rem auto 3rem;
+    padding: 3rem 2rem;
+    text-align: justify;
+    font-size: 22px;
+  }
+
+  .app__casestudy {
+    width: 96%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .app__casestudy_image {
+    width: 100%;
+  }
+
+  .app__casestudy_image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .app__casestudy_content {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .app__casestudy_content .content_heading {
+    padding: 0.3rem;
+    font-size: 29px;
+    line-height: 40px;
+  }
+  .app__casestudy_content .content_description {
+    margin: 0.4rem;
+    margin-bottom: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+  .content_button_01 {
+    padding: 0.8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .featureContainer {
+    padding: 5rem 1rem 0rem 1rem;
+  }
+
+  .featureBoxHeading {
+    /* background-color: aqua; */
+    width: 100% !important;
+    /* margin-left: 0%; */
+    /* padding-left: 0rem !important; */
+    margin-bottom: 0rem;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    /* top: 970px; */
+  }
+  .featureBoxSubHeading {
+    text-align: center;
+    /* padding-left: 10vw !important; */
+    /* background-color: aqua; */
+  }
+  .featureBoxHeading > h1 {
+    width: 100%;
+    font-size: 46px;
+  }
+
+  .cardWrapper {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cardWrapper:nth-child(1) {
+    padding-top: 8rem;
+  }
+
+  .cardWrapper:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .cardImageContainer {
+    width: 100%;
+  }
+
+  .cardDetailContainer {
+    width: 100%;
+  }
+
+  .cardDetailContainer > h1 {
+    width: 100%;
+    font-size: 32px;
+    padding-top: 2rem;
+    line-height: 36px;
+  }
+
+  .cardDetailContainer > p {
+    width: 100%;
+  }
+
+  .app_description {
+    width: 96%;
+    margin: 3rem auto 3rem;
+    padding: 3rem 2rem;
+
+    font-size: 20px;
+  }
+
+  .app__casestudy {
+    width: 96%;
+    margin: 5rem auto;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .app__casestudy_image {
+    width: 100%;
+  }
+
+  .app__casestudy_image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .app__casestudy_content {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardDetailContainer > h1 {
+    font-size: 28px;
+  }
+}

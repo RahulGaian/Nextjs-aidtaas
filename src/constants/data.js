@@ -5337,6 +5337,619 @@ const productsData = [
       downloadUrl: "",
     },
   },
+
+  //NEW PAGES
+
+  // AUTOMATION-DEVOPS
+  {
+    id: "automation-devops",
+    banner: {
+      heading: "The Future of Automated DevOps",
+      paragraph:
+        "Mobius DTasS is the next-generation DevOps automation platform that streamlines software development, testing, and deployment processes. With advanced automation features and intelligent workflows, we help businesses accelerate software delivery and reduce time-to-market.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "AI-powered pipeline optimization",
+        paragraph:
+          "Mobius DTasS uses machine learning algorithms to optimize your software delivery pipeline in real-time. Our platform analyzes your pipeline metrics and suggests ways to improve the efficiency of your workflows, reduce errors, and increase quality.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Automated security testing",
+        paragraph:
+          "Security is a critical aspect of software development, and Mobius DTasS takes it seriously. Our platform offers automated security testing that scans your code and identifies vulnerabilities before they become a threat.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Continuous compliance monitoring",
+        paragraph:
+          "Keeping up with regulatory compliance is essential for any business, and Mobius DTasS simplifies this process with continuous compliance monitoring. Our platform ensures that your software development and deployment practices comply with industry standards and regulations",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Faster time-to-market",
+        paragraph:
+          "Mobius DTasS streamlines software development, testing, and deployment processes with advanced automation features and intelligent workflows.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Improved quality and security",
+        paragraph:
+          " With Mobius DTasS, you can identify vulnerabilities and fix issues faster with confidence. Our automated security testing scans your code and identifies vulnerabilities before they become a threat.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Better collaboration and decision-making",
+        paragraph:
+          "Mobius DTasS facilitates real-time collaboration between development, operations, and security teams. Our platform provides a unified view of your software delivery pipeline, along with detailed insights into performance, quality, and security.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+
+  //PARTNERSHIP RELATIONSHIP
+  {
+    id: "partnership-relationship",
+    banner: {
+      heading: "The Future of Partnership Relationship Management",
+      paragraph:
+        "Mobius DTasS is the next-generation Partnership Relationship Management platform that helps businesses build and manage successful partnerships. With advanced automation features and intelligent workflows, we enable you to streamline partner onboarding, optimize partner performance, and accelerate revenue growth.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "AI-driven partner matching",
+        paragraph:
+          "Mobius DTasS uses AI to match you with partners that are most compatible with your business goals. Our platform analyzes your partner data and identifies potential partners based on their performance, capabilities, and compatibility.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Automated partner onboarding",
+        paragraph:
+          "Partner onboarding can be a time-consuming and challenging process, but Mobius DTasS simplifies it with our automated partner onboarding. Our customizable onboarding process guides partners through the necessary steps and ensures that all required documentation is completed.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Automated partner incentives and payouts",
+        paragraph:
+          "Partner incentives and payouts are critical to maintaining successful partnerships, and Mobius DTasS automates this process. Our customizable rewards program incentivizes partners based on their performance and contributions to your business.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Improved partnership success",
+        paragraph:
+          "With Mobius DTasS, you can build and maintain successful partnerships with ease. Our AI-driven partner matching and automated onboarding features ensure that you collaborate with the most suitable partners for maximum growth.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Increased revenue growth",
+        paragraph:
+          "By optimizing partner performance and streamlining the partner incentives and payouts process, Mobius DTasS enables businesses to accelerate revenue growth. With data-driven decision-making and real-time insights, you can maximize the value of your partnerships and drive business growth.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Enhanced efficiency and productivity",
+        paragraph:
+          "Mobius DTasS simplifies the partnership management process, enabling businesses to operate more efficiently and productively. With automated workflows and customizable features, you can save time and resources, and focus on growing your business.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+
+  // PUBLIC MARKETPLACE
+  {
+    id: "public-marketplace",
+    banner: {
+      heading: "The Ultimate Public Marketplace as a Service (XaaS) Platform",
+      paragraph:
+        "Mobius DTasS is the next-generation Public Marketplace as a Service (XaaS) platform that enables businesses to create and manage their own digital marketplaces. With advanced automation features and intelligent workflows, we empower businesses to accelerate time-to-market, optimize revenue growth, and improve customer experiences.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "AI-powered product recommendations",
+        paragraph:
+          "Mobius DTasS analyzes customer behavior and preferences to offer personalized product recommendations, driving engagement and revenue growth.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Advanced order management ",
+        paragraph:
+          "Mobius DTasS provides customizable and automated order management workflows that save time and resources while ensuring timely delivery to customers.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Integrated payment processing",
+        paragraph:
+          "With Mobius DTasS, businesses can seamlessly integrate payment processing into their digital marketplace. Our platform supports multiple payment gateways, ensuring a smooth and secure payment experience for your customers.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Accelerated time-to-market",
+        paragraph:
+          "Mobius DTasS enables businesses to create and manage their own digital marketplaces quickly and efficiently, accelerating time-to-market and increasing revenue opportunities",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Increased revenue growth",
+        paragraph:
+          "With advanced features like AI-powered product recommendations, integrated payment processing, and real-time analytics and reporting, Mobius DTasS empowers businesses to optimize their digital marketplace and drive revenue growth.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Enhanced customer experiences",
+        paragraph:
+          "Mobius DTasS improves customer experiences with personalized product recommendations, seamless payment processing, and efficient order management, resulting in increased customer satisfaction and loyalty.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+  // DATA MONETIZATION
+  {
+    id: "data-monetization",
+    banner: {
+      heading: "The Future of Data Monetization",
+      paragraph:
+        "Mobius DTasS is the innovative Data Monetization platform designed to help businesses monetize their data assets effectively and efficiently. With advanced automation features and intelligent workflows, we help businesses unlock the full value of their data and achieve revenue growth.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "AI-powered data analytics",
+        paragraph:
+          "Mobius DTasS leverages AI-powered data analytics to help businesses gain deep insights into their data, enabling them to identify new revenue opportunities and improve decision-making.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Data marketplace ",
+        paragraph:
+          "Mobius DTasS provides a secure data marketplace where businesses can form alliances, buy and sell data with trusted partners, unlocking new revenue streams and business opportunities.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Customizable pricing models",
+        paragraph:
+          "With Mobius DTasS, businesses can create and customize pricing models that suit their specific data monetization needs, ensuring maximum value for their data assets.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Increased revenue growth",
+        paragraph:
+          "With Mobius DTasS, businesses can monetize their data assets effectively, unlocking new revenue streams and business opportunities.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Improved decision-making",
+        paragraph:
+          "Mobius DTasS provides businesses with deep insights into their data, enabling them to make better-informed decisions and identify new revenue opportunities..",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Secure and compliant data management",
+        paragraph:
+          "With Mobius DTasS, businesses can securely store and manage their data, ensuring compliance with data protection regulations and reducing the risk of data breaches.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+  // PHYGITAL MONETIZATION
+  {
+    id: "phygital-monetization",
+    banner: {
+      heading: "The Future of Phygital Monetization",
+      paragraph:
+        "Mobius DTasS is the revolutionary Phygital Monetization platform designed to help businesses monetize their physical and digital assets effectively and efficiently. With advanced automation features and intelligent workflows, we help businesses unlock new revenue streams and achieve growth.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "Seamless integration",
+        paragraph:
+          "Mobius DTasS seamlessly integrates physical and digital assets, enabling businesses to monetize both types of assets together, creating new revenue opportunities.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Real-time analytics",
+        paragraph:
+          "With Mobius DTasS, businesses gain access to real-time analytics of their physical and digital assets, enabling them to make informed decisions and identify new revenue opportunities.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Interactive experiences",
+        paragraph:
+          "Mobius DTasS provides interactive experiences that combine physical and digital elements, enhancing customer experiences and creating new revenue opportunities.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Increased revenue growth",
+        paragraph:
+          "Mobius DTasS enables businesses to monetize physical and digital assets together, unlocking new revenue streams and business opportunities.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Enhanced customer experiences",
+        paragraph:
+          "Mobius DTasS provides interactive experiences that combine physical and digital elements, resulting in improved customer satisfaction and loyalty.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Customizable pricing models",
+        paragraph:
+          "Mobius DTasS provides customizable pricing models that enable businesses to maximize the value of their assets and create tailored pricing structures, resulting in more efficient and effective monetization of assets.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+  // HR & People Tech> Employee Delight>
+  {
+    id: "employee-delight",
+    banner: {
+      heading: "Rewards and Recognition",
+      paragraph:
+        "The Rewards and Recognition MIA within the Nightingale MISS is designed to enhance employee engagement and motivation by providing a platform for  recognizing and rewarding exceptional performance and achievements. It enables organizations to create a culture of appreciation and celebrate the contributions of their employees.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "Recognition Programs",
+        paragraph:
+          "The MIA allows organizations to create customized recognition programs tailored to their unique needs and culture. It provides a platform for managers and peers to give recognition, share appreciation, and nominate individuals for their outstanding work.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Reward Catalog",
+        paragraph:
+          "The MIA offers a diverse catalog of rewards and incentives that employees can choose from. It includes monetary rewards,  gift cards, experiences, and other recognition items. Employees can redeem their earned rewards based on their preferences and interests.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Nomination and Approval Workflows",
+        paragraph:
+          "The MIA streamlines the nomination  and approval process for recognition. Employees and managers can  submit nominations, detailing the achievements and contributions of deserving individuals. The system automates the approval workflows,ensuring transparency and fairness.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Motivated and Engaged Workforce",
+        paragraph:
+          "The Rewards and Recognition MIA  boosts employee morale, motivation, and engagement by providing a  platform to celebrate achievements. It creates a positive work environment  where employees feel valued and appreciated, leading to increased job satisfaction and productivity.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Improved Retention and Loyalty",
+        paragraph:
+          "By recognizing and rewarding  outstanding performance, the MIA helps organizations retain top talent and  foster loyalty among employees. It reinforces a culture of recognition,  making employees feel acknowledged for their hard work and dedication.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Enhanced Collaboration and Team Spirit",
+        paragraph:
+          "The social recognition wall promotes collaboration and team spirit by encouraging employees to acknowledge and appreciate each other contributions. It strengthens relationships, encourages peer support, and fosters a sense of camaraderie among team members.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+
+  // HR and People Tech&gt; Org Modeling
+
+  {
+    id: "org-modeling",
+    banner: {
+      heading: "Rewards and Recognition",
+      paragraph:
+        "The Org Modelling MIA within the Nightingale MISS offers a comprehensive  solution for organizational design and modeling. It provides organizations with the tools and capabilities to create, simulate, and optimize organizational structures, hierarchies, roles, and responsibilities.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "Organizational Structure Design",
+        paragraph:
+          "The Org Modelling MIA allows organizations to design and visualize their organizational structure. It provides drag-and-drop functionality to create and arrange departments, teams, and reporting lines, enabling a clear representation of the organization's hierarchy.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Role and Responsibility Definition",
+        paragraph:
+          "With the MIA, organizations can define roles and responsibilities within the organizational structure. It allows for the creation of role profiles, including job descriptions, qualifications, and  reporting relationships, ensuring clarity and alignment in role expectations.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Simulation and What-If Analysis",
+        paragraph:
+          "The MIA enables organizations to perform simulations and what-if analysis to evaluate different organizational design scenarios. It allows for testing changes in the  structure, roles, and reporting lines, providing insights into the impact on efficiency, collaboration, and performance.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Optimal Organizational Design",
+        paragraph:
+          "The Org Modelling MIA helps organizations achieve optimal organizational design. By visualizing the structure, roles, and responsibilities, it enables organizations to align their design with strategic objectives, fostering efficiency, and agility.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Enhanced Collaboration and Communication",
+        paragraph:
+          "With the MIA, organizations can improve collaboration and communication within the organization. It provides a shared understanding of the structure and roles, promoting  transparency, effective decision-making, and alignment.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Agility and Scalability",
+        paragraph:
+          "The MIA allows organizations to quickly adapt and scale their organizational design as the business evolves. It supports agile practices by providing the flexibility to make changes, simulate different scenarios, and optimize the structure for growth and changing market dynamics.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+
+  // HR & People Tech > Comp & Benefits
+  {
+    id: "comp-and-benefits",
+    banner: {
+      heading: "Rewards and Recognition",
+      paragraph:
+        "The Salary Calculation MIA within the Nightingale MISS is a comprehensive tool designed to automate and simplify the process of calculating employee salaries accurately. It streamlines the salary calculation process,ensuring efficiency,accuracy, and compliance with payroll regulations.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "Employee Data Management",
+        paragraph:
+          "The Salary Calculation MIA securely stores and manages employee data, including salary details, deductions,  benefits, and tax information. It provides a centralized database that HR and payroll teams can easily access and update as needed.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Automated Salary Calculation:",
+        paragraph:
+          "The MIA automates the complex calculations involved in determining employee salaries. It takes into  account factors such as base pay, overtime, bonuses, commissions, and deductions, applying the relevant formulas and rules to generate accurate salary figures.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Tax Calculation and Compliance:",
+        paragraph:
+          "The MIA incorporates tax rules and regulations, automatically calculating employee taxes based on applicable tax rates, allowances, and deductions. It ensures compliance with tax laws and minimizes the risk of errors in tax calculations.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Time and Cost Savings",
+        paragraph:
+          "The Salary Calculation MIA significantly reduces the time and effort required for manual salary calculations. It automates the process, eliminating the need for manual data entry and complex calculations, saving valuable HR and payroll resources.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Accuracy and Compliance:",
+        paragraph:
+          "By automating salary calculations and tax deductions, the MIA ensures accuracy and compliance with payroll regulations. It minimizes the risk of errors, eliminates manual calculation discrepancies, and maintains accurate payroll records.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Employee Trust and Transparency:",
+        paragraph:
+          "The MIA provides transparency in salary calculations, allowing employees to understand how their salaries are determined. This fosters trust and confidence in the payroll process, promoting a positive employee experience.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+
+  // Solutions > Private 5G &amp; Telcos > 5G Market places
+
+  {
+    id: "5g-market-places",
+    //no content provided for heading and desc
+    banner: {
+      heading: "Rewards and Recognition",
+      paragraph:
+        "The Salary Calculation MIA within the Nightingale MISS is a comprehensive tool designed to automate and simplify the process of calculating employee salaries accurately. It streamlines the salary calculation process,ensuring efficiency,accuracy, and compliance with payroll regulations.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "Private 5G Marketplace",
+        paragraph:
+          "A private 5G marketplace allows businesses to establish their own private 5G networks and offer connectivity as a service.  With Mobius, organizations can rapidly build and deploy applications that connect people, devices, and organizations within their ecosystem. This enables seamless collaboration, innovation, and value delivery across industries.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Connectivity as a Service",
+        paragraph:
+          "Through the private 5G marketplace, platform operators can provide high-speed, low-latency connectivity to a range of devices, including autonomous vehicles and drones. This empowers businesses within the ecosystem to access new growth opportunities, optimize operations, and reduce costs.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Enabling New Use Cases",
+        paragraph:
+          "The private 5G marketplace facilitated by Mobius unlocks new use cases and applications. For instance, remote monitoring and control of shipping operations, real-time tracking of cargo and shipments, and enhanced safety and security measures become achievable. These innovations drive operational efficiency, improve safety standards, and enhance overall productivity.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Connectivity and Efficiency",
+        paragraph:
+          "The private 5G marketplace powered by Mobius enables businesses within the ecosystem to enjoy high-speed, low-latency connectivity, leading to improved operational efficiency and enhanced productivity.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Unlocking New Business Opportunities",
+        paragraph:
+          "The private 5G marketplace facilitates the exploration of new use cases and applications, opening doors to innovative business opportunities within the ecosystem. Businesses can leverage these opportunities to expand their offerings and generate additional revenue streams.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Improved Safety and Security",
+        paragraph:
+          "Through the private 5G network,businesses can implement real-time monitoring, tracking, and security measures, leading to enhanced safety standards and improved security within the ecosystem.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
+
+  // Solutions > Enterprise CX
+  {
+    id: "enterprise-cx",
+    //no content provided for heading
+    banner: {
+      heading: "Rewards and Recognition",
+      paragraph:
+        "CX MISS (Mobius Intelligent Solution Suite) is a powerful suite of Mobius Intelligent Applications (MIA&#39;s) designed to transform customer experience (CX)  and drive customer-centricity across all touchpoints. Leveraging the capabilities of Mobius DTaaS and its suite of SaaS tools, CX MISS empowers organizations  to deliver exceptional customer experiences, enhance customer satisfaction, and drive business growth.",
+      imageUrl: images.CME1,
+      bookDemoUrl: "",
+      viewDemoUrl: images.CME2,
+    },
+    features: [
+      {
+        heading: "Customer Journey Optimization:",
+        paragraph:
+          "This MIA enables organizations to design,visualize, and optimize customer journeys across various touchpoints. It helps identify pain points, improve customer interactions, and enhance overall customer satisfaction throughout the entire customer journey.",
+        imageUrl: images.CME3,
+      },
+      {
+        heading: "Omnichannel Engagement:",
+        paragraph:
+          "The Omnichannel Engagement MIA empowers organizations to engage with customers seamlessly across multiple channels, including email, social media, SMS, chatbots, and more. It enables personalized interactions, timely messaging, and consistent experiences across channels, enhancing customer engagement and loyalty.",
+        imageUrl: images.CME4,
+      },
+      {
+        heading: "Voice of the Customer:",
+        paragraph:
+          "This MIA captures and analyzes customer feedback, sentiments, and preferences, allowing organizations to gain valuable insights into customer needs and expectations. It enables organizations to make data-driven decisions, drive product/service enhancements, and deliver personalized experiences.",
+        imageUrl: images.CME5,
+      },
+    ],
+    benefits: [
+      {
+        heading: "Enhanced Customer Satisfaction",
+        paragraph:
+          "CX MISS enables organizations to deliver personalized, seamless, and consistent experiences across all customer touchpoints, resulting in increased customer satisfaction and loyalty.",
+        imageUrl: images.CME6,
+      },
+      {
+        heading: "Improved Customer Retention",
+        paragraph:
+          "By optimizing customer journeys, leveraging omnichannel engagement, and capturing the voice of the customer, organizations can proactively address customer needs, minimize churn, and foster long-term relationships.",
+        imageUrl: images.CME7,
+      },
+      {
+        heading: "Data-Driven Decision Making",
+        paragraph:
+          "CX MISS empowers organizations to collect and analyze customer feedback and sentiments, providing valuable insights for making data-driven decisions, enhancing products/services, and improving overall customer experience.",
+        imageUrl: images.CME8,
+      },
+    ],
+    case_study: {
+      heading:
+        "Empowering Community Engagement: TheCommunity Connect Case Study",
+      paragraph:
+        "The City Council of Springfield faced the challenge of effectively engaging its diverse community members and fostering meaningful participation in civic affairs. Traditional methods of communication and outreach were not reaching all segments of the population.",
+      imageUrl: images.CME9,
+      downloadUrl: "",
+    },
+  },
 ];
 
 const servicesData = [

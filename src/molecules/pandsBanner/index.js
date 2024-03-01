@@ -2,7 +2,7 @@ import Link from "next/link";
 import st from "./index.module.css";
 import Image from "next/image";
 
-const PandSBanner = ({bannerData}) => {
+const ProductsNSolutionBanner = ({bannerData}) => {
     return(
         <div className={st.container}>
             <div className={st.contentContainer}>
@@ -21,4 +21,4 @@ const PandSBanner = ({bannerData}) => {
     )
 }
 
-export default PandSBanner;
+export default ProductsNSolutionBanner;

@@ -154,6 +154,11 @@
   /* min-width: 12rem !important; */
 }
 
+.cardImage {
+  width: 450px;
+  height: 450px;
+}
+
 .cardWrapper {
   display: flex;
   justify-content: space-between;
@@ -293,6 +298,10 @@
   .cardsContainer {
     width: 1250px;
   }
+  .cardImage {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 1250px) and (min-width: 1000px) {
@@ -300,12 +309,20 @@
   .cardsContainer {
     width: 90%;
   }
+  .cardImage {
+    width: 320px;
+    height: 320px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .featureBoxHeadingplt,
   .cardsContainer {
     width: 90%;
+  }
+  .cardImage {
+    width: 320px;
+    height: 320px;
   }
 }
 
@@ -315,6 +332,10 @@
     padding-top: 2rem;
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+  .cardImage {
+    width: 320px;
+    height: 320px;
   }
 }
 
@@ -370,6 +391,10 @@
     width: 80%;
     height: 70px;
     /* top: 68rem; */
+  }
+  .cardImage {
+    width: 320px;
+    height: 320px;
   }
 }
 
@@ -481,6 +506,10 @@
   .content_button_01 {
     padding: 0.8rem;
   }
+  .cardImage {
+    width: 320px;
+    height: 320px;
+  }
 }
 @media screen and (max-width: 480px) {
   .featureContainer {
@@ -574,6 +603,11 @@
   .app__casestudy_content {
     width: 100%;
     margin-bottom: 3rem;
+  }
+
+  .cardImage {
+    width: 280px;
+    height: 280px;
   }
 }
 

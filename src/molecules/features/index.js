@@ -1,12 +1,4 @@
 import React from "react";
-// import AppSwiper from '../../appSwiper';
-// import SolutionPageCaseStudy from "../../solutionPageComponents/SolutionPageCaseStudy/SolutionPageCaseStudy";
-
-// import DownloadCaseStudy from '../../Modal/CaseStudyButton';
-// import DataBaseCloud from "../../../images/platform/PascalIntelligence/IngestData.png"
-// import DatabaseLaptop from "../../../images/platform/PascalIntelligence/LargeData.png"
-// import Database from "../../../images/platform/PascalIntelligence/GroupDataInRealTime.png"
-// import "./Features.css";
 import styles from "./index.module.css";
 import Image from "next/image";
 
@@ -25,13 +17,18 @@ const Features = ({ featureData }) => {
               <Image
                 src={feature.imageUrl}
                 alt="DataBaseCloudimage"
-                width={300}
-                height={300}
+                width={350}
+                height={350}
+                priority
+                className={styles.cardImage}
               />
             </div>
             <div className={styles.cardDetailContainer}>
               <h1>{feature.heading}</h1>
-              <p>{feature.description}</p>
+              {/* <p>{feature.description && feature.paragraph}</p> */}
+              <p>
+                {feature.description ? feature.description : feature.paragraph}
+              </p>
             </div>
           </div>
         ))}

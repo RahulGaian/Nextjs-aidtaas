@@ -293,7 +293,7 @@ let SingaporeSmartNationFeature2 =
 let SingaporeSmartNationFeature3 =
   "/imagesnew/Singapore_Smart_nation/Singapore_Smart_nation_Feature3.png";
 let SingaporeSmartNationCaseStudy =
-  "/imagesnew/Singapore_Smart_nation/Singapore_Smart_nation_Casestudy.svg";
+  "/imagesnew/Singapore_Smart_nation/Singapore_Smart_nation_Casestudy.png";
 
 let ResumeProcessingBanner =
   "/imagesnew/Resumeprocessing/Resumeprocessing_Banner.svg";
@@ -1014,21 +1014,21 @@ let DE8 = "/imagesnew/Devops_And_Sre/DE8.svg";
 let DE9 = "/imagesnew/Devops_And_Sre/DE9.png";
 
 // Railtel_SmartCity
-let RS1 = "/imagesnew/RailTel_SmartCity/RS1.svg";
+let RS1 = "/imagesnew/RailTel_SmartCity/RS1.png";
 let RS2 = "/imagesnew/RailTel_SmartCity/RS2.svg";
 let RS3 = "/imagesnew/RailTel_SmartCity/RS3.svg";
 let RS4 = "/imagesnew/RailTel_SmartCity/RS4.svg";
 let RS5 = "/imagesnew/RailTel_SmartCity/RS5.png";
 
 // ksrtc
-let k1 = "/imagesnew/KSRTC/k1.svg";
+let k1 = "/imagesnew/KSRTC/k1.png";
 let k2 = "/imagesnew/KSRTC/k2.svg";
 let k3 = "/imagesnew/KSRTC/k3.svg";
 let k4 = "/imagesnew/KSRTC/k4.svg";
 let k5 = "/imagesnew/KSRTC/k5.png";
 
 // Bangalore_metro
-let BLR1 = "/imagesnew/Bangalore_metro/BLR1.svg";
+let BLR1 = "/imagesnew/Bangalore_metro/BLR1.png";
 let BLR2 = "/imagesnew/Bangalore_metro/BLR2.svg";
 let BLR3 = "/imagesnew/Bangalore_metro/BLR3.svg";
 let BLR4 = "/imagesnew/Bangalore_metro/BLR4.svg";

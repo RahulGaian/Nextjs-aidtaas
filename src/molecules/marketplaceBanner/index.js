@@ -3,10 +3,13 @@ import st from "./index.module.css";
 import Image from "next/image";
 
 const MarketPlaceBanner = ({ bannerData }) => {
+    const heading = bannerData.heading;
+    const splitHeading = heading.length > 16 ? heading.match(/.{1,16}( |$)/g).join("\n") : heading;
+
     return (
         <div className={st.container}>
             <div className={st.contentContainer}>
-                <h1>{bannerData.heading}</h1>
+                <h1>{splitHeading}</h1>
                 <div className={st.subContainer}>
                     <div className={st.leftCont}>
                         <h2>{bannerData.subheading}</h2>

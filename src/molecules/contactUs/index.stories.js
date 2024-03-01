@@ -6,7 +6,12 @@ export default {
   component: ContactUs,
 };
 
-// export const contactUsComp = () => <ContactUs data={contactUsData.contact1} />;
 export const ContactComponent = () => (
   <ContactUs data={contactUsData.contact1} />
+);
+export const ContactComponent1 = () => (
+  <ContactUs data={contactUsData.contact2} />
+);
+export const ContactComponent2 = () => (
+  <ContactUs data={contactUsData.contact3} />
 );

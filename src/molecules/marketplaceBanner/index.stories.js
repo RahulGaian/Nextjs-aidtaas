@@ -6,6 +6,6 @@ export default {
     component: MarketPlaceBanner,
 }
 
-export const weatherInsuredMarketPlaceBanner = () => (
+export const WeatherInsuredMarketPlaceBanner = () => (
     <MarketPlaceBanner bannerData={marketplaceData[0].banner} />
 )

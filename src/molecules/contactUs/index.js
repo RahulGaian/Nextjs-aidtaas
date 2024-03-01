@@ -1,5 +1,7 @@
-import Link from "next/link";
+"use client";
+
 import styles from "./index.module.css";
+import Button from "../../components/buttons/index";
 // import { ContactUsData } from "./data";
 
 let ContactUs = ({ data }) => {
@@ -15,7 +17,13 @@ let ContactUs = ({ data }) => {
               <h1 className={styles.preContent}>{item.content}</h1>
             </div>
             <div>
-              <Link href={item.url}>{item.btn}</Link>
+              <Button
+                text={item.btn}
+                filled={true}
+                url={item.url}
+                openInNewTab={true}
+                className="buttonbottom"
+              ></Button>
             </div>
           </div>
         ))}

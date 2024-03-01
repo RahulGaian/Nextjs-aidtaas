@@ -2391,7 +2391,7 @@ const productsData = [
     banner: {
       heading:
         "ZoomBot Pro: Enhancing Meeting Productivity and Collaboration on Zoom",
-      paragraph:
+      description:
         "ZoomBot Pro is a powerful and innovative SaaS application built on top of the Mobius DTaaS Low Code Platform. It is designed to help businesses using the Zoom Communications Platform to measure meeting productivity, gain insights into meeting conversations, and receive participant behavioral feedback.",
       imageUrl: images.ZoomBotBanner,
       bookDemoUrl: "",
@@ -2450,7 +2450,7 @@ const productsData = [
     id: "iZAK",
     banner: {
       heading: "iZAK: Software Updates and Home Automation as a Service",
-      paragraph:
+      description:
         "iZAK is a groundbreaking SaaS application built on the Mobius DTaaS Low Code Platform, utilizing its five powerful tools - PI-Pascal Intelligence, BoB-BoltzmannBot, Monet-The Experience Builder, Vinci - The Omnichannel Engagement tool, and HolaVerse - The Marketplace.",
       imageUrl: images2.shb,
       bookDemoUrl: "",
@@ -2511,7 +2511,7 @@ const productsData = [
     banner: {
       heading:
         "Impressio: Elevating Employee Engagement: Leveraging Mobius Low Code Tools",
-      paragraph:
+        description:
         "In today's fast-paced business environment, it is more important than ever to keep your workforce engaged and motivated. Engaged employees are more productive, innovative, and loyal to their organizations. To achieve this, companies need to recognize, reward, and highlight their employees' achievements, issues, and activities in real-time.",
       imageUrl: images.ImpressioBanner,
       bookDemoUrl: "",
@@ -2570,7 +2570,7 @@ const productsData = [
     id: "DSaaS",
     banner: {
       heading: "DSaaS - Empowering the Future of ImpressIO",
-      paragraph:
+      description:
         "DSaaS, powered by Mobius DTaaS, revolutionizes the signage industry by providing an interactive, scalable, and collaborative solution, enabling businesses to create engaging content, leverage real-time data insights, streamline operations, and generate new revenue streams.",
       imageUrl: images.DsaasBanner,
       bookDemoUrl: "",
@@ -2629,7 +2629,7 @@ const productsData = [
     id: "C-Link",
     banner: {
       heading: "Revolutionizing Civic Engagement: The C-Link TV App",
-      paragraph:
+      description:
         "Explore how C-Link TV, a groundbreaking SaaS application built on Mobius DTaaS, empowers NexGen TV broadcasters to become digital transformation agents, revolutionizing civic engagement in their local communities through state-of-the-art ATSC 3.0 broadcast technologies",
       imageUrl: images.Banner_311,
       bookDemoUrl: "",
@@ -2690,7 +2690,7 @@ const productsData = [
     banner: {
       heading:
         "Live Traffic Revolutionizes Traffic Monitoring for NextGenTV Viewers.",
-      paragraph:
+        description:
         "Live Traffic is an innovative, next-generation TV application built on top of Mobius, designed to deliver real-time traffic updates and insights directly to viewers through fullscreen TV apps using ATSC 3.0 spectrum. ",
       imageUrl: images.LiveTrafficBanner,
       bookDemoUrl: "",
@@ -2750,7 +2750,7 @@ const productsData = [
     banner: {
       heading:
         "Live Traffic Revolutionizes Traffic Monitoring for NextGenTV Viewers.",
-      paragraph:
+        description:
         "The Live News App is a next-generation TV application built on top of Mobius as a fullscreen TV app delivered over ATSC 3.0 spectrum, designed to enable NextGenTV broadcasters to offer personalized, hyper-targeted, and rich-media news content to their consumers.",
       imageUrl: images.LiveNewsBanner,
       bookDemoUrl: "",
@@ -2809,7 +2809,7 @@ const productsData = [
     id: "fra",
     banner: {
       heading: "Aegis: Enhancing Emergency Response Efficiency",
-      paragraph:
+      description:
         "Mobius Consulting's Aegis MIA provides real-time, intelligent alerting capabilities to improve emergency response times, coordination, and effectiveness. With advanced notification systems and streamlined communication channels, Aegiss can quickly and efficiently address critical incidents, saving lives and minimizing damages.",
       imageUrl: images.FraBanner,
       bookDemoUrl: "",
@@ -2868,7 +2868,7 @@ const productsData = [
     id: "resume-processing",
     banner: {
       heading: "ResumeBot: Automated Resume Processing",
-      paragraph:
+      description:
         "Streamline your recruitment process with ResumeBot, an AI-powered solution that automates resume parsing, data extraction, and candidate profile creation. Save time and effort while ensuring accurate and consistent resume processing.",
       imageUrl: images.ResumeProcessingBanner,
       bookDemoUrl: "",
@@ -2927,7 +2927,7 @@ const productsData = [
     id: "interview-experiencing",
     banner: {
       heading: "InterviewPro: Enhancing Candidate Experience",
-      paragraph:
+      description:
         "Elevate your candidate experience with InterviewPro, a comprehensive solution that enables seamless scheduling, virtual interviews, and real-time feedback. Improve communication, collaboration, and overall candidate satisfaction.",
       imageUrl: images.InterviewExperienceBanner,
       bookDemoUrl: "",
@@ -2986,7 +2986,7 @@ const productsData = [
     id: "hear-here",
     banner: {
       heading: "Elevate Radio Listening Experience",
-      paragraph:
+      description:
         "Enhance the radio listening experience with our Hear. Here. MIA, delivering high-quality audio and interactive features for immersive content.",
       imageUrl: images.VaniHDRadioBanner,
       bookDemoUrl: "",
@@ -3047,7 +3047,7 @@ const productsData = [
     banner: {
       heading:
         "The AmplyFund: Empowering Fundraising for NextGenTV Broadcasters",
-      paragraph:
+        description:
         "The AmplyFund is a next-generation TV application on the Mobius platform, enabling NextGenTV broadcasters to offer fundraising as a service to their local communities. ",
       imageUrl: images.GivingAPPBanner,
       bookDemoUrl: "",
@@ -3107,7 +3107,7 @@ const productsData = [
     id: "iab-ad-bundle",
     banner: {
       heading: "Maximize Ad Campaign Performance",
-      paragraph:
+      description:
         "Optimize ad campaign performance with our IAB Ad Bundle MIA, delivering targeted and engaging advertising experiences on NextGenTV platforms",
       imageUrl: images.IABAdBundleBanner,
       bookDemoUrl: "",
@@ -3167,7 +3167,7 @@ const productsData = [
     id: "nextgentv-launcher-app",
     banner: {
       heading: "Seamless Content Access on NextGenTV",
-      paragraph:
+      description:
         "Provide a seamless content discovery experience with our NextGenTV Launcher MIA, allowing viewers to easily access and explore available content. An MIA that serves as the user interface and launching platform for NextGenTV applications, channels, and content.",
       imageUrl: images.NextGenTvLauncherAppBanner,
       bookDemoUrl: "",
@@ -3226,7 +3226,7 @@ const productsData = [
     id: "offer-genius",
     banner: {
       heading: "OfferGenius: Simplifying Offer Management",
-      paragraph:
+      description:
         "Simplify and streamline your offer management process with OfferGenius. From generating offer letters to managing negotiations and approvals, this solution ensures a seamless and efficient offer journey for both candidates and hiring teams.",
       imageUrl: images.OfferGeniusBanner,
       bookDemoUrl: "",
@@ -3285,7 +3285,7 @@ const productsData = [
     id: "onboarding",
     banner: {
       heading: "OnboardConnect: Seamless Employee Onboarding",
-      paragraph:
+      description:
         "Transform your onboarding process with OnboardConnect, a centralized platform that facilitates smooth employee onboarding. From document collection to task assignments and orientation programs, ensure a positive and engaging onboarding experience.",
       imageUrl: images.OnboardingBanner,
       bookDemoUrl: "",
@@ -3344,7 +3344,7 @@ const productsData = [
     id: "goalalign",
     banner: {
       heading: "GoalAlign: Agile Goal Setting & Tracking",
-      paragraph:
+      description:
         "Drive performance and alignment with GoalAlign, a powerful goal-setting tool. Define SMART goals, track progress, provide feedback, and foster a culture of continuous improvement and accountability",
       imageUrl: images.GoalAlignBanner,
       bookDemoUrl: "",
@@ -3403,7 +3403,7 @@ const productsData = [
     id: "attendance-and-leaves",
     banner: {
       heading: "TimeTrack: Simplified Attendance & Leave Management",
-      paragraph:
+      description:
         "Take control of attendance and leave management with TimeTrack. Automate attendance tracking, streamline leave requests and approvals, and ensure accurate and efficient management of employee time off.",
       imageUrl: images.AttendanceAndLeavesBanner,
       bookDemoUrl: "",
@@ -3462,7 +3462,7 @@ const productsData = [
     id: "rewards-and-recognition",
     banner: {
       heading: "RecognitionPlus: Empowering Employee Appreciation",
-      paragraph:
+      description:
         "Foster a culture of recognition and appreciation with RecognitionPlus. Enable employees to give and receive recognition, track achievements, and celebrate milestones to boost employee morale and engagement.",
       imageUrl: images.RewardsAndRecognitionBanner,
       bookDemoUrl: "",
@@ -3521,7 +3521,7 @@ const productsData = [
     id: "employee-branding",
     banner: {
       heading: "BrandCraft: Elevating Your Employer Brand",
-      paragraph:
+      description:
         "Enhance your employer brand with BrandCraft, a comprehensive solution for employee branding. From designing compelling career pages to managing employee testimonials, showcase your unique culture and attract top talent.",
       imageUrl: images.EmployeeBrandingBanner,
       bookDemoUrl: "",
@@ -3580,7 +3580,7 @@ const productsData = [
     id: "opsmax",
     banner: {
       heading: "OpsMax: Simplifying Employee Stock Option Plans (ESOPs)",
-      paragraph:
+      description:
         "Launch and manage your ESOPs quickly and efficiently with OpsMax. This powerful platform simplifies the ESOPs process for small and medium enterprises, providing an intuitive interface and automated compliance checks.",
       imageUrl: images.OpsMaxBanner,
       bookDemoUrl: "",
@@ -3639,7 +3639,7 @@ const productsData = [
     id: "organisation-key-responsibilities",
     banner: {
       heading: "OKRAlign: Strategic Goal Alignment",
-      paragraph:
+      description:
         "Align organizational goals with individual objectives using OKRAlign. Cascade objectives, track progress, and foster transparency and alignment across teams for better performance and results.",
       imageUrl: images.OrganisationkeyResponsibilitiesBanner,
       bookDemoUrl: "",
@@ -3698,7 +3698,7 @@ const productsData = [
     id: "org-modelling",
     banner: {
       heading: "OrgDesigner: Agile Organizational Design",
-      paragraph:
+      description:
         "Optimize your organizational structure and design with OrgDesigner. Visualize and simulate different organizational models, assess impacts, and make informed decisions for better agility and efficiency.",
       imageUrl: images.OrgModellingBanner,
       bookDemoUrl: "",
@@ -3757,7 +3757,7 @@ const productsData = [
     id: "leadership",
     banner: {
       heading: "LeadImpact: Empowering Effective Leadership",
-      paragraph:
+      description:
         "Develop strong leaders with LeadImpact. Provide leadership development programs, coaching, and resources to foster effective leadership behaviors and drive organizational success.",
       imageUrl: images.LeadershipBanner,
       bookDemoUrl: "",
@@ -3816,7 +3816,7 @@ const productsData = [
     id: "budget-planning",
     banner: {
       heading: "BudgetMaster: Streamlined Budgeting Process",
-      paragraph:
+      description:
         "Simplify and streamline your budget planning with BudgetMaster. Collaborate, forecast, and track budgets in real-time, ensuring financial stability and effective resource allocation",
       imageUrl: images.BudgetPlanningBanner,
       bookDemoUrl: "",
@@ -3875,7 +3875,7 @@ const productsData = [
     id: "performance-management",
     banner: {
       heading: "PerformancePlus: Optimizing Performance Management",
-      paragraph:
+      description:
         "Drive performance excellence with PerformancePlus. Enable continuous feedback, performance reviews, and goal tracking to enhance individual and team performance.",
       imageUrl: images.PerformanceManagementBanner,
       bookDemoUrl: "",
@@ -3934,7 +3934,7 @@ const productsData = [
     id: "skill-gap-analysis",
     banner: {
       heading: "SkillInsight: Unlocking Skills Potential",
-      paragraph:
+      description:
         "Identify and address skill gaps with SkillInsight. Assess employee skills, provide personalized development plans, and track skill enhancement to align talent capabilities with business needs.",
       imageUrl: images.SkillGapAnalysisBanner,
       bookDemoUrl: "",
@@ -3993,7 +3993,7 @@ const productsData = [
     id: "learning-plan",
     banner: {
       heading: "LearnMax: Personalised Learning Journeys",
-      paragraph:
+      description:
         "Maximize learning potential with LearnMax. Create personalized learning paths, deliver engaging content, and track progress to foster a culture of continuous learning and development.",
       imageUrl: images.LearningPlanBanner,
       bookDemoUrl: "",
@@ -4052,7 +4052,7 @@ const productsData = [
     id: "eventtrack-simplified-learning-event-management",
     banner: {
       heading: "EventTrack: Simplified Learning Event Management",
-      paragraph:
+      description:
         "Manage and track learning events with EventTrack. Schedule, register, and track attendance for workshops, webinars, and training sessions, ensuring a smooth and seamless learning experience.",
       imageUrl: images.EventTrackBanner,
       bookDemoUrl: "",
@@ -4111,7 +4111,7 @@ const productsData = [
     id: "salary-calculations",
     banner: {
       heading: "PayWise: Accurate Salary Calculation",
-      paragraph:
+      description:
         "Streamline salary calculations with PayWise. Automate payroll calculations, deductions, and reimbursements, ensuring accurate and timely salary processing for employees. The Salary Calculation MIA within the Nightingale MISS is a comprehensive tool designed to automate and simplify the process of calculating employee salaries accurately.",
       imageUrl: images.SalaryCalculationsBanner,
       bookDemoUrl: "",
@@ -4170,7 +4170,7 @@ const productsData = [
     id: "bonus-calculations",
     banner: {
       heading: "BonusPlus: Streamlined Bonus Management",
-      paragraph:
+      description:
         "Simplify bonus calculations and distributions with BonusPlus. Configure bonus schemes, calculate performance-based incentives, and automate bonus payout processes.",
       imageUrl: images.BonusCalculationsBanner,
       bookDemoUrl: "",
@@ -4229,7 +4229,7 @@ const productsData = [
     id: "expense-and-reimbursements",
     banner: {
       heading: "Effortless Expense Management",
-      paragraph:
+      description:
         "Streamline expense management with ExpenseEase. Capture and track expenses, simplify reimbursement processes, and ensure compliance with expense policies for a hassle-free experience.",
       imageUrl: images.ExpenseAndReemburismentBanner,
       bookDemoUrl: "",
@@ -4288,7 +4288,7 @@ const productsData = [
     banner: {
       heading:
         "OpenFEMA App: Empowering NextGenTV Broadcasters in Crisis Response",
-      paragraph:
+        description:
         "The OpenFEMA App, powered by Mobius DTaaS, revolutionizes emergency management communications for NextGenTV broadcasters. This real-time, multicast delivery app enables rapid deployment during crises, connecting stakeholders and facilitating efficient coordination in times of need.",
       imageUrl: images.OpenFemaBanner,
       bookDemoUrl: "",
@@ -4347,7 +4347,7 @@ const productsData = [
     id: "integrated-command-and-control-system",
     banner: {
       heading: "City-wide Control Center",
-      paragraph:
+      description:
         "Empower city administrators with a centralized command and control system to monitor and manage various aspects of the city in real-time. Enhance situational awareness, streamline emergency response, and optimize city operations with a comprehensive view of data and analytics. ",
       imageUrl: images.IntegratedCommandAndControlSystemBanner,
       bookDemoUrl: "",
@@ -4405,7 +4405,7 @@ const productsData = [
     id: "perimeter-monitoring",
     banner: {
       heading: "Safeguarding Urban Perimeters",
-      paragraph:
+      description:
         "Ensure the safety and security of the city by implementing a robust perimeter monitoring system. Utilize advanced technologies such as video analytics, facial recognition, and intrusion detection to identify potential threats and manage access control. ",
       imageUrl: images.PerimeterMonitoringBanner,
       bookDemoUrl: "",
@@ -4463,7 +4463,7 @@ const productsData = [
     id: "traffic-management",
     banner: {
       heading: "Revolutionizing Urban Mobility",
-      paragraph:
+      description:
         "SmartFlow is an intelligent traffic management system that optimizes traffic flow, reduces congestion, and enhances road safety within a smart city. By leveraging real-time data, predictive analytics, and adaptive signal control, SmartFlow provides a seamless transportation experience for commuters while promoting sustainable urban mobility",
       imageUrl: images.TrafficManagementBanner,
       bookDemoUrl: "",
@@ -4638,7 +4638,7 @@ const productsData = [
     id: "customer-data-platform",
     banner: {
       heading: "Unleash the Power of Customer Data for Business Success",
-      paragraph:
+      description:
         "CDP is a comprehensive Customer Data Platform (CDP) built on the innovative Mobius DTaaS. It empowers businesses to effectively manage, analyze, and utilize customer data to drive customer satisfaction and achieve business success.With its integrated Mobius Tools, CDP provides a seamless solution for comprehensive customer data management and actionable insights.",
       imageUrl: images.CD1,
       bookDemoUrl: "",
@@ -4696,7 +4696,7 @@ const productsData = [
     id: "customer-relationship-management",
     banner: {
       heading: "Unleash the Power of Customer Relationships with Mobius DTaaS",
-      paragraph:
+      description:
         "The CRM solution built on Mobius DTaaS empowers businesses to effectively manage customer relationships, streamline processes, and enhance customer experiences. By leveraging the integrated Mobius Tools - PI, BoB, Monet, Vinci, and HolaVerse - the CRM delivers a competitive and differentiated solution that drives customer satisfaction and business success.",
       imageUrl: images.CR1,
       bookDemoUrl: "",
@@ -4754,7 +4754,7 @@ const productsData = [
     id: "customer-success-management",
     banner: {
       heading: "Empowering Businesses with Mobius DTaaS CSM Solution",
-      paragraph:
+      description:
         "The Customer Success Management (CSM) solution built on Mobius DTaaS is a comprehensive and data-driven platform that leverages powerful tools to proactively manage customer relationships, ensure satisfaction, and drive retention.",
       imageUrl: images.CS1,
       bookDemoUrl: "",
@@ -4812,7 +4812,7 @@ const productsData = [
     id: "marketing-automation",
     banner: {
       heading: "Revolutionize Marketing Efficiency with Marketing Automation",
-      paragraph:
+      description:
         "Unleash the power of Marketing Automation MIA powered by Mobius DTaaS to streamline and optimize your marketing processes. Harness the capabilities of Mobius Intelligent Applications (MIAs) and advanced tools to drive growth, enhance customer engagement, and make data-driven marketing decisions.",
       imageUrl: images.MA1,
       bookDemoUrl: "",
@@ -4872,7 +4872,7 @@ const productsData = [
     banner: {
       heading:
         "Revolutionize Your HR Management with a Comprehensive HR Tech Solution",
-      paragraph:
+        description:
         // "Nightingale is a powerful HR Tech SaaS platform that offers end-to-end solutions for efficient workforce management. From recruitment and employee engagement to learning & development, compensation & benefits, and employer branding,",
         "From recruitment and employee engagement to learning & development, compensation and benefits to employee branding, Nightingale is a powerful HR Tech SaaS platform that offers end-to-end solutions for efficient workforce management.",
       imageUrl: images.R1,
@@ -4932,7 +4932,7 @@ const productsData = [
     id: "employee-engagement",
     banner: {
       heading: "SmartOffice: Intelligent Workspace Management Solution",
-      paragraph:
+      description:
         "Streamline and optimize your workspace management with SmartOffice. Gain real-time insights, automate processes, and create a productive and efficient work environment.",
       imageUrl: images.EE1,
       bookDemoUrl: "",
@@ -4991,7 +4991,7 @@ const productsData = [
     id: "orgdev-and-planning",
     banner: {
       heading: "Empowering Financial Excellence",
-      paragraph:
+      description:
         "Drive financial excellence with FinancePro. Streamline financial operations, gain real-time insights, and optimize resource allocation to achieve organizational goals.",
       imageUrl: images.OD1,
       bookDemoUrl: "",
@@ -5049,7 +5049,7 @@ const productsData = [
     id: "comp-and-benefits",
     banner: {
       heading: "Streamlined Bonus Management",
-      paragraph:
+      description:
         "Simplify bonus calculations and distributions with BonusPlus. Configure bonus schemes, calculate performance-based incentives, and automate bonus payout processes.",
       imageUrl: images.CB1,
       bookDemoUrl: "",
@@ -5107,7 +5107,7 @@ const productsData = [
     id: "learning-and-development",
     banner: {
       heading: "Empowering Continuous Learning and Development",
-      paragraph:
+      description:
         "Empower employees with LearnPro, a comprehensive learning and development solution. Create personalized learning paths, track progress, and foster a culture of continuous learning for enhanced employee growth and organizational success.",
       imageUrl: images.LD1,
       bookDemoUrl: "",
@@ -5165,7 +5165,7 @@ const productsData = [
     id: "citizen-safety",
     banner: {
       heading: "Transforming Workplace Safety Communication",
-      paragraph:
+      description:
         "SafetyConnect, powered by Mobius DTaaS, revolutionizes workplace safety communication, enabling real-time incident reporting, efficient coordination, and proactive hazard prevention. Enhance employee safety and foster a culture of proactive risk management with SafetyConnect.",
       imageUrl: images.CIS1,
       bookDemoUrl: "",
@@ -5224,7 +5224,7 @@ const productsData = [
     banner: {
       heading:
         "Transforming Civic Engagement with NextGenTV Broadcast Technologies",
-      paragraph:
+        description:
         "C-Link TV is a groundbreaking SaaS application powered by Mobius DTaaS, designed to revolutionize civic engagement for NextGenTV broadcasters. Leveraging the advanced capabilities of ATSC 3.0 broadcast technologies, the app enables seamless communication between local governments and citizens.",
       imageUrl: images.ce1,
       bookDemoUrl: "",
@@ -5282,7 +5282,7 @@ const productsData = [
     id: "community-engagements",
     banner: {
       heading: "Revolutionizing Citizen Engagement in the Public Sector",
-      paragraph:
+      description:
         "Engage360 is a transformative citizen engagement platform built on Mobius DTaaS, empowering public sector organizations to connect, collaborate, and communicate with citizens effectively.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5345,7 +5345,7 @@ const productsData = [
     id: "automation-devops",
     banner: {
       heading: "The Future of Automated DevOps",
-      paragraph:
+      description:
         "Mobius DTasS is the next-generation DevOps automation platform that streamlines software development, testing, and deployment processes. With advanced automation features and intelligent workflows, we help businesses accelerate software delivery and reduce time-to-market.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5406,7 +5406,7 @@ const productsData = [
     id: "partnership-relationship",
     banner: {
       heading: "The Future of Partnership Relationship Management",
-      paragraph:
+      description:
         "Mobius DTasS is the next-generation Partnership Relationship Management platform that helps businesses build and manage successful partnerships. With advanced automation features and intelligent workflows, we enable you to streamline partner onboarding, optimize partner performance, and accelerate revenue growth.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5467,7 +5467,7 @@ const productsData = [
     id: "public-marketplace",
     banner: {
       heading: "The Ultimate Public Marketplace as a Service (XaaS) Platform",
-      paragraph:
+      description:
         "Mobius DTasS is the next-generation Public Marketplace as a Service (XaaS) platform that enables businesses to create and manage their own digital marketplaces. With advanced automation features and intelligent workflows, we empower businesses to accelerate time-to-market, optimize revenue growth, and improve customer experiences.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5527,7 +5527,7 @@ const productsData = [
     id: "data-monetization",
     banner: {
       heading: "The Future of Data Monetization",
-      paragraph:
+      description:
         "Mobius DTasS is the innovative Data Monetization platform designed to help businesses monetize their data assets effectively and efficiently. With advanced automation features and intelligent workflows, we help businesses unlock the full value of their data and achieve revenue growth.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5587,7 +5587,7 @@ const productsData = [
     id: "phygital-monetization",
     banner: {
       heading: "The Future of Phygital Monetization",
-      paragraph:
+      description:
         "Mobius DTasS is the revolutionary Phygital Monetization platform designed to help businesses monetize their physical and digital assets effectively and efficiently. With advanced automation features and intelligent workflows, we help businesses unlock new revenue streams and achieve growth.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5647,7 +5647,7 @@ const productsData = [
     id: "employee-delight",
     banner: {
       heading: "Rewards and Recognition",
-      paragraph:
+      description:
         "The Rewards and Recognition MIA within the Nightingale MISS is designed to enhance employee engagement and motivation by providing a platform for  recognizing and rewarding exceptional performance and achievements. It enables organizations to create a culture of appreciation and celebrate the contributions of their employees.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5709,7 +5709,7 @@ const productsData = [
     id: "org-modeling",
     banner: {
       heading: "Rewards and Recognition",
-      paragraph:
+      description:
         "The Org Modelling MIA within the Nightingale MISS offers a comprehensive  solution for organizational design and modeling. It provides organizations with the tools and capabilities to create, simulate, and optimize organizational structures, hierarchies, roles, and responsibilities.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5770,7 +5770,7 @@ const productsData = [
     id: "comp-and-benefits",
     banner: {
       heading: "Rewards and Recognition",
-      paragraph:
+      description:
         "The Salary Calculation MIA within the Nightingale MISS is a comprehensive tool designed to automate and simplify the process of calculating employee salaries accurately. It streamlines the salary calculation process,ensuring efficiency,accuracy, and compliance with payroll regulations.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5833,7 +5833,7 @@ const productsData = [
     //no content provided for heading and desc
     banner: {
       heading: "Rewards and Recognition",
-      paragraph:
+      description:
         "The Salary Calculation MIA within the Nightingale MISS is a comprehensive tool designed to automate and simplify the process of calculating employee salaries accurately. It streamlines the salary calculation process,ensuring efficiency,accuracy, and compliance with payroll regulations.",
       imageUrl: images.CME1,
       bookDemoUrl: "",
@@ -5895,7 +5895,7 @@ const productsData = [
     //no content provided for heading
     banner: {
       heading: "Rewards and Recognition",
-      paragraph:
+      description:
         "CX MISS (Mobius Intelligent Solution Suite) is a powerful suite of Mobius Intelligent Applications (MIA&#39;s) designed to transform customer experience (CX)  and drive customer-centricity across all touchpoints. Leveraging the capabilities of Mobius DTaaS and its suite of SaaS tools, CX MISS empowers organizations  to deliver exceptional customer experiences, enhance customer satisfaction, and drive business growth.",
       imageUrl: images.CME1,
       bookDemoUrl: "",

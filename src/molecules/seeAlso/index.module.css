@@ -1,0 +1,72 @@
+.seeAlsoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+.seeAlsoContainer>h3{
+padding-top: 4rem ;
+padding-bottom: 0.5rem;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 29px;
+/* identical to box height, or 181% */
+color: #797979;
+}
+
+.seeAlsoContainer>h1{
+padding: 0.5rem 0rem;    
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 58px;
+/* identical to box height, or 91% */
+color: #1A1A1A;
+
+}
+
+
+.seeAlsoContainer>p{
+padding: 1rem 0rem;    
+width:55%;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+text-align: center;
+color: #1A1A1A;
+}
+
+.seeAlsoContainer>Image:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .seeAlsoContainer>p{
+        width: 90%;
+    }
+    .seeAlsoContainer>h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .seeAlsoContainer>p{
+        width: 90%;
+    }
+    .seeAlsoContainer>h1{
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+

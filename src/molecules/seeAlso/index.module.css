@@ -28,9 +28,8 @@ font-size: 64px;
 line-height: 58px;
 /* identical to box height, or 91% */
 color: #1A1A1A;
-
+margin: 0;
 }
-
 
 .seeAlsoContainer>p{
 padding: 1rem 0rem;    
@@ -40,7 +39,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 26px;
-/* or 144% */
 text-align: center;
 color: #1A1A1A;
 }

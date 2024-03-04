@@ -1,0 +1,229 @@
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap"); */
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 78px;
+}
+
+.contentContainer {
+    width: 1700px;
+    min-height: 700px;
+    max-height: fit-content;
+    display: flex;
+    padding-top: 150px;
+    align-items: center;    
+}
+
+.leftcont {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    padding-right: 10%;
+}
+
+.leftcont>h1 {
+    color: #ce31c4;
+    font-family: "DM Sans";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500 !important;
+    margin-bottom: 19px;
+}
+
+.leftcont>p {
+    color: #313131;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 119px;
+}
+
+.leftcont button {
+    width: 216px;
+    height: 53px;
+    display: flex;
+    padding: 30px 42px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ad00a2;
+    background: #ad00a2;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "DM Sans", sans-serif;
+}
+
+.leftcont button:hover{
+    cursor: pointer;
+}
+
+.rightcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.rightcont>img {
+    width: 702px;
+    height: 465px;
+    border-radius: 20px;
+}
+
+#link{
+    width: max-content;
+    text-decoration: none;
+}
+
+#link:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1440px) {
+    .contentContainer {
+      width: 1420px;
+    }
+    .contentContainer > .leftcont {
+      padding-right: 10%;
+    }
+  }
+  
+  @media only screen and (max-width: 1440px) and (min-width: 1250px) {
+    .contentContainer {
+      width: 1200px;
+    }
+    .contentContainer > .leftcont {
+      padding-right: 3%;
+    }
+  
+    .contentContainer > .leftcont > p {
+      margin-bottom: 80px;
+    }
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    .contentContainer > .leftcont {
+      padding-right: 5%;
+    }
+    .contentContainer > .leftcont > h1 {
+      font-size: 32px;
+    }
+    .leftcont > p {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+  
+    .rightcont > img {
+      width: 600px;
+      height: 400px;
+    }
+  }
+  
+  @media only screen and (max-width: 1250px) and (min-width: 980px) {
+    .contentContainer {
+      width: 950px;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .contentContainer {
+      width: 90%;
+      min-height: fit-content;
+    }
+    .contentContainer > .leftcont > h1 {
+      font-size: 26px;
+      margin: 0;
+      /* line-height: normal; */
+    }
+    .leftcont > p {
+      font-size: 14px;
+      margin-bottom: 15px;
+      /* line-height: normal; */
+    }
+    .leftcont button {
+      width: 142px;
+      height: 32px;
+      border-radius: 6px;
+      font-size: 13px;
+      padding: 15px 26px;
+    }
+    .rightcont > img {
+      width: 336px;
+      height: 268px;
+      border-radius: 8px;
+    }
+  }
+  
+  @media only screen and (max-width: 670px) {
+    .contentContainer {
+      width: 90%;
+      min-height: fit-content;
+    }
+    .contentContainer > .leftcont > h1 {
+      font-size: 22px;
+      margin: 0;
+      line-height: normal;
+    }
+    .leftcont > p {
+      font-size: 12px;
+      margin-bottom: 15px;
+      line-height: normal;
+    }
+    .leftcont button {
+      width: 142px;
+      height: 32px;
+      border-radius: 6px;
+      font-size: 13px;
+      padding: 15px 26px;
+    }
+    .rightcont > img {
+      width: 336px;
+      height: 268px;
+      border-radius: 8px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .contentContainer {
+      width: 90%;
+      /* border: 1px solid black; */
+      flex-direction: column-reverse;
+    }
+    .contentContainer > .leftcont {
+      width: 100%;
+      /* border: 1px solid black;    */
+    }
+    .contentContainer > .rightcont > img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .contentContainer > .rightcont {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .leftcont button {
+      width: 142px;
+      height: 32px;
+      border-radius: 6px;
+      font-size: 14px;
+      line-height: 0;
+      /* font-size: 1rem; */
+      padding: 0px;
+    }
+    .contentContainer > .leftcont > h1 {
+      font-size: 26px;
+    }
+    .leftcont > .leftcont > p {
+      font-size: 14px;
+    }
+  }

@@ -1,5 +1,6 @@
 import styles from "./index.module.css";
 // import SolutionPageSecurity from "../SolutionPageSecurity/SolutionPageSecurity";
+import Image from "next/image";
 
 const YouMayAlsoLike = ({ likeData }) => {
     return (
@@ -11,7 +12,13 @@ const YouMayAlsoLike = ({ likeData }) => {
             {likeData.map((item, index) => (
               <div key={index} className={styles.likeprod}>
                 <div className={styles.leftdiv}>
-                  <img src={item.imageUrl} alt="likeImg" />
+                  {/* <img src={item.imageUrl} alt="likeImg" /> */}
+                  <Image
+                  src={item.imageUrl}
+                  alt="likeImg"
+                  width={70}
+                  height={70}
+                />
                 </div>
                 <div className={styles.rightdiv}>
                   <h3>{item.heading}</h3>

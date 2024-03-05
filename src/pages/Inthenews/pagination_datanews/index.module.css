@@ -1,0 +1,333 @@
+.openingsmainpagenw {
+  width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jobopensnw {
+  min-height: fit-content;
+  max-height: fit-content;
+  width: 100%;
+}
+.Jobopeningsmainnw {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 50px;
+  width: 100%;
+}
+
+.griditemnw {
+  width: 500px;
+  height: fit-content;
+  border: 1px solid #c9c9c9;
+  background-color: #ffffff;
+  /* padding: 15px; */
+  border-radius: 20px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.OneComponentnw {
+  width: 100%;
+  height: 586px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.OneComponentnw > img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.Headingnw {
+  font-size: 1rem;
+  padding: 15px;
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 21.96px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29.1px;
+  margin: 0;
+  /* border: 1px solid black; */
+  height: 135px;
+}
+.readmorenw {
+  font-family: "DM Sans";
+  position: relative;
+  bottom: 0px;
+  font-size: 22px;
+  line-height: 29px;
+  color: rgb(112, 181, 241);
+  float: right;
+  margin: 0;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  top: -40px;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .openingsmainpagenw {
+    width: 1420px;
+  }
+  .griditemnw {
+    width: 450px;
+  }
+  .OneComponentnw {
+    height: 536px;
+  }
+  .Jobopeningsmainnw {
+    grid-column-gap: 20px;
+  }
+  .readmorenw{
+    top: -40px;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .openingsmainpagenw {
+    width: 1200px;
+  }
+  .Jobopeningsmainnw {
+    grid-column-gap: 20px;
+  }
+  .griditemnw {
+    width: 400px;
+  }
+  .OneComponentnw {
+    height: 486px;
+  }
+  .readmorenw{
+    top: -40px;
+  }
+}
+@media only screen and (max-width: 1250px) and (min-width: 981px) {
+  .Jobopeningsmainnw {
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+  }
+  .openingsmainpagenw {
+    width: 950px;
+  }
+  .griditemnw {
+    width: 300px;
+  }
+  .OneComponentnw {
+    height: 430px;
+  }
+  .Jobopeningsmainnw {
+    grid-column-gap: 20px;
+  }
+  .Headingnw{
+    height: 160px;
+  }
+  .readmorenw{
+    top: -40px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .Jobopeningsmainnw {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .openingsmainpagenw {
+    width: 90%;
+  }
+  .griditemnw {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+  }
+  .OneComponentnw {
+    height: 500px;
+    border-radius: 15px;
+  }
+  .OneComponentnw > img {
+    width: 100%;
+    height: 60%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .Jobopeningsmainnw {
+    grid-column-gap: 20px;
+  }
+  .readmorenw {
+    font-size: 22px;
+  }
+  .Headingnw{
+    height: 165px;
+  }
+  .readmorenw{
+    top: -45px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .Jobopeningsmainnw {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .openingsmainpagenw {
+    width: 90%;
+  }
+  .griditemnw {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+  }
+  .OneComponentnw {
+    height: 500px;
+    border-radius: 15px;
+  }
+  .OneComponentnw > img {
+    width: 100%;
+    height: 60%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .Jobopeningsmainnw {
+    grid-column-gap: 20px;
+  }
+  .readmorenw {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .Jobopeningsmainnw {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .openingsmainpagenw {
+    width: 90%;
+  }
+  .griditemnw {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .OneComponentnw {
+    height: 500px;
+  }
+  .OneComponentnw > img {
+    width: 100%;
+    height: 60%;
+  }
+  .Jobopeningsmainnw {
+    grid-column-gap: 20px;
+  }
+  .readmorenw {
+    font-size: 22px;
+  }
+  .Jobopeningsmainnw {
+    grid-column-gap: 20px;
+  }
+  .readmorenw {
+    font-size: 22px;
+  }
+}
+
+.Jobspage_paginationnw {
+  width: 100%;
+  display: flex;
+  column-gap: 1vw;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+.indexactivenw {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  font-family: "DM Sans";
+  font-size: 26px;
+  font-weight: 500;
+  width: 44px;
+  color: #ffffff;
+  background-color: #00c1eb;
+  border-radius: 10px;
+}
+.indexnotactivenw {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans";
+  /* text-align: center; */
+  font-size: 26px;
+  font-weight: 500;
+  width: 44px;
+  color: #00c1eb;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .griditemnw {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  .OneComponentnw {
+    height: 58%;
+    border-radius: 10px;
+  }
+
+  .OneComponentnw > img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .openingsmainpagenw {
+    width: 100%;
+    margin: 0;
+  }
+  .Headingnw {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.172px;
+    /* border: 1px solid black; */
+    height: 70px;
+    padding: 5px;
+  }
+  .readmorenw {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.172px;
+    top: 0;
+    padding-right: 5px;
+  }
+  .indexactivenw,
+  .indexnotactivenw {
+    width: 22px;
+    height: 22px;
+    font-size: 13.478px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 15.084px;
+    border-radius: 5px;
+  }
+  .larrow > img, .rarrow > img{
+    width: 5px;
+    height: 7px;
+  }
+}

@@ -1,0 +1,26 @@
+.app_description {
+    /* width: 80%; */
+    /* margin: 5rem; */
+    padding: 4rem 8rem;
+    background: rgba(179, 173, 250, 0.61);
+    border-radius: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+
+@media screen and (max-width:780px) {
+    
+    .app_description {
+        /* width: 96%; */
+        margin: 3rem auto 3rem;
+        padding: 3rem 2rem;
+        text-align: justify;
+        font-size: 22px;
+    }
+}

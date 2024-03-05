@@ -1,660 +1,662 @@
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 .likeContainerSL {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background: linear-gradient(
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(
       108.56deg,
       #bfeeff 0%,
       #ffe6f7 56.93%,
       #ffe6e6 100%
     ); */
-    /* padding-bottom: 50px; */
-    /* border: 1px solid black; */
-  }
-  
+  /* padding-bottom: 50px; */
+  /* border: 1px solid black; */
+}
+
+.likeContentContainerSL {
+  width: 1700px;
+  /* height: 75px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 135px;
+  /* border: 1px solid black; */
+}
+
+.likeContentContainerSL > h2 {
+  color: #1a1a1a;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  margin: 0;
+}
+
+.likeContentContainerSL > h5 {
+  color: #1a1a1a;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 0;
+  margin-bottom: 39px;
+}
+
+.likeContentContainerSL > .blockContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* gap: 36px; */
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  gap: 2%;
+}
+
+.likeContentContainerSL > .blockContainer > .likeprod {
+  border-radius: 20px;
+  border: 1px solid #b6b6b6;
+  background: #fff;
+  width: 450px;
+  height: 132px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* background-color: red; */
+}
+
+.likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.likeContentContainerSL > .blockContainer > .likeprod > .leftdiv > img {
+  width: 100%;
+}
+
+.likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
+  color: #1a1a1a;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
+  color: #797979;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1440px) {
   .likeContentContainerSL {
-    width: 1700px;
-    /* height: 75px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 135px;
+    width: 1420px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1250px) {
+  .likeContentContainerSL {
+    width: 1200px;
+    /* gap: 3px; */
     /* border: 1px solid black; */
   }
-  
-  .likeContentContainerSL > h2 {
-    color: #1a1a1a;
-    font-family: "DM Sans", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 58px;
-    margin: 0;
-  }
-  
-  .likeContentContainerSL > h5 {
-    color: #1a1a1a;
-    font-family: "DM Sans", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 29px;
-    margin: 0;
-    margin-bottom: 39px;
-  }
-  
-  .likeContentContainerSL > .blockContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    /* gap: 36px; */
-    justify-content: space-around;
-    /* border: 1px solid black; */
-    gap: 2%;
-  }
-  
   .likeContentContainerSL > .blockContainer > .likeprod {
-    border-radius: 20px;
-    border: 1px solid #b6b6b6;
-    background: #fff;
-    width: 450px;
+    width: 380px;
     height: 132px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-left: 10px; 
-    padding-right: 10px; 
-   /* background-color: red; */
   }
-  
   .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-right: 10px;
+    padding-left: 3px;
   }
-  
-  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv > img {
-    width: 100%;
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .likeContentContainerSL {
+    width: 950px;
+    /* border: 1px solid black; */
   }
-  
-  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
-    width: 330px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  .likeContentContainerSL > .blockContainer > .likeprod {
+    width: 300px;
+    height: 120px;
+    border-radius: 16px;
   }
-  
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+    padding-right: 10px;
+    padding-left: 3px;
+  }
   .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
     color: #1a1a1a;
     font-family: "DM Sans", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin: 0;
     margin-bottom: 5px;
   }
-  
+
   .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
     color: #797979;
     font-family: DM Sans;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 18px;
+    line-height: normal;
     margin: 0;
-
-    display: -webkit-box; 
-    -webkit-box-orient: vertical; 
-    -webkit-line-clamp: 3; 
-    overflow: hidden; 
-    text-overflow: ellipsis; 
   }
-  
-  @media only screen and (max-width: 1800px) and (min-width: 1440px) {
-    .likeContentContainerSL{
-      width: 1420px;
-    }
-  }
+}
 
-  @media only screen and (max-width: 1440px) and (min-width: 1250px) {
-    .likeContentContainerSL{
-      width: 1200px;
-      /* gap: 3px; */
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: 380px;
-      height: 132px;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      padding-right: 10px;
-      padding-left: 3px;
-    }
+@media only screen and (max-width: 980px) and (min-width: 800px) {
+  .likeContentContainerSL {
+    width: 90%;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod {
+    width: 240px;
+    height: 100px;
+    border-radius: 12px;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+    padding-right: 10px;
+    padding-left: 3px;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 5px;
   }
 
-  @media only screen and (max-width: 1250px) and (min-width: 980px) {
-    .likeContentContainerSL{
-      width: 950px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: 300px;
-      height: 120px;
-      border-radius: 16px;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      padding-right: 10px;
-      padding-left: 3px;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
-      color: #1a1a1a;
-      font-family: "DM Sans", sans-serif;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin: 0;
-      margin-bottom: 5px;
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
-      color: #797979;
-      font-family: DM Sans;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
-    }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
+    color: #797979;
+    font-family: DM Sans;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
+
+/*Tablet View Media Queries*/
+
+@media only screen and (max-width: 800px) {
+  .likeContentContainerSL > .blockContainer {
+    /* flex-direction: column; */
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 22px; */
+    /* background-color: red; */
+    /* height: fit-content; */
+  }
+  .likeContentContainerSL {
+    width: 90%;
+    padding-bottom: 70px;
+    /* border: 1px solid black; */
   }
 
-  @media only screen and (max-width: 980px) and (min-width: 800px) {
-    .likeContentContainerSL{
-      width: 90%;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: 240px;
-      height: 100px;
-      border-radius: 12px;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      padding-right: 10px;
-      padding-left: 3px;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
-      color: #1a1a1a;
-      font-family: "DM Sans", sans-serif;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin: 0;
-      margin-bottom: 5px;
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
-      color: #797979;
-      font-family: DM Sans;
-      font-size: 9px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
-    }
+  .likeContentContainerSL > h5 {
+    font-size: 14px;
   }
 
-    /*Tablet View Media Queries*/
-
-  @media only screen and (max-width: 800px) {
-    .likeContentContainerSL > .blockContainer {
-      /* flex-direction: column; */
-      /* border: 1px solid black; */
-      /* justify-content: center; */
-      align-items: center;
-      /* gap: 22px; */
-      /* background-color: red; */
-      /* height: fit-content; */
-    }
-    .likeContentContainerSL{
-      width: 90%;
-      padding-bottom: 70px;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL > h5 {
-      font-size: 14px;
-    }
-
-    .likeContentContainerSL > h2 {
-      margin-bottom: 5px;
-    }
-
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: fit-content;
-      justify-content: flex-start;
-      height: 60px;
-      /* gap: 50px; */
-      /* padding-left: 2%; */
-      /* border: 1px solid black; */
-      border-radius: 6px;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      display: flex;
-      width: 45px;
-      height: 45px;
-      padding: 8px 4.164px 6.692px 4.854px;
-      justify-content: center;
-      align-items: center;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
-      width: 155px;
-      /* height: 27px; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
-      color: #1a1a1a;
-      font-family: "DM Sans", sans-serif;
-      font-size: 10px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      margin: 0;
-      /* margin-bottom: 3px; */
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
-      color: #797979;
-      font-family: DM Sans;
-      font-size: 7px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
-    }
+  .likeContentContainerSL > h2 {
+    margin-bottom: 5px;
   }
 
-  @media only screen and (max-width: 700px) {
-    .likeContentContainerSL > .blockContainer {
-      /* flex-direction: column; */
-      /* border: 1px solid black; */
-      /* justify-content: center; */
-      align-items: center;
-      /* gap: 22px; */
-      /* height: 400px; */
-    }
-    .likeContentContainerSL{
-      width: 90%;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL > h5 {
-      font-size: 14px;
-    }
-
-    .likeContentContainerSL > h2 {
-      font-size: 14px;
-
-      margin-bottom: 5px;
-    }
-
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: fit-content;
-      justify-content: flex-start;
-      /* height: 60px; */
-      /* gap: 50px; */
-      /* padding-left: 2%; */
-      /* height: fit-content; */
-      /* border: 1px solid black; */
-      border-radius: 6px;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      display: flex;
-      width: 45px;
-      height: 45px;
-      padding: 8px 4.164px 6.692px 4.854px;
-      justify-content: center;
-      align-items: center;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
-      width: 130px;
-      /* height: 27px; */
-      height: 100px !important;
-      /* background-color: red; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
-      color: #1a1a1a;
-      font-family: "DM Sans", sans-serif;
-      font-size: 10px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: normal;
-      margin: 0;
-      /* margin-bottom: 3px; */
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
-      color: #797979;
-      font-family: DM Sans;
-      font-size: 7px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
-    }
+  .likeContentContainerSL > .blockContainer > .likeprod {
+    width: fit-content;
+    justify-content: flex-start;
+    height: 60px;
+    /* gap: 50px; */
+    /* padding-left: 2%; */
+    /* border: 1px solid black; */
+    border-radius: 6px;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    padding: 8px 4.164px 6.692px 4.854px;
+    justify-content: center;
+    align-items: center;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
+    width: 155px;
+    /* height: 27px; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    /* margin-bottom: 3px; */
   }
 
-  /*Mobile View Media Queries*/
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
+    color: #797979;
+    font-family: DM Sans;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
 
-  @media only screen and (max-width: 360px) {
-    .likeContentContainerSL > .blockContainer {
-      flex-direction: column;
-      /* border: 1px solid black; */
-      /* justify-content: center; */
-      align-items: center;
-      gap: 22px;
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
-      width: 224px;
-      height: 64px;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL{
-      width: 90%;
-      padding-bottom: 50px;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL>h2{
-      font-size: 18px;
-      margin: 0;
-      margin-top: 10px;
-      line-height: normal;
-    }
-
-    .likeContentContainerSL>h5{
-      font-size: 18px;
-      text-align: center;
-      margin: 0;
-      margin-bottom: 10px;
-    }
-
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: 100%;
-      justify-content: flex-start;
-      height: 110px;
-      gap: 10px;
-      padding-left: 2%;
-      border-radius: 10px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      padding-right: 0px;
-      padding-left: 0px;
-      width: 70px;
-      height: 70px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv>img{
-      width: 100%;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
-      color: #1a1a1a;
-      font-family: "DM Sans", sans-serif;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin: 0;
-      /* margin-bottom: 5px; */
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
-      color: #797979;
-      font-family: DM Sans;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
-    }
+@media only screen and (max-width: 700px) {
+  .likeContentContainerSL > .blockContainer {
+    align-items: center;
+    gap: 1%;
+  }
+  .likeContentContainerSL {
+    width: 90%;
+    /* border: 1px solid black; */
   }
 
-  @media only screen and (max-width: 460px) {
-    .likeContentContainerSL > .blockContainer {
-      flex-direction: column;
-      /* border: 1px solid black; */
-      /* justify-content: center; */
-      align-items: center;
-      gap: 22px;
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
-      width: 324px;
-      height: 64px;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL{
-      width: 90%;
-      padding-bottom: 50px;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL>h2{
-      font-size: 18px;
-      margin: 0;
-      margin-top: 10px;
-      line-height: normal;
-    }
-
-    .likeContentContainerSL>h5{
-      font-size: 18px;
-      text-align: center;
-      margin: 0;
-      margin-bottom: 10px;
-    }
-
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: 100%;
-      justify-content: flex-start;
-      height: 110px;
-      gap: 10px;
-      padding-left: 2%;
-      border-radius: 10px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      padding-right: 0px;
-      padding-left: 0px;
-      width: 70px;
-      height: 70px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv>img{
-      width: 100%;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
-      color: #1a1a1a;
-      font-family: "DM Sans", sans-serif;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin: 0;
-      /* margin-bottom: 5px; */
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
-      color: #797979;
-      font-family: DM Sans;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
-    }
+  .likeContentContainerSL > h5 {
+    font-size: 14px;
   }
 
-  
-  @media only screen and (max-width: 560px) {
-    .likeContentContainerSL > .blockContainer {
-      flex-direction: column;
-      /* border: 1px solid black; */
-      /* justify-content: center; */
-      align-items: center;
-      gap: 22px;
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
-      width: 464px;
-      height: 64px;
-      /* border: 1px solid black; */
-    }
+  .likeContentContainerSL > h2 {
+    font-size: 14px;
 
-    .likeContentContainerSL{
-      width: 90%;
-      padding-bottom: 50px;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL>h2{
-      font-size: 12px;
-      margin: 0;
-      margin-top: 10px;
-      line-height: normal;
-    }
-
-    .likeContentContainerSL>h5{
-      font-size: 18px;
-      text-align: center;
-      margin: 0;
-      margin-bottom: 10px;
-    }
-
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: 100%;
-      justify-content: flex-start;
-      height: 110px;
-      gap: 10px;
-      padding-left: 2%;
-      border-radius: 10px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      padding-right: 0px;
-      padding-left: 0px;
-      width: 70px;
-      height: 70px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv>img{
-      width: 100%;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
-      color: #1a1a1a;
-      font-family: "DM Sans", sans-serif;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin: 0;
-      /* margin-bottom: 5px; */
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
-      color: #797979;
-      font-family: DM Sans;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
-    }
+    margin-bottom: 5px;
   }
 
-  @media only screen and (max-width: 600px) {
-    .likeContentContainerSL > .blockContainer {
-      flex-direction: column;
-      /* border: 1px solid black; */
-      /* justify-content: center; */
-      align-items: center;
-      gap: 22px;
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
-      width: 424px;
-      height: 64px;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL{
-      width: 90%;
-      padding-bottom: 50px;
-      /* border: 1px solid black; */
-    }
-
-    .likeContentContainerSL>h2{
-      font-size: 18px;
-      margin: 0;
-      margin-top: 10px;
-      line-height: normal;
-    }
-
-    .likeContentContainerSL>h5{
-      font-size: 18px;
-      text-align: center;
-      margin: 0;
-      margin-bottom: 10px;
-    }
-
-    .likeContentContainerSL > .blockContainer > .likeprod {
-      width: 100%;
-      justify-content: flex-start;
-      height: 110px;
-      gap: 10px;
-      padding-left: 2%;
-      border-radius: 10px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
-      padding-right: 0px;
-      padding-left: 0px;
-      width: 70px;
-      height: 70px;
-      /* border: 1px solid black; */
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv>img{
-      width: 100%;
-    }
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
-      color: #1a1a1a;
-      font-family: "DM Sans", sans-serif;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: normal;
-      margin: 0;
-      /* margin-bottom: 5px; */
-    }
-    
-    .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
-      color: #797979;
-      font-family: DM Sans;
-      font-size: 12px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
-    }
+  .likeContentContainerSL > .blockContainer > .likeprod {
+    width: fit-content;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
   }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    padding: 8px 4.164px 6.692px 4.854px;
+    justify-content: center;
+    align-items: center;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
+    width: 130px;
+    /* height: 27px; */
+    height: 100px !important;
+    /* background-color: red; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    /* margin-bottom: 3px; */
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
+    color: #797979;
+    font-family: DM Sans;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
+
+/*Mobile View Media Queries*/
+
+@media only screen and (max-width: 360px) {
+  .likeContentContainerSL > .blockContainer {
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+    align-items: center;
+    gap: 22px;
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
+    width: 224px;
+    height: 64px;
+    /* border: 1px solid black; */
+  }
+
+  .likeContentContainerSL {
+    width: 90%;
+    padding-bottom: 50px;
+    /* border: 1px solid black; */
+  }
+
+  .likeContentContainerSL > h2 {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+    line-height: normal;
+  }
+
+  .likeContentContainerSL > h5 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod {
+    width: 100%;
+    justify-content: flex-start;
+    height: 110px;
+    gap: 10px;
+    padding-left: 2%;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv > img {
+    width: 100%;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    /* margin-bottom: 5px; */
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
+    color: #797979;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .likeContentContainerSL > .blockContainer {
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+    align-items: center;
+    gap: 22px;
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
+    width: 324px;
+    height: 64px;
+    /* border: 1px solid black; */
+  }
+
+  .likeContentContainerSL {
+    width: 90%;
+    padding-bottom: 50px;
+    /* border: 1px solid black; */
+  }
+
+  .likeContentContainerSL > h2 {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+    line-height: normal;
+  }
+
+  .likeContentContainerSL > h5 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod {
+    width: 100%;
+    justify-content: flex-start;
+    height: 110px;
+    gap: 10px;
+    padding-left: 2%;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv > img {
+    width: 100%;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    /* margin-bottom: 5px; */
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
+    color: #797979;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .likeContentContainerSL > .blockContainer {
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+    align-items: center;
+    gap: 22px;
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
+    width: 464px;
+    height: 64px;
+    /* border: 1px solid black; */
+  }
+
+  .likeContentContainerSL {
+    width: 90%;
+    padding-bottom: 50px;
+    /* border: 1px solid black; */
+  }
+
+  .likeContentContainerSL > h2 {
+    font-size: 12px;
+    margin: 0;
+    margin-top: 10px;
+    line-height: normal;
+  }
+
+  .likeContentContainerSL > h5 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod {
+    width: 100%;
+    justify-content: flex-start;
+    height: 110px;
+    gap: 10px;
+    padding-left: 2%;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv > img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    /* margin-bottom: 5px; */
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
+    color: #797979;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .likeContentContainerSL > .blockContainer {
+    flex-direction: column;
+    /* border: 1px solid black; */
+    /* justify-content: center; */
+    align-items: center;
+    gap: 22px;
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv {
+    width: 424px;
+    height: 64px;
+    /* border: 1px solid black; */
+  }
+
+  .likeContentContainerSL {
+    width: 90%;
+    padding-bottom: 50px;
+    /* border: 1px solid black; */
+  }
+
+  .likeContentContainerSL > h2 {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+    line-height: normal;
+  }
+
+  .likeContentContainerSL > h5 {
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod {
+    width: 100%;
+    justify-content: flex-start;
+    height: 110px;
+    gap: 10px;
+    padding-left: 2%;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv {
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid black; */
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv > img {
+    width: 100%;
+  }
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > h3 {
+    color: #1a1a1a;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    /* margin-bottom: 5px; */
+  }
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .rightdiv > p {
+    color: #797979;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 601px) {
+
+  .likeContentContainerSL > .blockContainer > .likeprod > .leftdiv > img {
+    width: 50px;
+    height: 50px;
+  }
+
+}

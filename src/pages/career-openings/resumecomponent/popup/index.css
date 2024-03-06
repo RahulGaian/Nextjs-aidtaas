@@ -1,0 +1,214 @@
+.formcontent {
+  width: 100%;
+  height: fit-content;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #757474;
+  padding: 20px 30px 20px 30px;
+}
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* You can adjust the opacity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+applyformtitle .modalcontainer {
+  width: 460px;
+  min-height: 300px;
+  max-height: fit-content;
+  /* position: fixed; */
+  margin: 150px auto auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(171, 171, 175); */
+}
+.backsidecontainer {
+  width: 100%;
+  min-height: 600px;
+  max-height: fit-content;
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.backsidecontainer > div {
+  flex: 1;
+}
+.backsidecontainer > div:last-child > div > p {
+  font-size: 30px;
+  line-height: 40px;
+  color: #414141;
+  height: fit-content;
+  font-weight: 700;
+  text-align: center;
+}
+.backsidecontainercontent {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  width: 100%;
+  text-align: center;
+  color: #ad00a2;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.applyformtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+  color: #ad00a2;
+}
+.formlabel {
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141;
+}
+.formcontentcontainer {
+  /* position: relative; */
+  height: 40px;
+  width: 100%;
+  background-color: #e1e1e1;
+  opacity: 65%;
+  border-radius: 10px;
+}
+.formselectcontainer {
+  position: relative;
+  width: 100%;
+  background-color: #e1e1e1;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.formselectcontainer > div {
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+}
+.formselectcontainer > div :first-child {
+  color: #313144;
+  font-size: 16px;
+  font-weight: 500;
+}
+.formselectcontainer > div > img {
+  height: 10px;
+  width: auto;
+}
+.formcontentcontainer2 {
+  height: 100px;
+  width: 100%;
+  background-color: #e1e1e1;
+  opacity: 65%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formcontainermain {
+  position: relative;
+  /* background-color: #AD00A2; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  min-height: 580px;
+  max-height: fit-content;
+}
+.formcontainermain > div {
+  flex: 1;
+  width: 100%;
+}
+.hidden-file-input {
+  display: none;
+}
+.file-status {
+  text-align: center;
+}
+.formbutton {
+  display: flex;
+  justify-content: center;
+}
+.formbutton > button {
+  height: 50px;
+  width: 40%;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ad00a2;
+  border-radius: 10px;
+}
+.formbottomcontent {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.formbottomcontent > a {
+  color: #8a8a8a;
+  text-decoration: none;
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.selectdropdown {
+  position: absolute;
+  top: 57%;
+  z-index: 2;
+  left: 0;
+  width: 100%; /* Take full width of parent */
+  height: 200px; /* Set the desired fixed height */
+  background-color: #ffffff; /* Set background color */
+  border: 1px solid #ccc; /* Add border */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  justify-content: center;
+  column-gap: 10px;
+}
+.selectdropdown > div {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+  color: #313144;
+  padding-left: 5%;
+  width: 100%;
+}
+.selectdropdown > div:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.selectdropdown > div:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.selectdropdown > div:hover {
+  background-color: #ffd9fd;
+}
+.alertmessage {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .backsidecontainer {
+    width: 100%;
+    min-height: 400px;
+  }
+}

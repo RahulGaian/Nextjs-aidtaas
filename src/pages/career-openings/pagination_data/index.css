@@ -1,0 +1,265 @@
+
+.openingsmainpage{
+    width: 1700px;
+}
+
+
+.jobopens{
+    min-height: 1000px;
+    max-height: fit-content;
+    width: 100%;
+}
+.Jobopeningsmain{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  width: 100%;
+}
+
+.griditem {
+    height: fit-content;
+    border: 1px solid #C9C9C9;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 0.9rem;
+
+}
+.griditem:hover{
+    cursor: pointer;
+}
+.gridhead{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1A1A1A;
+    width: 100%;
+}
+.griddesc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+min-height: 50px;
+    color: #606060;
+}
+.gridbot{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+}
+
+.gridbot1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5px;
+    height: fit-content;
+    width: 50%;
+    font-size: 16px;
+    line-height: 25px;
+}
+.gridbot2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 5px;
+    height: fit-content;
+    font-size: 16px;
+    line-height: 25px;
+    width: 50%;
+}
+/* .grid-bot{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+}
+.grid-bot1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 5px;
+    height: fit-content;
+    width: 50%;
+    font-size: 16px;
+    line-height: 25px;
+    
+}
+.grid-bot2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 5px;
+    height: fit-content;
+    font-size: 16px;
+    line-height: 25px;
+    width: 50%;
+} */
+
+.Jobspage_pagination{
+    width: 100%;
+    display: flex;
+    column-gap: 1vw;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.indexactive{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    font-size: 26px;
+    font-weight: 500;
+    width: 44px;
+    color: #FFFFFF;
+    background-color: #00C1EB;
+    border-radius: 10px;
+}
+.indexnotactive{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    font-size: 26px;
+    font-weight: 500;
+    width: 44px;
+    color: #00C1EB;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+
+
+
+@media only  screen and (max-width:1800px) and (min-width:1500px){
+    .griddesc{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    height: 60px;
+        color: #606060;
+        /* background-color: #00C1EB; */
+    }
+    .openingsmainpage{
+        width:1420px;
+    }
+    .gridbot{
+        height: fit-content;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+@media only  screen and (max-width:1500px) and (min-width:1250px){
+    .griddesc{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    height: 60px;
+        color: #606060;
+        /* background-color: #00C1EB; */
+    }
+    .openingsmainpage{
+        width:1200px;
+    }
+    .gridbot{
+        height: fit-content;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+@media only screen and (max-width:1250px) and (min-width:980px){
+    .Jobopeningsmain{
+        display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .openingsmainpage{
+        width:950px;
+    }
+    .griddesc{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    height: 60px;
+        color: #606060;
+        /* background-color: #00C1EB; */
+    }
+}
+@media  screen and (max-width:980px){
+    .Jobopeningsmain{
+        display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .openingsmainpage{
+        width:90%;
+    }
+    .grid-desc{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+    height: fit-content;
+        color: #606060;
+    }
+    .grid-bot{
+        height: fit-content;
+        align-items: center;
+    }
+    .openingshead{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:375px) {
+ .gridbot{
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+ }   
+ .gridbot1{
+    width: 100%;
+    gap: 10px;
+    /* background-color: blue; */
+    justify-content: flex-start;
+ }
+ .gridbot2{
+    width: 100%;
+    gap: 8px;
+
+    /* background-color: blue; */
+    justify-content: flex-start;
+ }
+
+ .indexactive{
+    height: 40px;
+    font-size: 20px;
+ }
+ .indexnotactive{
+    height: 40px;
+    font-size: 20px;
+
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

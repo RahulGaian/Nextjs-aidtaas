@@ -4,8 +4,9 @@ import React from "react";
 import Style from "./index.module.css";
 import ProductExp from "../../components/ProductEndExplaner";
 import MapComponent from "./mapcomponent";
-import Img from "../../components/Image";
+// import Img from "../../components/Image";
 import Carousel from "./CarouselComponent/Carousel";
+import Image from "next/image";
 
 
 let Contact = () => {
@@ -52,22 +53,25 @@ let Contact = () => {
             
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>
-                <Img src={"/images/contact/location pin.png"} />
+                <Image src={"/images/contact/location pin.png"} width={15}
+                      height={15}></Image>
               </div>
               <div className={Style.mapcontent1section2}>
                 <div className={Style.section2head}>USA</div>
                 <div className={Style.section2desc}>
-                  1968 S Coast Hwy, Suite 5011, Laguna Beach, CA 92651, United States
+                  1968 S Coast Hwy, Suite 1511, Laguna Beach, CA 92651, United States
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
-                    <Img src={"/images/contact/phone.png"} />
+                    <Image src={"/images/contact/phone.png"}  width={15}
+                      height={15}></Image>
                   </div>
                   <div className={Style.num}>+1 (415) 624 7431</div>
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo.envelope}>
-                    <Img src={"/images/contact/envelope.png"} />
+                    <Image src={"/images/contact/envelope.png"} width={15}
+                      height={15}></Image>
                   </div>
                   <div>usaoffice@mobiusplatforms.com</div>
                 </div>
@@ -76,22 +80,25 @@ let Contact = () => {
 
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>
-                <Img src={"/images/contact/location pin.png"} />
+                <Image src={"/images/contact/location pin.png"} width={15}
+                      height={15}></Image>
               </div>
               <div className={Style.mapcontent1section2}>
                 <div className={Style.section2head}>India</div>
                 <div className={Style.section2desc}>
-                5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad 500032.
+                5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad 150032.
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
-                    <Img src={"/images/contact/phone.png"} />
+                    <Image src={"/images/contact/phone.png"}  width={15}
+                      height={15}></Image>
                   </div>
                   <div className={Style.num}>+91 (402) 980 0716</div>
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo.envelope}>
-                    <Img src={"/images/contact/envelope.png"} />
+                    <Image src={"/images/contact/envelope.png"} width={15}
+                      height={15}></Image>
                   </div>
                   <div>indiaoffice@mobiusplatforms.com</div>
                 </div>
@@ -100,7 +107,8 @@ let Contact = () => {
 
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>
-                <Img src={"/images/contact/location pin.png"} />
+                <Image src={"/images/contact/location pin.png"} width={15}
+                      height={15}></Image>
               </div>
               <div className={Style.mapcontent1section2}>
                 <div className={Style.section2head}>Singapore</div>
@@ -109,13 +117,15 @@ let Contact = () => {
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
-                    <Img src={"/images/contact/phone.png"} />
+                    <Image src={"/images/contact/phone.png"} width={15}
+                      height={15}></Image>
                   </div>
                   <div className={Style.num}>+65 6587 4666</div>
                 </div>
                 <div className={Style.section2bottom}>
                   <div className={Style.logo.envelope}>
-                    <Img src={"/images/contact/envelope.png"} />
+                    <Image src={"/images/contact/envelope.png"}  width={15}
+                      height={15}></Image>
                   </div>
                   <div>indiaoffice@mobiusplatforms.com</div>
                 </div>

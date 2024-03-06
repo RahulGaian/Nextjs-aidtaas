@@ -1,5 +1,7 @@
 import React from "react";
-import Img from "../../components/Image";
+// import Img from "../../components/Image";
+import Image from "next/image";
+
 import st from "./index.module.css";
 import Values from "../../components/OurValues";
 import Awesome from "../../components/AwesomeTeam";
@@ -14,17 +16,21 @@ const Vision = () => {
       <div className={st.bg_blue_vision_banner}>
         <div className={st.bg_blue_color_1}>
           <div className={"mt-24 " + st.main}>
-            <Img
+            <Image
               // src={"images/vision/1.png"}
               src={"images/vision/vision_banner.png"}
-              style={{ width: "90vw", margin: "0 auto", borderRadius: "30px" }}
+              style={{ width: "90vw", display:"flex", margin: "0 auto", borderRadius: "30px" }}
               className={st.firstImg}
-            ></Img>
-            <Img
+              width={0}
+              height={0}
+            ></Image>
+            <Image
               src={"images/vision/2.png"}
               style={{ width: "90vw", margin: "0 auto", borderRadius: "30px" }}
               className={st.img2}
-            ></Img>
+              width={0}
+              height={0}
+            ></Image>
 
             <h1 className={st.text1}>Our Mission, Vision and Values</h1>
           </div>
@@ -34,7 +40,9 @@ const Vision = () => {
               <h1 className={st.about}>About</h1>
               <h1 className={st.mobius}>Mobius</h1>
             </div>
-            <Img src={"images/vision/4.png"} className={st.img4}></Img>
+            <Image src={"images/vision/4.png"} className={st.img4}
+              width={400}
+              height={300}></Image>
             {/* <Img src={"images/vision/3.png"} className={st.img3}></Img> */}
 
             <div className={st.company_wrapper}>
@@ -59,7 +67,9 @@ const Vision = () => {
               <div className={st.bg_pink_2}>
                 <div className={st.bg_blue_2}>
                   <div className={st.mission}>
-                    <Img src={"images/vision/6.png"}></Img>
+                    <Image src={"images/vision/6.png"}
+                      width={300}
+                      height={300}></Image>
                     <div className={st.mission_desc}>
                       <h1 className={st.mission_heading}>Our Mission</h1>
                       <p className={st.mission_heading_content}>
@@ -70,7 +80,9 @@ const Vision = () => {
                   </div>
 
                   <div className={st.mission1}>
-                    <Img src={"images/vision/5.png"}></Img>
+                    <Image src={"images/vision/5.png"}
+                    width={300}
+                    height={300}></Image>
                     <div className={st.mission1_desc}>
                       <h1 className={st.mission_heading}>Our Vision</h1>
                       <p className={st.mission_heading_content}>

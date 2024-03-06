@@ -1,9 +1,9 @@
 .Vision_section {
   /* border: 2px solid red; */
   background: linear-gradient(109deg, #d2f3ff 0%, #ffe3e3 100%);
-  /* filter: blur(12.5px); */
   z-index: -2;
   padding-bottom: 5%;
+  /* padding: 0 0; */
 }
 
 .main {
@@ -280,6 +280,7 @@
 .firsttext {
   /* margin-left: 200px; */
   font-size: 2rem;
+  margin: 0;
 }
 .img2 {
   /* display: none; */
@@ -524,36 +525,18 @@
   }
 }
 
-@media screen and (max-width: 2560px) and (min-width: 1800px) {
+@media screen and (max-width: 2800px) and (min-width: 1800px) {
+  .img4 {
+    width: 35rem;
+    height: 25rem;
+    right: 35% !important;
+  }
+
   .mission {
     width: 1700px !important;
-
-    /* border: 2px solid black;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 3rem;
-    justify-content: space-between;
-    align-items: center; */
-
-    /* width: 90%;
-    min-height: 400px; */
   }
   .mission1 {
     width: 1700px !important;
-
-    /* width: 90% !important; */
-    /* border: 2px solid red;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 3rem;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row-reverse; */
-
-    /* width: 90%;
-    min-height: 400px; */
   }
 
   /* .mission_heading_content {
@@ -567,7 +550,6 @@
     line-height: 34.095px;
   } */
   .firstImg {
-    /* width: 90%; */
     height: 550px !important;
   }
 }
@@ -575,6 +557,7 @@
 @media screen and (max-width: 1800px) and (min-width: 1500px) {
   .img4 {
     width: 35rem;
+    height: 25rem;
     right: 35% !important;
   }
   .firstImg {
@@ -852,7 +835,8 @@
   }
 
   .img4 {
-    width: 35%;
+    width: 40%;
+    height: 35%;
   }
   .heading {
     margin-left: 6rem;
@@ -1182,12 +1166,11 @@
 
   .img4 {
     position: relative;
-    /* top: 0; */
-    /* right:50%; */
     margin-left: 0px;
     transform: translateX(50%);
     z-index: 1;
     width: 90%;
+    height: 50%;
     margin-bottom: 0px;
     margin-top: 1rem;
   }
@@ -1225,28 +1208,7 @@
     background-image: none;
     height: 210px !important;
     text-align: center !important;
-    /* background-size: cover; */
-    /* height: 600px; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding-top: 5%; */
-    /* justify-content: none;
-    align-items: left; */
-    /* align-content:center; */
-    /* align-items: none;
-    text-align: left; */
-    /* margin-left: ; */
-    /* font-size: 60pxs; */
   }
-  /* .firstImg {
-    width: auto !important;
-    height: 400px;
-    object-fit: cover;
-  } */
-  /* .prof {
-    padding-top: 2rem;
-  } */
 
   .firsttext {
     font-size: 2rem;
@@ -1262,12 +1224,11 @@
 
   .img4 {
     position: relative;
-    /* top: 0; */
-    /* right:50%; */
     margin-left: 0px;
     transform: translateX(50%);
     z-index: 1;
     width: 90%;
+    height: 50%;
     margin-bottom: 0px;
     margin-top: 1rem;
   }
@@ -1287,18 +1248,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* margin-left: 1rem; */
-    /* margin: auto; */
   }
   .mission1 {
-    /* margin-top: 400px; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* margin-left: 1rem; */
-    /* margin: auto; */
   }
 
   .mission_heading {
@@ -1308,19 +1264,9 @@
   .awesome1 {
     background-image: none;
     height: 210px !important;
-    /* background-size: cover; */
-    /* height: 600px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-top: 5%; */
-    /* justify-content: none; */
-    /* align-items: left; */
-    /* align-content:center; */
-    /* align-items: none; */
-    /* text-align: left; */
-    /* margin-left: ; */
-    /* font-size: 60pxs; */
   }
   /* .firstImg {
     width: auto !important;
@@ -1363,9 +1309,7 @@
   }
 
   .firsttext {
-    /* margin-left: 200px; */
-    font-size: 2rem;
-
+    font-size: 1.8rem;
     color: #171717;
     text-align: center;
     font-family: DM Sans;

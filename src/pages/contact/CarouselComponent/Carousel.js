@@ -3,7 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 import Style from "./index.module.css";
-import Img from "../../../components/Image";
+// import Img from "../../../components/Image";
+import Image from "next/image";
+
 SwiperCore.use([Pagination, Autoplay]);
 
 const Carousel = () => {
@@ -21,8 +23,7 @@ const Carousel = () => {
     {
       heading: "India",
       imagesrc1: "/images/contact/location pin.png",
-      description:
-        "5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad 500032.",
+      description: "5th Floor, NAVAYUGA VIZVA, GachiBowli, Hyderabad 500032.",
       imagesrc2: "/images/contact/phone.png",
       num: "+91 (402) 980 0716",
       imagesrc3: "/images/contact/envelope.png",
@@ -52,7 +53,6 @@ const Carousel = () => {
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
-        
         pagination={{
           clickable: true,
           loop: true,
@@ -65,7 +65,7 @@ const Carousel = () => {
           <SwiperSlide key={index}>
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>
-                <Img src={content.imagesrc1} />
+                <Image src={content.imagesrc1} width={34} height={35}></Image>
               </div>
 
               <div className={Style.mapcontent1section2}>
@@ -74,14 +74,16 @@ const Carousel = () => {
 
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
-                    <Img src={content.imagesrc2} />
+                    <Image src={content.imagesrc2}width={15}
+                      height={15}></Image>
                   </div>
                   <div className={Style.num}>{content.num}</div>
                 </div>
 
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
-                    <Img src={content.imagesrc3} />
+                    <Image src={content.imagesrc3} width={15}
+                      height={15}></Image>
                   </div>
                   <div>{content.mail}</div>
                 </div>

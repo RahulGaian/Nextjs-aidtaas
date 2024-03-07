@@ -2,6 +2,7 @@ import React from "react";
 import st from "./index.module.css";
 import Img from "../Image";
 import { useState } from "react";
+import Image from "next/image";
 const Gem = () => {
   let data = [
     { name: "", date: "" },
@@ -21,14 +22,14 @@ const Gem = () => {
           <div className={st.emp}>
             <div className={st.empleft}>
               <div id={st.bimg}>
-                <Img src="./images/eom/tulika.png" />
+                <Image src="./images/eom/tulika.png" width={0} height={0} />
               </div>
               <span id={st.name}>Tulika Pandey</span>
               <span id={st.design}>Lead UX Designer</span>
             </div>
             <div className={st.empRight}>
               <div className={st.mang}>
-                <Img src="./images/eom/kl.png" alt="" />
+                <Image src="./images/eom/kl.png" alt="" width={0} height={0} />
                 <div className={st.indiv}>
                   <span id={st.mangName}>K L Das</span>
                   <span id={st.mangMsg}>
@@ -38,7 +39,12 @@ const Gem = () => {
                 </div>
               </div>
               <div className={st.mang}>
-                <Img src="./images/eom/guru.png" alt="" />
+                <Image
+                  src="./images/eom/guru.png"
+                  alt=""
+                  width={0}
+                  height={0}
+                />
                 <div className={st.indiv}>
                   <span id={st.mangName}>Gurpreet Gandhi</span>
                   <span id={st.mangMsg}>
@@ -64,7 +70,12 @@ const Gem = () => {
               setActive(0);
             }}
           >
-            <Img src={"/images/eom/durga.png"} alt=""></Img>
+            <Image
+              src={"/images/eom/durga.png"}
+              alt=""
+              width={120}
+              height={140}
+            ></Image>
           </div>
           <div
             className={
@@ -79,7 +90,13 @@ const Gem = () => {
               setActive(0);
             }}
           >
-            <Img src={"/images/eom/kl.png"} alt=""></Img>
+            <Image
+              src={"/images/eom/kl.png"}
+              alt=""
+              width={180}
+              height={200}
+              objectFit="cover"
+            ></Image>
           </div>
           <div
             className={
@@ -94,7 +111,12 @@ const Gem = () => {
               setActive(0);
             }}
           >
-            <Img src={"/images/eom/guru.png"} alt=""></Img>
+            <Image
+              src={"/images/eom/guru.png"}
+              alt=""
+              width={120}
+              height={140}
+            ></Image>
           </div>
 
           <h1 className={st.nameAndDate}>

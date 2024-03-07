@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Img from "../../components/Image";
-// import { useState, useEffect } from "react";
 import styles from "./index.module.css";
 
 const SpeakExpert = () => {

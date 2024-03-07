@@ -1,4 +1,4 @@
-import IntheNews from ".";
+import IntheNews from "./page";
 
 export default {
     title: "pages/InTheNews",

@@ -1,0 +1,285 @@
+.comingSoonContainer {
+  position: relative;
+  background: linear-gradient(108.56deg, #d2f3ff 0%, #ffe3e3 100%);
+  padding-top: 100px;
+  padding-bottom: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-height: 1000px;
+}
+
+.comingSoonWrapper {
+  display: flex;
+  width: 1700px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comingSoonLeftWrapper {
+  width: 70%;
+}
+.comingSoonRightWrapper {
+  width: 30%;
+}
+
+.comingSoonHeading {
+  width: 100%;
+  height: fit-content;
+  font-family: "DM Sans";
+}
+
+.comingSoonHeading > h2 {
+  background: linear-gradient(
+    90deg,
+    #ff00ef 2.54%,
+    #a237f7 46.02%,
+    #3300c2 94.28%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 150px;
+  height: fit-content;
+  letter-spacing: 0.03em;
+  width: 100%;
+}
+
+.comingSoonSubHeading > h4 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  height: fit-content;
+  letter-spacing: -0.03em;
+  color: #585858;
+  width: 60%;
+}
+
+.comingSoonDescription {
+  width: 80%;
+  height: fit-content;
+}
+
+.comingSoonDescription > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: justify;
+  color: #161616;
+  height: fit-content;
+}
+
+.comingSoonButton > h5 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  height: fit-content;
+  letter-spacing: -0.03em;
+  color: #161616;
+}
+
+.comingSoonRigthWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 700px;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .comingSoonWrapper {
+    width: 1420px;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .comingSoonWrapper {
+    width: 1200px;
+  }
+  .comingSoonHeading > h2 {
+    font-size: 95px;
+    line-height: 120px;
+  }
+  .comingSoonDescription > p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+  }
+  .comingSoonDescription {
+    width: 90%;
+  }
+  .comingSoonSubHeading > h4 {
+    font-size: 45px;
+    line-height: 60px;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .comingSoonWrapper {
+    width: 950px;
+  }
+  .comingSoonHeading > h2 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .comingSoonDescription > p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+  }
+  .comingSoonDescription {
+    width: 90%;
+  }
+  .comingSoonSubHeading > h4 {
+    font-size: 40px;
+    line-height: 60px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 980px) {
+  .comingSoonContainer {
+    min-height: fit-content;
+  }
+  .comingSoonWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: fit-content;
+    width: 90%;
+  }
+  .comingSoonLeftWrapper {
+    width: 100%;
+    height: fit-content;
+  }
+  .comingSoonSubHeading {
+    width: 100%;
+    height: fit-content;
+  }
+  .comingSoonDescription {
+    width: 100%;
+    height: fit-content;
+  }
+  .comingSoonRigthWrapper {
+    width: 100%;
+    height: fit-content;
+  }
+  .comingSoonHeading > h2 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  .comingSoonDescription > p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+  }
+  .comingSoonSubHeading > h4 {
+    font-size: 45px;
+    line-height: 60px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .comingSoonHeading > h2 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .comingSoonDescription > p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+  }
+  .comingSoonSubHeading > h4 {
+    font-size: 35px;
+    line-height: 55px;
+    width: 100%;
+  }
+  .comingSoonButton > h5 {
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+  }
+}
+
+/* @media only screen and (max-width :568px ){
+
+  .comingSoonContainer{
+      width: 100%;
+  }
+   .comingSoonWrapper{
+      flex-direction: column-reverse;
+      padding: 3rem 3rem;
+      width: 100%;
+      background-color: #D2F3FF;
+      padding: 0.2rem 0.6rem;
+   }
+
+   .comingSoonLeftWrapper{
+      width: 100%;
+   }
+
+   .comingSoonRightWrapper{
+      width: 100%;
+   }
+   
+   .comingSoonHeading > h2{
+      width: 100%;
+      font-size: 4rem;
+   }
+
+   .comingSoonSubHeading {
+      width: 100%;
+   }
+
+   .comingSoonSubHeading>h4{
+      font-size: 2rem;
+   }
+
+   .comingSoonRigthWrapper>img{
+      width: 70%;
+   }
+   .comingSoonLogo{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+}
+
+@media only screen and (max-width:1380px) {
+  
+  .comingSoonHeading > h2{
+      line-height: 5.6rem;
+  }
+} */
+
+/* .comingSoonLogo {
+  width: 100%;
+  padding: 2rem 5rem 0;
+}
+
+.comingSoonLogo img {
+  width: 5rem;
+} */
+
+/* .comingSoonButton>button{
+  border: 2px solid #AD00A2;
+  border-radius: 10px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #AD00A2;
+  padding: 0.5rem 1.5rem;
+  margin-top: 2rem;
+} */

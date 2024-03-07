@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import Blogpostswiper from "../../Blog-pages/Blogswiper";
+import Blogpostswiper from "../../../pages/Blog-pages/Blogswiper";
 
 function Lifeblog() {
   return (

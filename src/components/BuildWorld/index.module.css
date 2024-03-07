@@ -80,6 +80,7 @@
     font-weight: 500 !important;
     line-height: normal;
     letter-spacing: -1.92px;
+    margin: 0;
   }
 
   .content {
@@ -103,6 +104,9 @@
   .maincontent {
     width: 70%;
   }
+  .Joinus {
+    margin: 0;
+  }
 }
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   .article {
@@ -123,6 +127,7 @@
   .Joinus {
     font-size: 55px;
     line-height: 80px;
+    margin: 0;
   }
 }
 
@@ -144,6 +149,7 @@
   .Joinus {
     font-size: 55px;
     line-height: 80px;
+    margin: 0;
   }
 }
 @media only screen and (max-width: 980px) and (min-width: 600px) {
@@ -165,6 +171,7 @@
   .Joinus {
     font-size: 55px;
     line-height: 80px;
+    margin: 0;
   }
 }
 
@@ -197,6 +204,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin: 0;
   }
   .content {
     /* color: #494949;
@@ -226,11 +234,10 @@
     padding: 10px 20px;
     border-radius: 10px;
     width: fit-content;
-    height: 48px !important;
+    height: 38px !important;
     letter-spacing: 0.02em;
     cursor: pointer;
     height: fit-content;
-
     color: var(--Color, #fff);
     text-align: center;
     font-family: DM Sans;

@@ -7,7 +7,7 @@ import Awards from "../../components/AwardsRec/index";
 import ProductExp from "../../components/ProductEndExplaner";
 import BuildWord from "../../components/BuildWorld";
 import Foudersmessage from "../../components/Founderscomponent";
-import Lifeblog from "../careers/lifeblogpage";
+import Lifeblog from "../../components/careers/lifeblogpage";
 import Image from "next/image";
 let Overview = () => {
   return (

@@ -1,5 +1,5 @@
 import Style from "./index.module.css";
-import Img from "../../../components/Image";
+import Img from "../../Image";
 // import images from "../../../constants/images";
 import { useState } from "react";
 // import images from '../../../../'  src={images.Career_05}

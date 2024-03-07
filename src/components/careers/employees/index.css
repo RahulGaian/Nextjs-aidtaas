@@ -80,7 +80,10 @@
 @media only screen and (max-width: 980px) and (min-width: 600px) {
   .employeedetails {
     width: 60%;
+    /* height: 350px; */
     height: 350px;
+    display: flex;
+    gap: 10px;
   }
   .employeedetails > div {
     width: 90%;
@@ -94,16 +97,19 @@
     font-size: 40px;
     line-height: 50px;
     text-align: start;
+    margin: 0;
   }
   .employeeshortdesc {
     font-size: 28px;
     line-height: 32px;
     text-align: start;
+    margin: 0;
   }
   .employeedescription {
     font-size: 18px;
     line-height: 24px;
     text-align: start;
+    margin: 0;
   }
 }
 

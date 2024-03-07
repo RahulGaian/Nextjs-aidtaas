@@ -2,10 +2,10 @@ import React from "react";
 // import { useEffect } from 'react';
 // import images from '../../../constants/images';
 import "./index.css";
-import Img from "../../../components/Image";
+import Img from "../../Image";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
-import { Jobopeningsdata as data } from "../../career-openings/jobopenings_dataHr";
+import { Jobopeningsdata as data } from "../../../pages/career-openings/jobopenings_dataHr";
 // import {fetchJobOpenings}  from './../../../Redux/Jobopeningsdata'
 function Jobopenings() {
   const ChangeRoute = (Route) => {
@@ -81,7 +81,7 @@ function Jobopenings() {
                         className=""
                       />
                     </div>
-                    <div className="">{item.experience}</div>
+                    <div className="grid-exp">{item.experience}</div>
                   </div>
                 </div>
               </div>

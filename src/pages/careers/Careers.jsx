@@ -4,10 +4,10 @@
 import Awesometeammain from "../../components/AwesomeTeam";
 
 // import DynamicContent from "./joinus";
-import ContentSlider from "./joinus";
-import EmployeeSlider from "./employees";
-import Growthprogram from "./programs";
-import Jobopenings from "./jobopenings";
+import ContentSlider from "../../components/careers/joinus";
+import EmployeeSlider from "../../components/careers/employees";
+import Growthprogram from "../../components/careers/programs";
+import Jobopenings from "../../components/careers/jobopenings";
 // import Lifeblog from "./lifeblogpage";
 import React, { useEffect, useState } from "react";
 import { Carousel } from "react-responsive-carousel";

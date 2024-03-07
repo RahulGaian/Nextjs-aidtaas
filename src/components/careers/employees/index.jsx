@@ -5,7 +5,7 @@ import "swiper/swiper.min.css";
 // import images from '../../../constants/images';
 // import "swiper/components/pagination/pagination.min.css"; // Import the pagination CSS
 import "./index.css"; // Import your CSS file for styling (if needed)
-import Img from "../../../components/Image";
+import Img from "../../Image";
 // import Emp1careers_page from "../images/Career/emp1.png"
 // import Emp2careers_page from "../images/Career/emp2.png"
 // import Emp3careers_page from "../images/Career/emp3.png"

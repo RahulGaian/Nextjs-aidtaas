@@ -5,7 +5,7 @@ import SwiperCore, { Pagination, Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 // import "swiper/components/pagination/pagination.min.css"; // Import the pagination CSS
 import "./index.css"; // Import your CSS file for styling (if needed)
-import Img from "../../../components/Image";
+import Img from "../../Image";
 
 // import CareerJoinus_image1 from "../images/Career/Joinus_images_careerspage/image1.png"
 // import CareerJoinus_image2 from "../images/Career/Joinus_images_careerspage/image2.png"

@@ -1,0 +1,309 @@
+.jobopeningscomponent {
+  width: 1700px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.top_content {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.openingshead {
+  width: 80%;
+}
+.openingshead > h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 77px;
+  text-align: center;
+  font-family: "DM Sans";
+}
+.openingheadtitles {
+  display: flex;
+  column-gap: 20px;
+}
+
+.nonactivehead {
+  background-color: #ffffff;
+  color: #2c2c2c;
+}
+.buttonactivehead {
+  background-color: #ad00a2;
+  color: #ffffff;
+}
+.headtitle {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 18px;
+  line-height: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Jobopeningsmain {
+  width: 100%;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
+
+.grid-item {
+  height: 170px;
+  /* height: fit-content; */
+  border: 1px solid #c9c9c9;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 0.9rem;
+  cursor: pointer;
+}
+.grid-head {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1a1a1a;
+  height: fit-content;
+  width: 100%;
+}
+.grid-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  height: 60px;
+
+  color: #606060;
+}
+.grid-bot {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  width: 100%;
+}
+.grid-bot1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 5px;
+  height: fit-content;
+  width: 50%;
+  font-size: 16px;
+  line-height: 25px;
+}
+.grid-bot2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 5px;
+  height: fit-content;
+  font-size: 16px;
+  line-height: 25px;
+  width: 50%;
+}
+.openingsbottom3 {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.openingsbutton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  width: fit-content;
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ad00a2;
+  border-radius: 10px;
+  color: #ffffff;
+}
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .jobopeningscomponent {
+    width: 1420px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .grid-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    height: 60px;
+    color: #606060;
+  }
+  .jobopeningscomponent {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .grid-bot1 {
+    width: 40%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .grid-bot2 {
+    font-size: 16px;
+    line-height: 20px;
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .Jobopeningsmain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .jobopeningscomponent {
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .headtitle {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 22px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .openingshead {
+    width: 100%;
+  }
+  .openingshead > h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .jobopeningscomponent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .Jobopeningsmain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .openingshead {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 980px) and (min-width: 600px) {
+  .grid-desc {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: normal;
+    height: fit-content;
+    color: #606060;
+  }
+  .grid-bot {
+    height: fit-content;
+  }
+
+  .grid-bot1 {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400px;
+  }
+
+  .grid-bot2 {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400px;
+  }
+
+  .openingshead > h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+  }
+  .openingheadtitles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .headtitle {
+    text-align: center;
+  }
+  .grid-head {
+    font-size: 15px;
+    line-height: normal;
+  }
+  .grid-item {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    height: fit-content;
+    color: #606060;
+  }
+  .openingshead > h1 {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .grid-bot {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    /* align-items: center; */
+  }
+
+  .grid-bot1 {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .grid-bot2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 5px;
+    height: fit-content;
+    font-size: 16px;
+    line-height: 25px;
+    width: 100%;
+  }
+
+  .grid-item {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .openingheadtitles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .headtitle {
+    text-align: center;
+  }
+}

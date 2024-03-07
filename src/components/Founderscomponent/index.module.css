@@ -8,7 +8,7 @@
 }
 .founderscont {
   width: 1700px;
-  min-height: 1000px;
+  /* min-height: 1000px; */
   max-height: fit-content;
   padding-left: 5%;
   padding-right: 5%;

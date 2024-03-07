@@ -1,0 +1,528 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentContainer {
+  width: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 130px; */
+  height: fit-content;
+  /* border: 1px solid black; */
+}
+
+.leftCont {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+#head {
+  width: 100%;
+  color: #ad00a2;
+  font-family: DM Sans;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px;
+}
+
+#date {
+  color: #ad00a2;
+  font-family: DM Sans;
+  font-size: 25.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px;
+  position: absolute;
+  top: 40px;
+  right: 150px;
+  height: 130px;
+}
+
+.emp {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  /* border: 1px solid black; */
+  align-items: center;
+}
+
+.empleft {
+  width: 320px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#bimg {
+  width: 270px;
+  height: 280px;
+}
+
+#bimg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+}
+
+#name {
+  color: #ad00a2;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#design {
+  color: #ad00a2;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.empRight {
+  width: 400px;
+  height: 290px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+.mang {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mang Img {
+  width: 75px;
+  height: 83px;
+  object-fit: contain;
+}
+
+.indiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#mangName {
+  color: #ad00a2;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#mangMsg {
+  color: #111;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+
+.rightCont {
+  /* display: flex; */
+  width: 50%;
+  height: 500px;
+  position: relative;
+  /* background-color: red; */
+  /* border:2px  solid black; */
+  /* border: 1px solid black; */
+}
+
+.rfirst {
+  position: absolute;
+  top: 48%;
+  left: 120px;
+}
+
+.rfirst Img {
+  max-width: 140px;
+}
+
+.rsecond {
+  position: absolute;
+  top: 35%;
+  /* left: 290px; */
+  left: 282px;
+  /* transform: translateX(-50%); */
+}
+
+.rsecond Img {
+  max-width: 200px;
+}
+
+.rthird {
+  position: absolute;
+  top: 48%;
+  left: 500px;
+}
+
+.rthird Img {
+  max-width: 140px;
+}
+
+.grayscaler {
+  filter: grayscale(100%);
+  transition: 0.2s all ease-in;
+}
+.nameAndDate {
+  color: #ad00a2;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 21.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px;
+  position: absolute;
+  bottom: 10px;
+  right: 100px;
+}
+/* @media screen and (max-width: 1400px) {
+  .contentContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .leftCont {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: relative;
+  }
+  .rightCont {
+    width: 100%;
+    position: relative;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nameAndDate {
+    right: 55%;
+  }
+} */
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .contentContainer {
+    width: 1420px;
+  }
+  #date {
+    right: 8px;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .contentContainer {
+    width: 1200px;
+  }
+  #head {
+    font-size: 42px;
+  }
+  #date {
+    right: 50px;
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .rfirst {
+    left: 80px;
+  }
+  .rsecond {
+    /* left: 250px; */
+    left: 242px;
+  }
+  .rthird {
+    left: 460px;
+  }
+  .nameAndDate {
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .contentContainer {
+    width: 950px;
+  }
+  #head {
+    font-size: 32px;
+  }
+  #date {
+    right: 60px;
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .emp {
+    flex-direction: column;
+  }
+  /* .mang {
+    justify-content: flex-start;
+    margin-left: 15%;
+  } */
+  .rfirst {
+    left: 0px;
+  }
+
+  .rfirst Img {
+    max-width: 140px;
+  }
+  .rsecond {
+    left: 140px;
+  }
+  .rsecond Img {
+    max-width: 180px;
+  }
+  .rthird {
+    left: 320px;
+  }
+  .rthird Img {
+    max-width: 140px;
+  }
+  .nameAndDate {
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 980px) and (min-width: 601px) {
+  .contentContainer {
+    width: 90%;
+  }
+  .emp {
+    width: 100%;
+    flex-direction: column;
+  }
+  .empRight {
+    width: 100%;
+    height: 290px;
+  }
+  /* .mang {
+    justify-content: flex-start;
+    margin-left: 15%;
+  } */
+  #head {
+    font-size: 24px;
+    line-height: normal;
+  }
+  #date {
+    position: static;
+    height: max-content;
+    width: 100%;
+    font-size: 18px;
+    line-height: normal;
+  }
+  #name {
+    font-size: 20px;
+  }
+  #design {
+    font-size: 12px;
+  }
+  #mangName {
+    font-size: 18px;
+  }
+  #mangMsg {
+    font-size: 14px;
+  }
+  .rfirst {
+    left: -10px;
+    width: 100px;
+  }
+  .rfirst Img {
+    max-width: 100px;
+  }
+  .rsecond {
+    left: 85px;
+    width: 120px;
+  }
+  .rsecond Img {
+    max-width: 120px;
+  }
+  .rthird {
+    left: 200px;
+    width: 100px;
+  }
+  .rthird Img {
+    max-width: 100px;
+  }
+  .nameAndDate {
+    font-size: 18px;
+    bottom: 60px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 601px) {
+  /* .mang {
+    justify-content: flex-start;
+    margin-left: 2%;
+  } */
+}
+
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .container {
+    margin-bottom: 8%;
+  }
+  .contentContainer {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  #bimg {
+    width: 220px;
+    height: 220px;
+  }
+  .emp {
+    width: 100%;
+    flex-direction: column;
+  }
+  .leftCont {
+    width: 100%;
+  }
+  .empRight {
+    width: 100%;
+    height: 290px;
+  }
+  /* 
+  .mang {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20%;
+  } */
+
+  #head {
+    font-size: 26px;
+    line-height: normal;
+    text-align: center;
+  }
+  #date {
+    position: static;
+    height: max-content;
+    width: 100%;
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+  }
+  #name {
+    font-size: 22px;
+  }
+  #design {
+    font-size: 16px;
+  }
+  #mangName {
+    font-size: 16px;
+  }
+  #mangMsg {
+    font-size: 12px;
+  }
+  .rightCont {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rfirst {
+    left: 12%;
+    width: 100px;
+  }
+
+  .rfirst Img {
+    max-width: 100px;
+  }
+
+  .rsecond {
+    left: 32%;
+    width: 120px;
+    top: 0px;
+  }
+
+  .rsecond Img {
+    max-width: 120px;
+  }
+  .rthird {
+    left: 58%;
+    width: 100px;
+  }
+  .rthird Img {
+    max-width: 100px;
+  }
+  .nameAndDate {
+    color: #ad00a2;
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px;
+    position: absolute;
+    bottom: -70px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 450px) {
+  .rfirst {
+    left: 20%;
+    width: 100px;
+  }
+  .rsecond {
+    left: 37%;
+    width: 120px;
+    top: 0px;
+  }
+  .rthird {
+    left: 58%;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 450px) {
+  .rfirst {
+    left: 20%;
+    width: 100px;
+  }
+  .rsecond {
+    left: 37%;
+    width: 120px;
+    top: 0px;
+  }
+  .rthird {
+    left: 58%;
+    width: 100px;
+  }
+  /* .mang {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 28%;
+  } */
+}

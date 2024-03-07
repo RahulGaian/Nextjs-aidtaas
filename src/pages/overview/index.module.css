@@ -1,0 +1,886 @@
+.bgmain {
+  /* background: url("../../../public/images/overview/bg1.png"); */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  /* object-fit: contain; */
+  /* background-size: 100% 100%; */
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  z-index: -1;
+  height: 1050px;
+  /* margin-top: 5%; */
+  padding-top: 3%;
+  background: linear-gradient(109deg, #d2f3ff 0%, #ffe3e3 100%);
+  /* border: 2px solid red; */
+}
+.contentsmain {
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.contentsmain > div {
+  width: 1700px;
+  min-height: 900px;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 25px;
+  z-index: 2;
+}
+
+.blue_blob {
+  height: fit-content;
+  background: radial-gradient(
+    220px 220px at 25% 40%,
+    rgba(67, 136, 240, 0.2) 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+}
+
+.heading {
+  height: fit-content;
+  color: #ad00a2;
+  font-family: "DM Sans";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 74px;
+  letter-spacing: -2.04px;
+  width: 70%;
+}
+
+.content {
+  color: #101010;
+  font-family: DM Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  height: fit-content;
+  margin-bottom: "0px";
+  width: 55%;
+}
+
+.lifeblogcomponent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.yearscontainer {
+  /* border:  1px solid red; */
+
+  /* width: 30%; */
+  width: 400px;
+  min-height: 300px;
+  max-height: fit-content;
+  padding: 20px;
+  background: #fffdfd;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+/* .upper_container {
+  border: 2px solid red;
+  display: flex;
+}
+.lower_container {
+  display: flex;
+} */
+
+.yearsfoldermain {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  /* height: fit-content; */
+  height: 150px;
+  width: 200px;
+}
+.yearsfoldermain > div:first-child {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+
+  color: #2e2e2e;
+  font-family: DM Sans;
+  font-size: 46px !important;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 10%;
+}
+.yearsfoldermain > div:last-child {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #2e2e2e;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 122.222% */
+}
+
+/* mobius bg image */
+.imagefolder {
+  z-index: 1;
+  position: absolute;
+  top: -8%;
+  right: 0%;
+  opacity: 40%;
+  width: 90%;
+  object-fit: cover;
+}
+
+/* .bottomsection {
+  padding-top: 100px;
+  background: url("../../../public/images/overview/Frame411.png");
+  background-size: cover;
+  height: fit-content;
+  padding-top: 0;
+  margin-top: 0;
+} */
+
+/* .sectionvaluesmain {
+  padding-top: 150px;
+} */
+/* ------------for mobile view------------ */
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .pink_blob_2 {
+    background: radial-gradient(
+      250px 250px at 0% 20%,
+      rgba(173, 0, 162, 0.1) 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+  }
+
+  /* ---this blob z-index issue */
+  /* .pink_blob_1 {
+    background: radial-gradient(
+      250px 250px at 90% 15%,
+      rgba(173, 0, 162, 0.5) 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+    z-index: -1 !important;
+  } */
+
+  /* --this blob is for banner cmp if bg color is not applied */
+  .blue_blob {
+    height: fit-content;
+    background: radial-gradient(
+      300px 200px at 0% 30%,
+      rgba(67, 136, 240, 0.2) 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+  }
+
+  .imagefolder {
+    display: none;
+  }
+
+  .bgmain {
+    height: 780px !important;
+    padding-top: 120px;
+    /* border: 2px solid red; */
+    /* padding-top: 3%; */
+    /* background: none; */
+  }
+
+  .heading {
+    /* border: 2px solid red; */
+    width: 100%;
+    color: #ad00a2;
+    font-family: DM Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .content {
+    /* border: 2px solid red; */
+
+    width: 100% !important;
+    height: fit-content;
+    color: #101010;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .yearscontainer {
+    /* width: 400px;
+    min-height: 300px; */
+    /* border: 2px solid red; */
+
+    width: 100% !important;
+    max-height: fit-content;
+    margin-top: 5%;
+    margin-bottom: 5% !important;
+    padding-bottom: 50px;
+
+    display: flex;
+    padding: 20px 10px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    border-radius: 8px;
+    /* background: var(--Color, #fff); */
+    background-color: white;
+    z-index: 9999 !important;
+  }
+
+  .yearsfoldermain {
+    /* border: 2px solid green; */
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .yearsfoldermain > div:first-child {
+    display: flex;
+    justify-content: center;
+
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 46px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: normal;
+  }
+  .yearsfoldermain > div:last-child {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 380px) {
+  .bgmain {
+    height: 800px !important;
+    padding-top: 120px;
+    /* padding-top: 3%; */
+    /* background: none; */
+  }
+}
+
+@media only screen and (max-width: 380px) and (min-width: 350px) {
+  .bgmain {
+    height: 850px !important;
+    padding-top: 120px;
+    /* padding-top: 3%; */
+    /* background: none; */
+  }
+
+  .yearscontainer {
+    /* width: 400px;
+    min-height: 300px; */
+    width: 100% !important;
+    max-height: fit-content;
+    margin-top: 5%;
+    margin-bottom: 5% !important;
+    padding-bottom: 50px;
+
+    /* border: 2px solid red; */
+
+    display: flex;
+    padding: 20px 10px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    border-radius: 8px;
+    background: var(--Color, #fff);
+  }
+
+  .yearsfoldermain {
+    /* border: 2px solid green; */
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .yearsfoldermain > div:first-child {
+    display: flex;
+    justify-content: center;
+
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 36px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal;
+  }
+  .yearsfoldermain > div:last-child {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+  }
+}
+
+@media only screen and (max-width: 350px) and (min-width: 300px) {
+  .bgmain {
+    height: 900px !important;
+    padding-top: 120px;
+    /* padding-top: 3%; */
+    /* background: none; */
+  }
+  .yearscontainer {
+    /* width: 400px;
+    min-height: 300px; */
+    width: 100% !important;
+    max-height: fit-content;
+    margin-top: 5%;
+    margin-bottom: 5% !important;
+    padding-bottom: 50px;
+
+    /* border: 2px solid red; */
+
+    display: flex;
+    padding: 20px 10px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    border-radius: 8px;
+    background: var(--Color, #fff);
+  }
+
+  .yearsfoldermain {
+    /* border: 2px solid green; */
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .yearsfoldermain > div:first-child {
+    display: flex;
+    justify-content: center;
+
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 36px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal;
+    padding-top: 20px !important;
+  }
+  .yearsfoldermain > div:last-child {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+  }
+}
+
+/* -----------for desktop and tablet------- */
+@media only screen and (max-width: 2650px) and (min-width: 2100px) {
+  .blue_blob {
+    height: fit-content;
+    background: radial-gradient(
+      250px 250px at 30% 40%,
+      rgba(67, 136, 240, 0.2) 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+  }
+
+  .imagefolder {
+    top: 15% !important;
+    width: 90% !important;
+    object-fit: fill;
+    height: 1400px !important;
+    left: 10% !important;
+  }
+  .bgmain {
+    height: 1200px;
+    padding-top: 120px;
+    /* padding-top: 3%; */
+  }
+}
+@media only screen and (max-width: 2100px) and (min-width: 1800px) {
+  .imagefolder {
+    top: 15% !important;
+    width: 90% !important;
+    object-fit: fill;
+    height: 1400px !important;
+    left: 10% !important;
+  }
+
+  .bgmain {
+    height: 1100px;
+    padding-top: 120px;
+    /* border: 2px solid red; */
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1600px) {
+  .bgmain {
+    height: 1000px;
+    padding-top: 120px;
+    padding-top: 3%;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1500px) {
+  .bgmain {
+    height: 1000px;
+    padding-top: 120px;
+    padding-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1400px) {
+  .bgmain {
+    height: 1000px;
+    padding-top: 120px;
+    padding-top: 5% !important;
+  }
+
+  .heading {
+    width: 90%;
+  }
+
+  .content {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1250px) {
+  .bgmain {
+    height: 950px;
+    padding-top: 120px;
+    padding-top: 5% !important;
+  }
+
+  .heading {
+    width: 90%;
+  }
+
+  .content {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 1250px) and (min-width: 1050px) {
+  .bgmain {
+    height: 980px;
+    padding-top: 120px;
+    padding-top: 8% !important;
+  }
+
+  .heading {
+    font-size: 3rem;
+    width: 90%;
+    line-height: 60px;
+  }
+
+  .content {
+    width: 80%;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 980px) {
+  .bgmain {
+    height: 950px;
+    padding-top: 120px;
+    padding-top: 8% !important;
+  }
+
+  .heading {
+    font-size: 3rem;
+    width: 90%;
+    line-height: 60px;
+  }
+
+  .content {
+    width: 78% !important;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .contentsmain > div {
+    width: 1420px;
+  }
+  .imagefolder {
+    top: 10% !important;
+    width: 85% !important;
+    object-fit: fill;
+    height: 1400px !important;
+    left: 15% !important;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .contentsmain > div {
+    width: 1200px;
+  }
+  .imagefolder {
+    top: 25% !important;
+    width: 80% !important;
+    object-fit: fill;
+    height: 1200px !important;
+    left: 20% !important;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .contentsmain > div {
+    width: 950px;
+  }
+
+  /* .bottomsection {
+    padding-top: 20px;
+    background: url("../../../public/images/overview/Frame411.png");
+    background-size: cover;
+    height: fit-content;
+  } */
+  .imagefolder {
+    top: 40% !important;
+    width: 75% !important;
+    object-fit: fill;
+    height: 800px !important;
+    left: 25% !important;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .bgmain {
+    height: 750px;
+    padding-top: 120px;
+    /* border: 2px solid red; */
+  }
+
+  .imagefolder {
+    top: 40% !important;
+    width: 70% !important;
+    object-fit: fill;
+    height: 600px !important;
+    left: 30% !important;
+  }
+
+  .contentsmain > div {
+    width: 90%;
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+  .heading {
+    font-size: 2.5rem;
+    width: 90%;
+    line-height: 50px;
+  }
+
+  .content {
+    font-size: 18px !important;
+    width: 85% !important;
+    line-height: 26px;
+  }
+
+  .yearscontainer {
+    width: 280px;
+    min-height: 180px;
+  }
+
+  .yearsfoldermain {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    height: 100px;
+    width: 120px;
+  }
+
+  .yearsfoldermain > div:first-child {
+    display: flex;
+    justify-content: center;
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .yearsfoldermain > div:last-child {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #2e2e2e;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  /* .bottomsection {
+    padding-top: 20px;
+    background: url("../../../public/images/overview/Frame411.png");
+    background-size: cover;
+    height: fit-content;
+  } */
+}
+
+@media screen and (max-width: 880px) {
+  .bgmain {
+    height: 750px;
+    /* padding-top: 120px; */
+  }
+
+  .imagefolder {
+    top: 32%;
+    width: 82%;
+  }
+  .yearscontainer {
+    width: 280px;
+    min-height: 180px;
+  }
+
+  .yearsfoldermain {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    height: 100px;
+    width: 120px;
+  }
+
+  .yearsfoldermain > div:first-child {
+    display: flex;
+    justify-content: center;
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .yearsfoldermain > div:last-child {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #2e2e2e;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bgmain {
+    height: 730px;
+    /* padding-top: 120px; */
+  }
+
+  .imagefolder {
+    top: 46%;
+    width: 75%;
+  }
+
+  .heading {
+    width: 100%;
+    /* line-height: 55px; */
+    color: #ad00a2;
+    font-family: DM Sans;
+    font-size: 38px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .content {
+    width: 100%;
+    height: fit-content;
+    color: #101010;
+    font-family: DM Sans;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px !important;
+  }
+
+  .yearscontainer {
+    width: 280px;
+    min-height: 180px;
+  }
+
+  .yearsfoldermain {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    height: 100px;
+    width: 120px;
+  }
+
+  .yearsfoldermain > div:first-child {
+    display: flex;
+    justify-content: center;
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 30px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .yearsfoldermain > div:last-child {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #2e2e2e;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .bgmain {
+    height: 680px;
+    /* padding-top: 120px; */
+  }
+  .imagefolder {
+    top: 46%;
+    width: 75%;
+  }
+
+  .heading {
+    width: 100%;
+    /* line-height: 55px; */
+    color: #ad00a2;
+    font-family: DM Sans;
+    font-size: 38px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .content {
+    width: 100% !important;
+    height: fit-content;
+    color: #101010;
+    font-family: DM Sans;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px !important;
+  }
+  .yearscontainer {
+    width: 260px;
+    min-height: 160px;
+  }
+
+  .yearsfoldermain {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    height: 90px;
+    width: 120px;
+  }
+
+  .yearsfoldermain > div:first-child {
+    display: flex;
+    justify-content: center;
+    color: #2e2e2e;
+    font-family: DM Sans;
+    font-size: 26px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .yearsfoldermain > div:last-child {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #2e2e2e;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+
+  .bottomsection {
+    padding-top: 20px;
+    background: url("../../../public/images/overview/Frame411.png");
+    background-size: cover;
+    height: fit-content;
+  }
+} */
+
+/* .Meaning {
+  height: fit-content;
+  padding-bottom: 5vh;
+  padding-top: 3vh;
+  border-radius: 50px;
+}
+.founderheading {
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  line-height: 45px;
+}
+.foundersubhead {
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  line-height: 35px;
+}
+.paracontent {
+  width: 60%;
+  text-align: start;
+  color: black;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  padding-left: 5%;
+  padding-top: 2vh;
+} */

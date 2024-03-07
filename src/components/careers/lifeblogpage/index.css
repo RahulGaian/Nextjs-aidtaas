@@ -1,0 +1,79 @@
+.lifeblogtitle {
+  font-size: 68px;
+  line-height: 70px;
+  color: black;
+  font-weight: 500;
+}
+.colorblue {
+  color: #070ad1;
+}
+.pb4 {
+  padding-bottom: 4vh;
+}
+.lifeblogmain {
+  width: 1700px;
+  height: fit-content;
+  /* background-color: aqua; */
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .lifeblogmain {
+    width: 1420px;
+  }
+  .lifeblogtitle {
+    font-size: 64px;
+    line-height: 66px;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .lifeblogmain {
+    width: 1200px;
+  }
+  .lifeblogtitle {
+    font-size: 58px;
+    line-height: 60px;
+  }
+}
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .lifeblogmain {
+    width: 950px;
+  }
+  .lifeblogtitle {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .lifeblogmain {
+    width: 90%;
+  }
+  .lifeblogtitle {
+    font-size: 47px;
+    line-height: 53px;
+  }
+}
+
+/* @media   screen and (max-width:380px) {
+    .lifeblogtitle{
+        font-size: 42px;
+        line-height: 50px;
+        color: black;
+        font-weight: 700;
+        width: 100%;
+    }
+    .pb4{
+        padding-bottom: 2vh;
+    }
+}
+@media   screen and (max-width:600px) and (min-width:380px) {
+    .lifeblogtitle{
+        font-size: 52px;
+        line-height: 60px;
+        color: black;
+        font-weight: 700;
+        width: 100%;
+    }
+    .pb4{
+        padding-bottom: 2vh;
+    }
+} */

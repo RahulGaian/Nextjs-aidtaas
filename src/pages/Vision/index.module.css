@@ -3,7 +3,6 @@
   background: linear-gradient(109deg, #d2f3ff 0%, #ffe3e3 100%);
   z-index: -2;
   padding-bottom: 5%;
-  /* padding: 0 0; */
 }
 
 .main {
@@ -119,12 +118,6 @@
   padding-top: 0;
 }
 .heading {
-  /* position: absolute;
-  top: 3%; */
-  /* display: flex;
-    flex-direction: column;
-    gap: 0;
-    justify-content: space-around; */
   margin-left: 9rem;
   margin-top: 2rem;
 }
@@ -226,9 +219,7 @@
   /* border: 3px solid gray; */
 
   width: 100%;
-  /* font-size: 2rem; */
   color: #000;
-  /* font-family: Avenir; */
   font-size: 24.478px;
   font-style: normal;
   font-weight: 400;
@@ -236,7 +227,6 @@
 }
 
 /* .mission_desc{
-
   padding-left: 20%;
   width: 100% !important;
 } */
@@ -253,7 +243,6 @@
   flex-direction: column;
   margin-left: 3rem;
   margin-right: 3rem;
-  /* border-radius: 4rem; */
   justify-content: center;
   align-items: center;
 
@@ -263,7 +252,6 @@
 }
 
 .awesome1 {
-  /* max-width: 90%; */
   width: 80%;
   /* border: 3px solid tomato; */
   background-size: cover;
@@ -272,13 +260,10 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: red; */
-  /* transform: translateX(-18%); */
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .firsttext {
-  /* margin-left: 200px; */
   font-size: 2rem;
   margin: 0;
 }
@@ -1062,7 +1047,7 @@
   }
 
   .firsttext {
-    /* margin-left: 200px; */
+    width: 240px;
     font-size: 2rem;
   }
 }
@@ -1127,16 +1112,10 @@
     /* padding-top: 5%; */
     justify-content: none;
     align-items: left;
-    /* align-content:center; */
     align-items: none;
     text-align: left;
-    /* margin-left: ; */
-    /* font-size: 60pxs; */
   }
   .firstImg {
-    /* width: 90%; */
-    /* width: auto !important;
-    height: 400px; */
     object-fit: cover;
   }
   .prof {
@@ -1144,8 +1123,8 @@
   }
 
   .firsttext {
-    /* margin-left: 200px; */
     font-size: 2rem;
+    width: 245px;
   }
 }
 @media screen and (max-width: 480px) and (min-width: 380px) {
@@ -1200,8 +1179,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* margin-left: 1rem; */
-    /* margin: auto; */
   }
 
   .awesome1 {
@@ -1212,6 +1189,7 @@
 
   .firsttext {
     font-size: 2rem;
+    width: 235px;
   }
 }
 
@@ -1317,6 +1295,13 @@
     font-weight: 400;
     /* line-height: normal; */
   }
+}
+
+@media screen and (max-width: 360px) {
+
+.missonImage img{
+  width: 100% !important;
+}
 }
 
 /* --------for awesome1 slider----------- */

@@ -19,7 +19,12 @@ const Vision = () => {
             <Image
               // src={"images/vision/1.png"}
               src={"images/vision/vision_banner.png"}
-              style={{ width: "90vw", display:"flex", margin: "0 auto", borderRadius: "30px" }}
+              style={{
+                width: "90vw",
+                display: "flex",
+                margin: "0 auto",
+                borderRadius: "30px",
+              }}
               className={st.firstImg}
               width={0}
               height={0}
@@ -40,9 +45,12 @@ const Vision = () => {
               <h1 className={st.about}>About</h1>
               <h1 className={st.mobius}>Mobius</h1>
             </div>
-            <Image src={"images/vision/4.png"} className={st.img4}
+            <Image
+              src={"images/vision/4.png"}
+              className={st.img4}
               width={400}
-              height={300}></Image>
+              height={300}
+            ></Image>
             {/* <Img src={"images/vision/3.png"} className={st.img3}></Img> */}
 
             <div className={st.company_wrapper}>
@@ -67,9 +75,15 @@ const Vision = () => {
               <div className={st.bg_pink_2}>
                 <div className={st.bg_blue_2}>
                   <div className={st.mission}>
-                    <Image src={"images/vision/6.png"}
-                      width={300}
-                      height={300}></Image>
+                    <div className={st.missonImage}>
+                      {" "}
+                      <Image
+                        src={"images/vision/6.png"}
+                        width={300}
+                        height={300}
+                      ></Image>
+                    </div>
+
                     <div className={st.mission_desc}>
                       <h1 className={st.mission_heading}>Our Mission</h1>
                       <p className={st.mission_heading_content}>
@@ -80,9 +94,13 @@ const Vision = () => {
                   </div>
 
                   <div className={st.mission1}>
-                    <Image src={"images/vision/5.png"}
-                    width={300}
-                    height={300}></Image>
+                    <div className={st.missonImage}>
+                      <Image
+                        src={"images/vision/5.png"}
+                        width={300}
+                        height={300}
+                      ></Image>
+                    </div>
                     <div className={st.mission1_desc}>
                       <h1 className={st.mission_heading}>Our Vision</h1>
                       <p className={st.mission_heading_content}>

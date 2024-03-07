@@ -3,7 +3,7 @@
   padding-top: 30px;
   padding-bottom: 42px;
   width: 100%;
-  min-height: 340px;
+  /* min-height: 340px; */
   position: relative;
 }
 
@@ -129,7 +129,7 @@
     padding-left: 4vw;
   }
   .mapcontent1 {
-    column-gap: 3%;
+    /* column-gap: 3%; */
   }
 
   .section2head {
@@ -190,7 +190,7 @@
   }
 
   .section2head {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
 
   .section2desc {

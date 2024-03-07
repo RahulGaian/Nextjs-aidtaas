@@ -58,14 +58,14 @@ const Carousel = () => {
           loop: true,
         }}
         loop
-        autoplay={{ delay: 4000 }}
+        // autoplay={{ delay: 4000 }}
         onSlideChange={handleSlideChange}
       >
         {contentData.map((content, index) => (
           <SwiperSlide key={index}>
             <div className={Style.mapcontent1}>
               <div className={Style.mapcontent1section1}>
-                <Image src={content.imagesrc1} width={34} height={35}></Image>
+                <Image src={content.imagesrc1} width={40} height={42}></Image>
               </div>
 
               <div className={Style.mapcontent1section2}>

@@ -3,9 +3,9 @@ import React from "react";
 // import 'leaflet/dist/leaflet.css';
 import Style from "./index.module.css";
 import ProductExp from "../../components/ProductEndExplaner";
-import MapComponent from "./mapcomponent";
+import MapComponent from "../../components/contact/mapcomponent";
 // import Img from "../../components/Image";
-import Carousel from "./CarouselComponent/Carousel";
+import Carousel from "../../components/contact/CarouselComponent/Carousel";
 import Image from "next/image";
 
 

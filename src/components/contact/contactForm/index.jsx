@@ -5,7 +5,7 @@ import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { getDatabase, ref as dbRef, push, set } from "firebase/database";
 import st from "./index.module.css";
-import Img from "../../../components/Image";
+import Img from "../../Image";
 import { useNavigate } from 'react-router-dom';
 
 

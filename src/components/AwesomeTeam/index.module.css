@@ -1,13 +1,14 @@
 #swiperId {
-  height: 40px;
+  height: 42px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: left;
+  padding-top: 10px;
 }
 
 .hack {
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 500;
   margin-bottom: 0;
   padding-top: 0;
@@ -25,20 +26,11 @@
     height: 53px;
   } */
 
-  .hack {
-     /* font-size: 40px; */
-
-    /* text-align: left !important;
-    align-items: center;
-    vertical-align: middle;
-    transform: translateY(-15%);
-    padding-top: 3px ; */
-  }
 }
 
 @media screen and (max-width: 559px) and (min-width: 480px) {
   #swiperId {
-    height: 36px;
+    height: 37px;
   }
 
   .hack {
@@ -58,7 +50,7 @@
 
 @media screen and (max-width: 480px) and (min-width: 380px) {
   #swiperId {
-    height: 28px;
+    height: 30px;
   }
 
   .hack {
@@ -71,7 +63,7 @@
 
 @media screen and (max-width: 379px) and (min-width: 300px) {
   #swiperId {
-    height: 24px;
+    height: 26px;
     /* display: flex;
     justify-content: flex-start; */
   }

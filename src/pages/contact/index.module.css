@@ -117,11 +117,11 @@
   width: 35vw;
   position: absolute;
   z-index: 2;
-  left: 60%;
+  left: 55%;
   /* right: 10%; */
   margin-right: 11.42vw;
   top: -10%;
-  height: 750px;
+  height: 740px;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid #D3D3D3;
   border-radius: 20px;

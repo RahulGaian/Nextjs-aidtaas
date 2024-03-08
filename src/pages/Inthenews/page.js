@@ -1,6 +1,6 @@
 import React from "react";
 import st from "./index.module.css";
-import Paginationdatamain from "./pagination_datanews";
+import Paginationdatamain from "../../components/pagination_datanews";
 import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 import { getDatabase, ref as dbRef, push, set } from "firebase/database";

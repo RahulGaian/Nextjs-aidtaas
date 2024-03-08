@@ -1,0 +1,220 @@
+.page1content{
+    min-height: 80vh;
+    max-height: fit-content;
+    /* background-color: red; */
+}
+.head{
+    padding-top: 20px;
+    min-height: 30px;
+    max-height: fit-content;
+    width: 100%;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #6B6B6B;
+}
+.head2{
+    min-height: 30px;
+    max-height: fit-content;
+    font-size: 18px;
+    line-height: 23px;
+    width: 100%;
+    text-transform: uppercase;
+    color: #6B6B6B;
+}
+.topcont{
+     position:relative; 
+     min-height: 30vh;
+    max-height: fit-content ;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    
+}
+.botcont{
+    position: relative;
+min-height: 48vh;
+max-height: fit-content;
+width: 100%;
+}
+#hrline{
+    width: 100%;
+    position:relative; 
+    height: 2vh ;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.listitems{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    justify-content: space-between;
+    align-items: center ;
+width: 100%;
+border-radius: 8px;
+}
+.content{
+    width: 95%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    min-height: auto;
+    padding-left: 10px;
+
+}
+.rightarrow{
+    width: 5%;
+    opacity: 2;
+}
+
+.listitems:hover{
+    background: rgba(173, 0, 162, 0.2);
+}
+.listitems> div:nth-child(2) {
+
+    visibility:visible;
+}
+.listitems:hover > div:nth-child(2) {
+
+    visibility: visible;
+}
+.returnarrow{
+    padding-top: 20px !important;
+    /* height: fit-content; */
+    /* height: 100px; */
+    margin-bottom: 30px;
+}
+
+
+
+/* page2 css */
+
+#page2content{
+    min-height: 80vh;
+    max-height: fit-content;
+}
+
+
+
+
+/* last page css */
+
+#page3content{
+    min-height: 80vh;
+    max-height: fit-content;
+}
+.header{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: start;
+    color: #1A1A1A;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    }
+
+
+    .description{
+        width: 90%;
+        /* min-height: 30vh; */
+        max-height: 30vh;
+    overflow: auto;
+        color: #1A1A1A;
+    }  
+    .arrowfolder{
+        width: 100%;
+        justify-content: flex-start;
+        display: flex;
+        font-size: 18px;
+        line-height: 23px;
+        color: #1A1A1A;
+         padding-top: 2vh;
+        flex-direction: row;
+        height: 2vh;
+    }
+    .arrow{
+     padding:4px 0px 0px 20px;
+    } 
+    
+.imagecontainer{
+    /* margin-top: 3vh; */
+    /* padding-left:5vw; */
+    width: 90%;
+    height: 30vh;
+    border-radius: 20px;
+    margin-top: 5vh;
+}
+.imagecontainer img{
+    width: 100%;
+height: 100%;
+object-fit: cover;
+overflow: hidden;
+border-radius: 20px;
+}
+
+
+
+
+
+@media only screen and (min-width: 320px) {
+    .topcont{
+        height: fit-content;
+    }
+    .botcont{
+        height: fit-content;
+        min-height: fit-content;
+    }
+    .returnarrow{
+        padding-top: 20px;
+        /* width: 20px;
+        height: 20px; */
+        margin-bottom: 10px;
+    }
+    .rightarrow{
+        width: 3%;
+    }
+    .head{
+        font-size: 18px;
+        line-height: 23px;
+        width: 100%;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .listitems{
+        height: fit-content;
+    }
+    .content{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+.listitems2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+margin-left: 1rem;
+margin-right: 1rem;
+    padding-left: 1rem !important;
+    padding-top:2px;
+    padding-bottom: 2px;
+flex: 1;
+width: 80vw;
+border-radius: 8px;
+}
+
+
+
+
+.topcontcompany{
+    min-height: 75vh;
+}

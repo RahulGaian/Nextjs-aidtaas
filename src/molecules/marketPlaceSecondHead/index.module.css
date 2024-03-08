@@ -1,0 +1,51 @@
+.featureBoxHeadingplt>h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 58px;
+    /* identical to box height, or 85% */
+    background: linear-gradient(90deg, #9919AE -1.56%, #513DD0 51.65%, #CB5EFE 104.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+.featureBoxSubHeading {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.featureBoxSubHeading>p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    color: #9919AE;
+}
+
+.featureBoxDescription {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.featureBoxDescription>p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}

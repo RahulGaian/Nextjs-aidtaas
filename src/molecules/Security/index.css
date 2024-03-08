@@ -1,0 +1,292 @@
+.secContainerSP2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* border-radius: 10px; */
+    height: 350px;
+    background: linear-gradient(92deg, #ffdcdc 3.51%, #ebc4e8 98.73%);
+  }
+  
+  .secContentContainerSP2 {
+    width: 1700px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    /* border: 1px solid black; */
+  }
+  
+  .secContentContainerSP2 > .leftdiv2 {
+    width: 65%;
+    /* border: 1px solid black; */
+  }
+  
+  .secContentContainerSP2 > .leftdiv2 > h1 {
+    color: #1a1a1a;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+  }
+  
+  .secContentContainerSP2 > .leftdiv2 > h5 {
+    color: #1a1a1a;
+    font-family: "DM Sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .secContainerSP2  > .rightdiv2 {
+    width: 30%;
+    height: 90%;
+    position: absolute;
+    right:2%;
+    bottom: 0;
+  }
+  
+  .secContainerSP2  > .rightdiv2 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  @media only screen and (max-width: 1800px) and (min-width: 1440px) {
+    .secContentContainerSP2 {
+      width: 1440px;
+    }
+    .secContainerSP2  > .rightdiv2 {
+      width: 30%;
+      height: 80%;
+      position: absolute;
+      right:2%;
+      bottom: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 1440px) and (min-width: 1250px) {
+    .secContentContainerSP2 {
+      width: 1200px;
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .secContentContainerSP2 > .leftdiv2 > h1 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 56px;
+    }
+    
+    .secContentContainerSP2 > .leftdiv2 > h5 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px;
+      width: 70%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 1250px) and (min-width: 980px) {
+    .secContentContainerSP2 {
+      width: 980px;
+      padding-top: 15px;
+      padding-bottom: 22px;
+    }
+    .secContentContainerSP2 > .leftdiv2 > h1 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 34px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 42px;
+    }
+    .secContainerSP2  > .rightdiv2 {
+      width: 30%;
+      height: 60%;
+      position: absolute;
+      right:2%;
+      bottom: 0;
+    }
+
+    .secContentContainerSP2 > .leftdiv2 > h5 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27px;
+      width: 70%;
+      margin-bottom: 20px;
+    }
+    .secContainerSP2  > .rightdiv2 {
+      margin-top: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .secContentContainerSP2 {
+      width: 90%;
+      gap: 0px;
+      padding-top: 15px;
+      padding-bottom: 22px;
+    }
+
+    .secContentContainerSP2 > .leftdiv2 {
+      width: 80%;
+    }
+
+    .secContentContainerSP2 > .leftdiv2 > h1 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+    }
+    /* .secContainerSP2  > .rightdiv2 {
+      width: 300px;
+      height: 200px;
+    } */
+  
+    .secContainerSP2  > .rightdiv2 {
+      margin-top: auto;
+      width: 400px;
+      height: 225px;
+    }
+  
+    .secContentContainerSP2 > .leftdiv2 > h5 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      margin: 0;
+      margin-bottom: 20px;
+      width: 90%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+    .secContentContainerSP2 {
+      width: 90%;
+      /* gap: 10px; */
+      padding-top: 15px;
+      padding-bottom: 22px;
+    }
+
+    .secContentContainerSP2 > .leftdiv2 > h1 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin: 0;
+    }
+    .secContainerSP2  > .rightdiv2 {
+      margin-top: auto;
+      width: 160px;
+      height: 120px;
+      /* border: 1px solid black; */
+    }
+    .secContainerSP2{
+      height: 200px;
+    }
+    .secContentContainerSP2 > .leftdiv2 > h5 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    .secContainerSP2  > .rightdiv2 {
+      width: 35%;
+      height: 50%;
+      position: absolute;
+      right:2%;
+      bottom: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .secContentContainerSP2 {
+      width: 90%;
+      gap: 0px;
+      height: max-content;
+      padding-top: 15px;
+      padding-bottom: 22px;
+      /* border: 1px solid black; */
+    }
+    .secContentContainerSP2>.leftdiv2{
+      width: 280px !important;
+    }
+
+    .secContentContainerSP2>.leftdiv2>img{
+      width: 30px;
+      height: 30px;
+    }
+
+    .secContentContainerSP2>.rightdiv2{
+      position: relative;
+      width: 120px;
+      height: 90px;
+      /* border: 1px solid black; */
+      top: 1.2rem;
+    }
+    .secContentContainerSP2>.rightdiv2>img{
+      width: 122px;
+      height: 90px;
+      /* margin-top: 230px; */
+    }
+    .secContentContainerSP2 > .leftdiv2 > h1 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      width: 120%;
+    }
+    .secContentContainerSP2 > .leftdiv2 > h5 {
+      color: #1a1a1a;
+      font-family: "DM Sans", sans-serif;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 110%;
+      margin-bottom: 10px;
+    }
+  }
+  
+
+  @media screen and (max-width: 400px) {
+    .secContainerSP2{
+      height : 200px;
+    }
+    .secContainerSP2  > .rightdiv2 {
+      width: 35%;
+      height: 40%;
+      position: absolute;
+      right:2%;
+      bottom: 0;
+    }
+  }

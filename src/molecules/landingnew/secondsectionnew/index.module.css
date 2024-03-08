@@ -1,0 +1,9 @@
+.mainsec{
+    background:url("../../../../public/images/landingmainpagenew/landingmasklatest.png");
+    background-size: cover;
+
+    /* min-height: 1500px; */
+    height: fit-content;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+}

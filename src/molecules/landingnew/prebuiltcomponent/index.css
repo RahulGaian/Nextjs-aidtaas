@@ -1,0 +1,93 @@
+.panelsection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mainpanel{
+    width: 1700px;
+    height: fit-content;
+    padding-top: 50px;
+}
+.prebuilthead{
+    width: 40%;
+    font-weight: 500;
+    font-size: 40px;
+        line-height: 55px;
+    height: fit-content;
+    color: #111111;
+    font-family: "DM Sans";
+}
+.prebuiltdesc{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    height: fit-content;
+    width: 45%;
+    color: #111111;
+    font-family: "DM Sans";
+}
+
+@media only screen and (max-width:1800px) and (min-width:1500px){
+    .mainpanel{
+        width: 1420px;
+    }
+    .prebuilthead{
+        width: 45%;
+    }
+    .prebuiltdesc{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:1500px) and (min-width:1250px){
+    .mainpanel{
+        width: 1200px;
+    }
+    .prebuilthead{
+        width: 55%;
+    }
+    .prebuiltdesc{
+        width: 60%;
+    }
+}
+@media only screen and (max-width:1250px) and (min-width:980px){
+    .mainpanel{
+        width: 950px;
+    }
+    .prebuilthead{
+        width: 65%;
+        font-size: 38px;
+    }
+    .prebuiltdesc{
+        width: 70%;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:980px){
+    .mainpanel{
+        width: 70%;
+    }
+    .prebuilthead{
+        width: 90%;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .prebuiltdesc{
+        width: 100%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:600px){
+    .prebuilthead{
+        width: 90%;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 500;
+    }
+    .prebuiltdesc{
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+}

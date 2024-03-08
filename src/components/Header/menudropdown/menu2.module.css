@@ -1,0 +1,177 @@
+
+
+
+.displaydata3 {
+    opacity: 1;
+    transition-duration: 600000s;
+    height: 120px;
+    width: 90%;
+    overflow-y: scroll;
+}
+
+
+.data4listitems {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.data4content {
+    padding-left: 10px;
+    width: 95%;
+    /* height: fit-content; */
+    font-size: 18px;
+    line-height: 23px;
+   
+}
+
+.data4rightarrow {
+    width: 5%;
+    opacity: 2;
+}
+.data4listitems:hover {
+    background: rgba(173, 0, 162, 0.2);
+}
+.data4listitems>div:nth-child(2) {
+
+    visibility: hidden;
+}
+
+.data4listitems:hover>div:nth-child(2) {
+
+    visibility: visible;
+}
+
+
+
+.marketplace {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+}
+
+.public {
+    /* padding-left: 0px; */
+    width: 50%;
+    height: 100%;
+    /* background-color: #1A1A1A; */
+}
+
+.private {
+    /* padding-left: 0px; */
+    width: 50%;
+    height: 100%;
+    /* background-color: #6B6B6B; */
+}
+
+
+
+.listitemsplatform {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    min-height: 45px;
+    max-height: fit-content;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.contentplatform{
+    padding-left:10px;
+    width: 90%;
+    /* height: fit-content; */
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.platformhead {
+    /* background-color: #ce1010; */
+    font-size: 18px;
+    line-height: 23px;
+   height: 45px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: #6B6B6B;
+}
+.platformhead > h5{
+    padding-left: 12px;
+}
+
+
+.rightarrowplatform {
+    width: 10%;
+    opacity: 2;
+}
+.listitemsplatform:hover {
+    background: rgba(173, 0, 162, 0.2);
+}
+.listitemsplatform>div:nth-child(2) {
+
+    visibility: hidden;
+}
+
+.listitemsplatform:hover>div:nth-child(2) {
+
+    visibility: visible;
+}
+
+
+
+@media only screen and (max-width:1500px) and (min-width:1250px){
+    .contentplatform{
+        padding-left:10px;
+        width: 90%;
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+
+@media only screen and (max-width:1250px) and (min-width:980px){
+    .contentplatform{
+        padding-left:10px;
+        width: 90%;
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .data4content {
+        padding-left: 10px;
+        width: 95%;
+        /* height: fit-content; */
+        font-size: 16px;
+        line-height: 23px;
+       
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+.appswipermainlandingpage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.swipermenu{
+    width: 1700px;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.content1{
+    position: relative;
+
+    height: 50px;
+
+}
+.content1>img{
+    object-fit: contain;
+}
+.content{
+    padding: 20px;
+}
+.content > img{
+    max-width: 80%;
+    height: 70px;
+}
+
+.swiper-wrapper{
+    align-items: center !important;
+}
+
+@media only screen and (max-width:1800px) and (min-width:1500px){
+    .swipermenu{
+        width: 1420px;   
+    
+    }
+    .content > img{
+        max-width: 75%;
+        height: 70px;
+    }
+
+}
+@media only screen and (max-width:1500px) and (min-width:1250px){
+    .swipermenu{
+        width: 1200px;   
+    }
+    .content > img{
+        max-width: 70%;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width:1250px) and (min-width:980px){
+    .swipermenu{
+        width: 950px;   
+      
+    
+    }
+    .content > img{
+        max-width: 65%;
+        height: 50px;
+    }
+}
+@media  screen and (max-width:980px){
+    .swipermenu{
+        width: 90%;   
+    
+    }
+    .content > img{
+        max-width: 65%;
+        height: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    .content1 > img{
+        max-width: 80px;
+        height: 50px;
+        object-fit: contain ;
+
+    }
+}
+
+@media screen and (max-width:320px){
+    .content1 > img{
+        max-width: 50px;
+        height: 50px;
+        object-fit: cover ;
+    }
+}

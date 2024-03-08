@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 /*  first landing component css*/
 .maincont {
   display: flex;
@@ -35,6 +39,8 @@
 }
 
 .imagecont {
+  position: relative;
+  
   width: 50%;
   height: 500px;
 
@@ -46,6 +52,7 @@
   /* aspect-ratio:; */
   /* object-fit: cover; */
   /* overflow: hidden; */
+  object-fit: cover;
   background-size: cover;
   border-radius: 10px;
 }

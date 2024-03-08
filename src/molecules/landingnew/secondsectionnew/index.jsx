@@ -1,12 +1,12 @@
-import TextandImage from "../../../components/textAndImage";
-import Security from "../../../components/Security";
-import ProductExp from "../../../components/ProductEndExplaner";
+import TextandImage from "../../textAndImage";
+import Security from "../../Security";
+import ProductExp from "../../ProductEndExplaner";
 import style from "./index.module.css";
-import DigitalMenu2 from "../../../components/digitalmenu2";
+import DigitalMenu2 from "../../digitalmenu2";
 import Panelcomponent from "../panelcontainer";
 import Prebuilt from "../prebuiltcomponent";
-import AndroidApps from "../../../components/AndroidAppsSwiper";
-import AppSwiper from "../../../components/appSwiper";
+import AndroidApps from "../../AndroidAppsSwiper";
+import AppSwiper from "../../appSwiper";
 const Section2 = () => {
   const changeRoute = (Route) => {
     window.location.href = Route;
@@ -54,13 +54,13 @@ const Section2 = () => {
           <AppSwiper></AppSwiper>
         </section>
         <section>
-          <Security
+          {/* <Security
             heading={"Enterprise Grade Trust and Security"}
             content={
               "Mobius Suite integrates with thousands of Apps, APIs, Content, IT & Infrastructure providers across various domains throughout the globe"
             }
             img={"/images/Security/8.png"}
-          ></Security>
+          ></Security> */}
         </section>
         <section>
           <ProductExp

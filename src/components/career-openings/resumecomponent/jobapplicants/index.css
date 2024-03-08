@@ -1,0 +1,324 @@
+.mainpagejobapplicants{
+    /* border: 2px solid blue; */
+
+    padding-top: 100px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-image: url("../../../../../public/imagesnew/Career/jobopeningsbackground.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.appliedcandidates{
+    /* border: 2px solid red; */
+    width: 1700px;
+    height: fit-content;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 50px;
+    margin-top: 3%;
+}
+
+.candidatefolder{
+    /* border: 2px solid green; */
+    border: 1px solid #C9C9C9;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 32%;
+}
+.heading{
+    height: fit-content;
+    width: 1700px;
+    display: flex;
+    justify-content: center;
+}
+
+.heading > h1{
+    font-weight: 700;
+    font-size: 54px;
+    color: #1A1A1A;
+    line-height: 70px;
+}
+.candidatefolderdiv{
+    height: 30px;
+    /* max-height: fit-content; */
+}
+.candidatefolderdiv > span:first-child{
+    font-weight: 700;
+    font-size: 20px;
+    color: #1A1A1A;
+    line-height: 30px;
+}
+
+.candidatefolderdiv > span:last-child{
+    font-weight: 400;
+    font-size: 16px;
+    color: #606060;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 2500px) and (min-width: 2000px) {
+}
+@media only screen and (max-width: 2000px) and (min-width: 1800px) {
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+    .appliedcandidates{
+        width: 1440px;
+        /* height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding-bottom: 50px; */
+    }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1400px) {
+    .appliedcandidates{
+        width: 90%;
+        /* height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding-bottom: 50px; */
+    }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+    .appliedcandidates{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+        .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 48% !important;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+    .appliedcandidates{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+        .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 48% !important;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 880px) {
+    .appliedcandidates{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+        .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 48% !important;
+    }
+}
+
+@media screen and (max-width: 880px) and (min-width: 800px) {
+    .appliedcandidates{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content;
+        padding-bottom: 50px; */
+    }
+
+    .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 680px) {
+    .appliedcandidates{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content;
+        padding-bottom: 50px; */
+    }
+
+    .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 680px) and (min-width: 580px) {
+    .appliedcandidates{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content;
+        padding-bottom: 50px; */
+    }
+
+    .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 580px) and (min-width: 480px) {
+    .appliedcandidates{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content;
+        padding-bottom: 50px; */
+    }
+
+    .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 90%;
+    }
+
+    /* .heading{
+        border: 2px solid red;
+        height: fit-content;
+        width: 1700px;
+        display: flex;
+        justify-content: center;
+    } */
+    .heading > h1{
+        font-weight: 700;
+        font-size: 44px;
+        color: #1A1A1A;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) and (min-width: 380px) {
+    .appliedcandidates{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content;
+        padding-bottom: 50px; */
+    }
+
+    .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 98%;
+    }
+
+    .heading > h1{
+        font-weight: 700;
+        font-size: 36px;
+        color: #1A1A1A;
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 380px) and (min-width: 300px) {
+    .appliedcandidates{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content;
+        padding-bottom: 50px; */
+    }
+
+    .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .heading > h1{
+        font-weight: 700;
+        font-size: 36px;
+        color: #1A1A1A;
+        line-height: 70px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .appliedcandidates{
+        width: 90% !important;
+        display: flex;
+        flex-direction: column;
+        /* height: fit-content;
+        padding-bottom: 50px; */
+    }
+
+    .candidatefolder{
+        border: 1px solid #C9C9C9;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .heading > h1{
+        font-weight: 700;
+        font-size: 30px;
+        color: #1A1A1A;
+        line-height: 70px;
+    }
+
+
+
+}

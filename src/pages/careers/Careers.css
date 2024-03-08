@@ -872,7 +872,6 @@
   background-repeat: no-repeat;
   height: fit-content;
   display: flex;
-  /* transform: translateX(0%);       */
   gap: 10px;
   font-weight: 500;
   font-size: 45px;
@@ -882,8 +881,6 @@
   min-width: 60%;
   max-width: fit-content;
   justify-content: flex-start;
-
-  /* background-color: #2D22AA; */
 }
 
 .awesome2 {

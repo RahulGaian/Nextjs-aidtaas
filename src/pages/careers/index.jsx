@@ -345,9 +345,7 @@ let Careers = () => {
           <div className="awesome2">
             <div className="awesome1">
               <div>Join Our Awesome Team of talented</div>
-              <div>
-                <Awesometeammain></Awesometeammain>
-              </div>
+              <Awesometeammain></Awesometeammain>
             </div>
             <div className="Career_buttonsmain  _2pt">
               <div

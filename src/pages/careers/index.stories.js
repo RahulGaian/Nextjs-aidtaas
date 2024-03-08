@@ -1,4 +1,4 @@
-import Careers from "./Careers";
+import Careers from ".";
 
 export default {
   title: "pages/Careers",

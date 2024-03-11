@@ -24,8 +24,9 @@ const SpeakExpert = () => {
         <Image
           id="imagesec"
           src={"/images/Security/8.png"}
-          width={0}
-          height={0}
+          width={400}
+          height={400}
+          objectFit="cover"
           alt=""
         ></Image>
       </div>

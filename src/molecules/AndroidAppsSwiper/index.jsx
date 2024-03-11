@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow} from "swiper";
 // import Img from "../Image";
 import {default as Img} from "next/image";
-import "./index.css";
+import style from "./index.module.css";
 import SwiperCore, { Autoplay } from 'swiper';
 import { useRef,useEffect,useState} from "react";
 
@@ -64,7 +64,7 @@ let AndroidApps = () => {
 
 
 
-         <div className="appswipermainlandingpage">
+         <div className={style.appswipermainlandingpage}>
                 <Swiper 
         ref={swiperRef2}
         centeredSlides={false}
@@ -89,37 +89,37 @@ let AndroidApps = () => {
         modules={[EffectCoverflow]}
         className="swipermenu"
         >
-            {/* <SwiperSlide className='content1'>
+            {/* <SwiperSlide className={style.content1}>
                 <Img src="/images/apps/Alpaco.svg" ></Img>
             </SwiperSlide> */}
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img fill src="/images/apps/13.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img fill src="/images/apps/14.png"></Img>
             </SwiperSlide>
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img fill src="/images/apps/appstore.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img fill src="/images/apps/drive.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img fill src="/images/apps/playstore.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img fill src="/images/apps/slack.png"></Img>
             </SwiperSlide>
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img  fill src="/images/apps/zoom.png" ></Img>
             </SwiperSlide>
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img fill src="/images/apps/twillonew.png" ></Img>
             </SwiperSlide>
-            {/* <SwiperSlide className='content1'>
+            {/* <SwiperSlide className={style.content1}>
                 <Img src="/images/apps/Alpaco.svg" ></Img>
             </SwiperSlide> */}
-            <SwiperSlide className='content1'>
+            <SwiperSlide className={style.content1}>
                 <Img fill src="/images/apps/13.png" ></Img>
             </SwiperSlide>
            

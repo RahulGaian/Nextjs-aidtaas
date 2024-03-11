@@ -1,7 +1,4 @@
-*{
-  margin: 0px;
-  padding: 0px;
-}
+
 /*  first landing component css*/
 .maincont {
   display: flex;
@@ -16,13 +13,13 @@
   padding-top: 0px;
 }
 
-@media screen and (min-width : 1920px) {
-  _::-webkit-full-page-media, _:future, :root .maincont {
+/* @media screen and (min-width : 1920px) { */
+  /* _::-webkit-full-page-media, _:future, :root .maincont {
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: fit-content;
   }
-}
+} */
 
 .bgmain2 {
   /* padding-top: 15vh; */

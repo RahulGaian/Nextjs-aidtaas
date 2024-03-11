@@ -15,7 +15,7 @@ const Panelcomponent =()=>{
     }
 
     const panel1Style = {
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/newbg/mobius_dtass/${num}.png)`,
+        backgroundImage: `url(/images/newbg/mobius_dtass/${num}.png)`,
      
       };
     return (

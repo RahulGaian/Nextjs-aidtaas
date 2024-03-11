@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./accordion.css";
+import  style from "./accordion.module.css";
 import ProgressBar from "../progressbar";
 const Accordion = ({ data }) => {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -62,18 +62,19 @@ const Accordion = ({ data }) => {
   });
 
   return (
-    <div className="accordion">
+    <div className={style.accordion}>
+
       <div
-        className="accordion-item1"
+        className={style["accordion-item1"]}
         onClick={() => {
           toggleAccordion(1);
           data(0);
         }}
       >
-        <div className="accordion-title">{menu[0].name}</div>
+        <div className={style["accordion-title"]}>{menu[0].name}</div>
         {activeIndex === 1 && (
           <>
-            <div className="accordion-content">{menu[0].description}</div>
+            <div className={style["accordion-content"]}>{menu[0].description}</div>
             <div>
               {" "}
               <ProgressBar totalTimeInSeconds={totalTimeInSeconds} />
@@ -83,16 +84,16 @@ const Accordion = ({ data }) => {
       </div>
 
       <div
-        className="accordion-item2"
+        className={style["accordion-item2"]}
         onClick={() => {
           toggleAccordion(2);
           data(1);
         }}
       >
-        <div className="accordion-title">{menu[1].name}</div>
+        <div className={style["accordion-title"]}>{menu[1].name}</div>
         {activeIndex === 2 && (
           <>
-            <div className="accordion-content">{menu[1].description}</div>
+            <div className={style["accordion-content"]}>{menu[1].description}</div>
             <div>
               {" "}
               <ProgressBar totalTimeInSeconds={totalTimeInSeconds} />
@@ -101,16 +102,16 @@ const Accordion = ({ data }) => {
         )}
       </div>
       <div
-        className="accordion-item3"
+        className={style["accordion-item3"]}
         onClick={() => {
           toggleAccordion(3);
           data(2);
         }}
       >
-        <div className="accordion-title">{menu[2].name}</div>
+        <div className={style["accordion-title"]}>{menu[2].name}</div>
         {activeIndex === 3 && (
           <>
-            <div className="accordion-content">{menu[2].description}</div>
+            <div className={style["accordion-content"]}>{menu[2].description}</div>
             <div>
               {" "}
               <ProgressBar totalTimeInSeconds={totalTimeInSeconds} />
@@ -119,16 +120,16 @@ const Accordion = ({ data }) => {
         )}
       </div>
       <div
-        className="accordion-item4"
+        className={style["accordion-item4"]}
         onClick={() => {
           toggleAccordion(4);
           data(3);
         }}
       >
-        <div className="accordion-title">{menu[3].name}</div>
+        <div className={style["accordion-title"]}>{menu[3].name}</div>
         {activeIndex === 4 && (
           <>
-            <div className="accordion-content">{menu[3].description}</div>
+            <div className={style["accordion-content"]}>{menu[3].description}</div>
             <div>
               {" "}
               <ProgressBar totalTimeInSeconds={totalTimeInSeconds} />
@@ -137,22 +138,22 @@ const Accordion = ({ data }) => {
         )}
       </div>
       <div
-        className="accordion-item5"
+        className={style["accordion-item5"]}
         onClick={() => {
           toggleAccordion(5);
           data(4);
         }}
       >
         <div
-          className="accordion-title"
+          className={style["accordion-title"]}
           style={activeIndex === 5 ? bottomStyle2 : bottomStyle1}
         >
           {menu[4].name}
         </div>
         {activeIndex === 5 && (
           <>
-            <div className="accordion-content">{menu[4].description}</div>
-            <div className="lastprogress">
+            <div className={style["accordion-content"]}>{menu[4].description}</div>
+            <div className={style["lastprogress"]}>
               {" "}
               <ProgressBar totalTimeInSeconds={totalTimeInSeconds} />
             </div>

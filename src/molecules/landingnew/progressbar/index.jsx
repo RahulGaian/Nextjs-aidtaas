@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "./index.css"
+import style from "./index.module.css"
 const ProgressBar = ({ totalTimeInSeconds }) => {
   const [progress, setProgress] = useState(0);
 
@@ -26,8 +26,8 @@ const ProgressBar = ({ totalTimeInSeconds }) => {
   }, [totalTimeInSeconds]);
 
   return (
-    <div className="progress-bar-container">
-      <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+    <div className={style["progress-bar-container"]}>
+      <div className={style["progress-bar"]} style={{ width: `${progress}%` }}></div>
     </div>
   );
 };

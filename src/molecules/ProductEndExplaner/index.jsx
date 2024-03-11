@@ -1,15 +1,15 @@
-import "./index.css";
+import style from "./index.module.css";
 import Button from "../../components/buttons";
 let ProductExp = ({ heading, content, btn, url, open }) => {
   return (
-    <section className="pre">
-      <div className="pre-con">
+    <section className={style.pre}>
+      <div className={style["pre-con"]}>
         <div>
           <div>
-            <h1 className="pre-heading">{heading}</h1>
+            <h1 className={style["pre-heading"]}>{heading}</h1>
           </div>
           <div>
-            <h1 className="pre-content">{content} </h1>
+            <h1 className={style['pre-content']}>{content} </h1>
           </div>
           <div>
             {" "}
@@ -18,7 +18,7 @@ let ProductExp = ({ heading, content, btn, url, open }) => {
               filled={true}
               url={url}
               openInNewTab={open}
-              className="buttonbottom"
+              className={style.buttonbottom}
             ></Button>
           </div>
         </div>

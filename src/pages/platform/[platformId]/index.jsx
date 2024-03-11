@@ -1,8 +1,14 @@
 import PlatformPage from "@/components/platformPage";
+import Layout from "@/pages/Layout";
 import { platformData } from "@/constants/data";
 
 function Platform(props) {
-  return <PlatformPage data={props.data}></PlatformPage>;
+  return (
+
+    <Layout>
+  <PlatformPage data={props.data}></PlatformPage>;
+  </Layout> 
+    )
 }
 
 export async function getStaticPaths(context) {

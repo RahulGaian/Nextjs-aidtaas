@@ -1,15 +1,14 @@
-.featureBoxHeadingplt>h1 {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 52px;
-    line-height: 58px;
-    /* identical to box height, or 85% */
-    background: linear-gradient(90deg, #9919AE -1.56%, #513DD0 51.65%, #CB5EFE 104.86%);
+.featureBoxHeading>h1 {
+       -webkit-text-fill-color: #0000;
+    background: linear-gradient(90deg,#9919ae -1.56%,#513dd0 51.65%,#cb5efe 104.86%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
-    /* text-fill-color: transparent; */
+    font-family: DM Sans;
+    font-size: 40px!important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    text-align: center;
 }
 
 .featureBoxSubHeading {

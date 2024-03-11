@@ -2511,7 +2511,7 @@ const productsData = [
     banner: {
       heading:
         "Impressio: Elevating Employee Engagement: Leveraging Mobius Low Code Tools",
-        description:
+      description:
         "In today's fast-paced business environment, it is more important than ever to keep your workforce engaged and motivated. Engaged employees are more productive, innovative, and loyal to their organizations. To achieve this, companies need to recognize, reward, and highlight their employees' achievements, issues, and activities in real-time.",
       imageUrl: images.ImpressioBanner,
       bookDemoUrl: "",
@@ -2690,7 +2690,7 @@ const productsData = [
     banner: {
       heading:
         "Live Traffic Revolutionizes Traffic Monitoring for NextGenTV Viewers.",
-        description:
+      description:
         "Live Traffic is an innovative, next-generation TV application built on top of Mobius, designed to deliver real-time traffic updates and insights directly to viewers through fullscreen TV apps using ATSC 3.0 spectrum. ",
       imageUrl: images.LiveTrafficBanner,
       bookDemoUrl: "",
@@ -2750,7 +2750,7 @@ const productsData = [
     banner: {
       heading:
         "Live Traffic Revolutionizes Traffic Monitoring for NextGenTV Viewers.",
-        description:
+      description:
         "The Live News App is a next-generation TV application built on top of Mobius as a fullscreen TV app delivered over ATSC 3.0 spectrum, designed to enable NextGenTV broadcasters to offer personalized, hyper-targeted, and rich-media news content to their consumers.",
       imageUrl: images.LiveNewsBanner,
       bookDemoUrl: "",
@@ -3047,7 +3047,7 @@ const productsData = [
     banner: {
       heading:
         "The AmplyFund: Empowering Fundraising for NextGenTV Broadcasters",
-        description:
+      description:
         "The AmplyFund is a next-generation TV application on the Mobius platform, enabling NextGenTV broadcasters to offer fundraising as a service to their local communities. ",
       imageUrl: images.GivingAPPBanner,
       bookDemoUrl: "",
@@ -4288,7 +4288,7 @@ const productsData = [
     banner: {
       heading:
         "OpenFEMA App: Empowering NextGenTV Broadcasters in Crisis Response",
-        description:
+      description:
         "The OpenFEMA App, powered by Mobius DTaaS, revolutionizes emergency management communications for NextGenTV broadcasters. This real-time, multicast delivery app enables rapid deployment during crises, connecting stakeholders and facilitating efficient coordination in times of need.",
       imageUrl: images.OpenFemaBanner,
       bookDemoUrl: "",
@@ -4872,7 +4872,7 @@ const productsData = [
     banner: {
       heading:
         "Revolutionize Your HR Management with a Comprehensive HR Tech Solution",
-        description:
+      description:
         // "Nightingale is a powerful HR Tech SaaS platform that offers end-to-end solutions for efficient workforce management. From recruitment and employee engagement to learning & development, compensation & benefits, and employer branding,",
         "From recruitment and employee engagement to learning & development, compensation and benefits to employee branding, Nightingale is a powerful HR Tech SaaS platform that offers end-to-end solutions for efficient workforce management.",
       imageUrl: images.R1,
@@ -5224,7 +5224,7 @@ const productsData = [
     banner: {
       heading:
         "Transforming Civic Engagement with NextGenTV Broadcast Technologies",
-        description:
+      description:
         "C-Link TV is a groundbreaking SaaS application powered by Mobius DTaaS, designed to revolutionize civic engagement for NextGenTV broadcasters. Leveraging the advanced capabilities of ATSC 3.0 broadcast technologies, the app enables seamless communication between local governments and citizens.",
       imageUrl: images.ce1,
       bookDemoUrl: "",

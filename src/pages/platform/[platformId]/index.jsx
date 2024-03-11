@@ -8,6 +8,7 @@ function Platform(props) {
 export async function getStaticPaths(context) {
   let mappedData = [];
   for (let platData of platformData) {
+    console.log(platData.id, "from get static path");
     mappedData.push({
       params: { platformId: platData.id },
     });
@@ -19,8 +20,11 @@ export async function getStaticPaths(context) {
 }
 export async function getStaticProps(context) {
   const { params } = context;
+  // console.log(params);
   let id = params.platformId;
+  // console.log(id);
   for (let platData of platformData) {
+    // console.log(platData);
     if (platData.id === id) {
       console.log(platData.id);
       return {
@@ -30,6 +34,7 @@ export async function getStaticProps(context) {
       };
     }
   }
+
   console.log(id, "hello there");
   //   return {
   //     props: {

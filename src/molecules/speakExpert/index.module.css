@@ -96,28 +96,33 @@
   .secContainerSP1 {
     padding-left: 8%;
   }
+  .secContentContainerSP > .leftdiv > h1 {
+    width: 75%;
+  }
 }
 
-/* @media only screen and (max-width: 1440px) and (min-width: 1250px) {
+@media only screen and (max-width: 1440px) and (min-width: 1250px) {
   .secContentContainerSP {
     width: 100%;
   }
-} */
+  .secContentContainerSP > .leftdiv > h1 {
+    width: 70%;
+  }
+}
 
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
   .secContentContainerSP {
     width: 100% !important;
-    /* height: 400px; */
   }
-  .secContentContainerSP > .leftdiv > h1 {
+  /* .secContentContainerSP > .leftdiv > h1 {
     color: #1a1a1a;
     font-family: "DM Sans", sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 58px;
-  }
-  .secContentContainerSP > .leftdiv > button {
+  } */
+  /* .secContentContainerSP > .leftdiv > button {
     width: 220px;
     height: 55px;
     border-radius: 10px;
@@ -132,14 +137,20 @@
     font-weight: 500;
     line-height: normal;
     margin-top: 30px;
-  }
+  } */
   .secContainerSP1 > .rightdiv {
-    width: 500px;
-    height: 210px;
-    right: -100px;
+    /* width: 500px;
+    height: 210px; */
+    width: 300px;
+    height: 200px;
+    right: -0%;
+    bottom: -0%;
   }
   .secContainerSP1 > .rightdiv > img {
     object-fit: contain;
+  }
+  .secContentContainerSP > .leftdiv > h1 {
+    width: 75%;
   }
 }
 
@@ -257,6 +268,15 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .secContentContainerSP > .leftdiv > h1 {
+    width: 80%;
+  }
+  .secContentContainerSP > .leftdiv > h5 {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .secContainerSP1 > .secContentContainerSP {
     width: 90%;
@@ -342,5 +362,12 @@
     /* border: 1px solid black; */
     /* top: 2.3rebm;
     */
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .secContainerSP1 > .rightdiv > img {
+    /* width: 225px; */
+    left: 20px;
   }
 }

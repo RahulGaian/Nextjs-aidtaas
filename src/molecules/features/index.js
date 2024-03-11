@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const Features = ({ featureData }) => {
   if (!featureData || featureData.length === 0) {
-    return null; 
+    return null;
   }
   return (
     <div className={styles.featureContainer}>
       <div className={styles.featureBoxHeadingplt}>
-        <h1>{Features && ""}</h1>
+        <h1>Features</h1>
       </div>
 
       <div className={styles.cardsContainer}>

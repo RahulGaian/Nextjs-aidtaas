@@ -1,4 +1,5 @@
 import ProductsNSolutionBanner from "../../molecules/pandsBanner";
+import SolutionPagePS from "../../molecules/problemstatement";
 import QuickJump from "../../molecules/quickJumpSolution";
 import SolutionPageCapabilities from "../../molecules/capabilities";
 import AppSwiper from "../../molecules/appSwiper";
@@ -13,6 +14,9 @@ const SolutionsTemplate = ({data}) => {
       </section>
       <section>
         <QuickJump />
+      </section>
+      <section>
+        <SolutionPagePS problemData={data.problemStatement}/>
       </section>
       <section>
         <SolutionPageCapabilities data={data.capabilities} />

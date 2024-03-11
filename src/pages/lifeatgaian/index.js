@@ -1,6 +1,6 @@
 import st from "./index.module.css";
 import Link from "next/link";
-import NewsLetter from "../../molecules/newsletter";
+// import NewsLetter from "../../molecules/newsletter";
 
 const Blogmain = () => {
   return (
@@ -61,7 +61,7 @@ const Blogmain = () => {
           </div>
         </div>
       </div>
-      <NewsLetter/>
+      {/* <NewsLetter/> */}
     </div>
   );
 };

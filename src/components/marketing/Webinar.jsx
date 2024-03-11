@@ -113,71 +113,71 @@
             
          
          
-        {submit? 
-            <div className={st.rightcolumn} >
-                <div className={st["middleimage"]}>
-                <img src={images2.webinarimage} className={st.webinarimage} alt='backgroundimage'/>
-</div>
-                <div className="form-container">
-                    <form className={st.form} onSubmit={handleSubmit}>
-                        <div className={st["c5"]} >
-                            Join Our Webinar
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="First Name"  className="form-label" >Full Name*</label><br />
-                            <input className="form-control" name="first" required />
-                        </div>
+//         {submit? 
+//             <div className={st.rightcolumn} >
+//                 <div className={st["middleimage"]}>
+//                 <img src={images2.webinarimage} className={st.webinarimage} alt='backgroundimage'/>
+// </div>
+//                 <div className="form-container">
+//                     <form className={st.form} onSubmit={handleSubmit}>
+//                         <div className={st["c5"]} >
+//                             Join Our Webinar
+//                         </div>
+//                         <div className="form-group">
+//                             <label htmlFor="First Name"  className="form-label" >Full Name*</label><br />
+//                             <input className="form-control" name="first" required />
+//                         </div>
          
-                        <div className="space"></div>
-                        <div className="form-group">
-                            <label htmlFor="Business Email" className="form-label" >Business Email*</label><br />
-                            <input className="form-control" type='email' name="email" required />
-                        </div>
-                        <div className="space"></div>
-                        <div className="form-group">
-                            <label htmlFor="Phone" className="form-label" >Phone</label><br />
-                            <input className="form-control" name="Phone"  />
-                        </div>
+//                         <div className="space"></div>
+//                         <div className="form-group">
+//                             <label htmlFor="Business Email" className="form-label" >Business Email*</label><br />
+//                             <input className="form-control" type='email' name="email" required />
+//                         </div>
+//                         <div className="space"></div>
+//                         <div className="form-group">
+//                             <label htmlFor="Phone" className="form-label" >Phone</label><br />
+//                             <input className="form-control" name="Phone"  />
+//                         </div>
                   
                         
-                        <div className="space"></div>
-                        <div className="form-group">
-                            <label htmlFor="Job Title" className="form-label">Job Title</label><br />
-                            <input className="form-control" name="Job" />
-                        </div>
+//                         <div className="space"></div>
+//                         <div className="form-group">
+//                             <label htmlFor="Job Title" className="form-label">Job Title</label><br />
+//                             <input className="form-control" name="Job" />
+//                         </div>
                  
-                        <div className="space"></div>
+//                         <div className="space"></div>
 
-                        <div className="form-group">
-                            <label htmlFor="Company Name" className="form-label">Company Name *</label><br />
-                            <input className="form-control" name="Company" required />
-                        </div>
+//                         <div className="form-group">
+//                             <label htmlFor="Company Name" className="form-label">Company Name *</label><br />
+//                             <input className="form-control" name="Company" required />
+//                         </div>
                   
-                        <div claright-ssName="space"></div>
+//                         <div claright-ssName="space"></div>
 
-                        <div className="form-group">
-                            <button className={st.btnregister }>Register Now</button>
-                        </div>
-                        <div className={st.dt}></div>
-                        <div className={st.dtext}>
-                            <small>By submitting this form, I confirm that I have read and agree to the Privacy Statement & Terms and Conditions</small>
-                        </div>
-                    </form>
-                </div>
-            </div>:
-            <div className={st.rightcolumn}>
-                         <div className={st["middleimage"]}>
-                         <img src={images2.webinarimage} className={st.webinarimage}   alt='backgroundimage'/>
-            </div>
-                    <div className={st["form-container1"]}>
+//                         <div className="form-group">
+//                             <button className={st.btnregister }>Register Now</button>
+//                         </div>
+//                         <div className={st.dt}></div>
+//                         <div className={st.dtext}>
+//                             <small>By submitting this form, I confirm that I have read and agree to the Privacy Statement & Terms and Conditions</small>
+//                         </div>
+//                     </form>
+//                 </div>
+//             </div>:
+//             <div className={st.rightcolumn}>
+//                          <div className={st["middleimage"]}>
+//                          <img src={images2.webinarimage} className={st.webinarimage}   alt='backgroundimage'/>
+//             </div>
+//                     <div className={st["form-container1"]}>
 
-                            <Img src={"/images/Group.png"} alt="" />
-                            <br />
-                            <p>Thank you for choosing Mobius. Our Platform Team will get in touch to get you started.</p>
-                            <RedirectTimer></RedirectTimer>
-                    </div>
-            </div>
-}
+//                             <Img src={"/images/Group.png"} alt="" />
+//                             <br />
+//                             <p>Thank you for choosing Mobius. Our Platform Team will get in touch to get you started.</p>
+//                             <RedirectTimer></RedirectTimer>
+//                     </div>
+//             </div>
+// }
         
 //         </div>
 //     </div >
@@ -186,3 +186,13 @@
 // }
 
 // export default Webinar;
+
+
+
+const Webinar = () => {
+  return (
+    <div>Webinar</div>
+  )
+}
+
+export default Webinar

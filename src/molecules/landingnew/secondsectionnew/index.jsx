@@ -1,3 +1,5 @@
+
+import dynamic from "next/dynamic";
 import TextandImage from "../../textAndImage";
 import Security from "../../Security";
 import ProductExp from "../../ProductEndExplaner";
@@ -6,7 +8,11 @@ import DigitalMenu2 from "../../digitalmenu2";
 import Panelcomponent from "../panelcontainer";
 import Prebuilt from "../prebuiltcomponent";
 import AndroidApps from "../../AndroidAppsSwiper";
-import AppSwiper from "../../appSwiper";
+
+const DynamicAndroidApps = dynamic(() =>
+  import("../../appSwiper",{ssr:false,suspense:true})
+)
+import { Suspense } from "react";
 const Section2 = () => {
   const changeRoute = (Route) => {
     window.location.href = Route;
@@ -51,7 +57,9 @@ const Section2 = () => {
           <AndroidApps></AndroidApps>
         </section>
         <section>
-          <AppSwiper></AppSwiper>
+          <Suspense >
+                <DynamicAndroidApps></DynamicAndroidApps>
+            </Suspense> 
         </section>
         <section>
           {/* <Security

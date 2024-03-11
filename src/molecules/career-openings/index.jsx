@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 // import images from "../../constants/images";
 // import Pagination from 'react-bootstrap/Pagination';

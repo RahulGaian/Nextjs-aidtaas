@@ -85,6 +85,10 @@
   cursor: pointer;
 }
 
+.psContentContainer > .rightcont button:hover{
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1800px) and (min-width: 1441px) {
   .psContentContainer {
     width: 1420px;

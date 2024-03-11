@@ -14,7 +14,7 @@
   padding-top: 0;
 }
 
-@media screen and (max-width: 768px)and (min-width: 661px) {
+@media screen and (max-width: 768px) and (min-width: 661px) {
   .hack {
     text-align: center;
     vertical-align: middle;
@@ -25,7 +25,6 @@
   /* #swiperId {
     height: 53px;
   } */
-
 }
 
 @media screen and (max-width: 559px) and (min-width: 480px) {

@@ -7,7 +7,7 @@ import "./index.css";
 import { database2, imgstorage } from "../firebase-config";
 import { push, ref as ref2 } from "firebase/database";
 import { getDownloadURL, uploadBytes, ref } from "firebase/storage";
-import RedirectTimer from "../../../../marketing/RedirectionTimer";
+// import RedirectTimer from "../../../../marketing/RedirectionTimer";
 
 const Popup = ({ isOpen, onClose, alerting, setalerting }) => {
   // const storage = getStorage(database2);
@@ -317,10 +317,7 @@ const Popup = ({ isOpen, onClose, alerting, setalerting }) => {
               <br />
               Our team will get in touch to get you started.
             </div>
-            <div>
-              <RedirectTimer></RedirectTimer>
-
-            </div>
+            <div>{/* <RedirectTimer></RedirectTimer> */}</div>
             {/* <div><RedirectTimer></RedirectTimer></div> */}
           </div>
         </div>

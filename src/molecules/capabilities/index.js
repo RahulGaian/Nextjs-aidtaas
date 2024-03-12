@@ -11,7 +11,12 @@ const SolutionPageCapabilities = ({ data }) => {
           {data.map((item, index) => (
             <div key={index}>
               <div>
-                <Image src={item.imageUrl} alt="cimage" width={0} height={0} />
+                <Image
+                  src={item.imageUrl}
+                  alt="cimage"
+                  width={100}
+                  height={100}
+                />
               </div>
               <div>
                 <h2>{item.heading}</h2>

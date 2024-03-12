@@ -1,5 +1,4 @@
 import React from "react";
-// import Img from "../../components/Image";
 import Image from "next/image";
 
 import st from "./index.module.css";
@@ -17,7 +16,6 @@ const Vision = () => {
         <div className={st.bg_blue_color_1}>
           <div className={"mt-24 " + st.main}>
             <Image
-              // src={"images/vision/1.png"}
               src={"images/vision/vision_banner.png"}
               style={{
                 width: "90vw",

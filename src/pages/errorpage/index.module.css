@@ -1,0 +1,275 @@
+.errorpage {
+  background: linear-gradient(109deg, #d2f3ff 0%, #ffe3e3 100%);
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.errorpagecontainer {
+  width: 100%;
+  height: 100vh;
+  /* height: 200px; */
+  /* padding-top: 50px; */
+  /* height: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.errorpageimgcont {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+.errorpagetextcontainer {
+  width: 1700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorpagetext {
+  width: 354.667px;
+  /* height: 154px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: Lorin;
+  font-size: 122.617px;
+  font-style: normal;
+  font-weight: 800;
+  /* line-height: 52.858px; */
+  letter-spacing: -2.452px;
+  /* margin-top: 30px; */
+}
+
+.errorpagetext > span:first-child {
+  background: linear-gradient(
+    90deg,
+    #ff00ef 2.54%,
+    #a237f6 46.02%,
+    #3300c2 94.28%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 800;
+  /* line-height: 52.858px; */
+  /* line-height: 70px; */
+  letter-spacing: -0.936px;
+  /* margin-bottom: 3%; */
+}
+
+.errorpagetext > span:last-child {
+  background: linear-gradient(
+    90deg,
+    #ff00ef 2.54%,
+    #a237f6 46.02%,
+    #3300c2 94.28%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Lorin;
+  font-size: 46.783px;
+  font-style: normal;
+  font-weight: 800;
+  /* line-height: 52.858px; */
+  letter-spacing: -0.936px;
+}
+
+.errorpagebtncont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 10px;
+}
+
+.errorpagebtn {
+  width: 253px;
+  height: 63px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #ad00a2;
+  /* margin-top: 6px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ad00a2;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.errorpagebtn:hover {
+  background-color: #ad00a2;
+  color: white;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1500px) {
+  .errorpageimgcont {
+    width: 1420px;
+  }
+  .errorpagetextcontainer {
+    width: 1420px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
+  .errorpageimgcont {
+    /* width: 1200px; */
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+  }
+  .errorpagetextcontainer {
+    width: 1200px;
+  }
+  .errorpagebtncont {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .errorpageimgcont {
+    /* width: 950px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .errorpagetextcontainer {
+    width: 950px;
+  }
+  .errorpagebtncont {
+    width: 950px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 768px) {
+  .errorpageimgcont {
+    width: 90%;
+    /* width: 100%; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .errorpageimg {
+    width: 100% !important ;
+    /* width: 90%; */
+  }
+  .errorpagetextcontainer {
+    width: 90%;
+  }
+  .errorpagetext > span:first-child {
+    font-size: 52px;
+  }
+
+  .errorpagetext > span:last-child {
+    font-size: 38px;
+  }
+  .errorpagebtncont {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .errorpagebtn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+  .errorpagecontainer {
+    height: 600px;
+  }
+  .errorpageimgcont {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .errorpageimg {
+    width: 90%;
+    /* object-fit: fill; */
+  }
+  .errorpagetextcontainer {
+    width: 100%;
+  }
+
+  .errorpagetext > span:first-child {
+    font-size: 45px;
+  }
+
+  .errorpagetext > span:last-child {
+    font-size: 30px;
+  }
+
+  .errorpagebtncont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .errorpagebtn {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 320px) {
+  .errorpagecontainer {
+    height: 400px;
+  }
+  .errorpageimgcont {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .errorpageimg {
+    width: 90%;
+    object-fit: fill;
+  }
+  .errorpagetextcontainer {
+    width: 100%;
+  }
+
+  .errorpagetext > span:first-child {
+    font-size: 45px;
+  }
+
+  .errorpagetext > span:last-child {
+    font-size: 30px;
+  }
+
+  .errorpagebtncont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .errorpagebtn {
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+  }
+}

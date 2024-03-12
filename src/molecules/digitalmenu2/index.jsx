@@ -114,7 +114,7 @@ function DigitalMenu2(index = 0) {
                   </div>
                       
                       <div className={Style.cont2section2}>
-                          <div><Img fill src={menu[digital].image} ></Img></div>
+                          <div><Img priority fill src={menu[digital].image} ></Img></div>
                       </div>             
                 </div>
             </div>

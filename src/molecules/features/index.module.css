@@ -400,7 +400,8 @@
 
 @media screen and (max-width: 780px) {
   .featureContainer {
-    padding: 5rem 2rem 0rem 2rem;
+    /* padding: 5rem 2rem 0rem 2rem; */
+    padding-top: 5rem;
   }
 
   .featureBoxDescription {
@@ -513,7 +514,8 @@
 }
 @media screen and (max-width: 480px) {
   .featureContainer {
-    padding: 5rem 1rem 0rem 1rem;
+    /* padding: 5rem 1rem 0rem 1rem; */
+    padding-top: 5rem;
   }
 
   .featureBoxHeading {

@@ -19,7 +19,7 @@ let Overview = () => {
               {/* <Img src={"/images/overview/2.png"} className={Style.imagefolder} style={{position:"absolute",right:0,zIndex:0}}></Img> */}
               <div className={Style.contentsmain}>
                 <Image
-                  src={"./images/overview/2.png"}
+                  src={"/images/overview/2.png"}
                   className={Style.imagefolder}
                   fill
                 ></Image>

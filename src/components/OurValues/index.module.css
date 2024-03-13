@@ -43,6 +43,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 5% 0;
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1500px) {

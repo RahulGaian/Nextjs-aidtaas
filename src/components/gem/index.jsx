@@ -22,14 +22,19 @@ const Gem = () => {
           <div className={st.emp}>
             <div className={st.empleft}>
               <div id={st.bimg}>
-                <Image src="./images/eom/tulika.png" width={0} height={0} />
+                <Image src="/images/eom/tulika.png" width={400} height={400} />
               </div>
               <span id={st.name}>Tulika Pandey</span>
               <span id={st.design}>Lead UX Designer</span>
             </div>
             <div className={st.empRight}>
               <div className={st.mang}>
-                <Image src="./images/eom/kl.png" alt="" width={0} height={0} />
+                <Image
+                  src="/images/eom/kl.png"
+                  alt=""
+                  width={400}
+                  height={400}
+                />
                 <div className={st.indiv}>
                   <span id={st.mangName}>K L Das</span>
                   <span id={st.mangMsg}>
@@ -40,10 +45,10 @@ const Gem = () => {
               </div>
               <div className={st.mang}>
                 <Image
-                  src="./images/eom/guru.png"
+                  src="/images/eom/guru.png"
                   alt=""
-                  width={0}
-                  height={0}
+                  width={400}
+                  height={400}
                 />
                 <div className={st.indiv}>
                   <span id={st.mangName}>Gurpreet Gandhi</span>

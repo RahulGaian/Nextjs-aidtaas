@@ -80,12 +80,12 @@ let Careers = () => {
         <div className={styles.topcomponent}>
           <div className={styles.topcomponentmain}>
             <div className={styles.topcomponent_1}>
-              {/* <img src={images.Careerpageimage1} className="topcomponentimage" alt="careerimg1"/> */}
+              {/* <img src={i/ages.Careerpageimage1} className="topcomponentimage" alt="careerimg1"/> */}
               <Image
                 src={"/imagesnew/Career/topcomponentimage1.png"}
                 className={styles.topcomponentimage}
-                width={100}
-                height={100}
+                width={500}
+                height={500}
               />
             </div>
             <div className={styles.topcomponent_2}>
@@ -143,24 +143,24 @@ let Careers = () => {
                   <Image
                     src={"/imagesnew/Career/slider_images/slide1img1.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className={styles.corouselimgesdiv}>
                   <Image
                     src={"/imagesnew/Career/slider_images/slide1img2.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className={styles.corouselimgesdiv}>
                   <Image
                     src={"/imagesnew/Career/slider_images/slide1img3.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
               </Carousel>
@@ -180,24 +180,24 @@ let Careers = () => {
                   <Image
                     src={"/imagesnew/Career/slider_images/slide2img1.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className={styles.corouselimgesdiv}>
                   <Image
                     src={"/imagesnew/Career/slider_images/slide2img2.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className={styles.corouselimgesdiv}>
                   <Image
                     src={"/imagesnew/Career/slider_images/slide2img3.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
               </Carousel>
@@ -217,24 +217,24 @@ let Careers = () => {
                   <Image
                     src={"/imagesnew/Career/slider_images/slide3img1.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className={styles.corouselimgesdiv}>
                   <Image
                     src={"/imagesnew/Career/slider_images/slide3img2.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
                 <div className={styles.corouselimgesdiv}>
                   <Image
                     src={"/imagesnew/Career/slider_images/slide3img3.png"}
                     className={styles.corouselimges}
-                    width={0}
-                    height={0}
+                    width={500}
+                    height={500}
                   />
                 </div>
               </Carousel>
@@ -263,8 +263,8 @@ let Careers = () => {
             <div className={styles.benContainer}>
               <div id="bc1" className={styles.bencont}>
                 <Image
-                  // src={require("./images/User Multiple Female Group.png")}
-                  src={"./imagesnew/Career/ben1.png"}
+                  // src={r/quire("./images/User Multiple Female Group.png")}
+                  src={"/imagesnew/Career/ben1.png"}
                   alt="Benefits Image"
                   width={100}
                   height={100}
@@ -273,7 +273,7 @@ let Careers = () => {
               </div>
               <div id="bc2" className={styles.bencont}>
                 <Image
-                  src={"./imagesnew/Career/ben2.png"}
+                  src={"/imagesnew/Career/ben2.png"}
                   alt="Benefits Image"
                   width={100}
                   height={100}
@@ -282,7 +282,7 @@ let Careers = () => {
               </div>
               <div id="bc3" className={styles.bencont}>
                 <Image
-                  src={"./imagesnew/Career/ben3.png"}
+                  src={"/imagesnew/Career/ben3.png"}
                   alt="Benefits Image"
                   width={100}
                   height={100}
@@ -291,7 +291,7 @@ let Careers = () => {
               </div>
               <div id="bc4" className={styles.bencont}>
                 <Image
-                  src={"./imagesnew/Career/ben4.png"}
+                  src={"/imagesnew/Career/ben4.png"}
                   alt="Benefits Image"
                   width={100}
                   height={100}
@@ -300,7 +300,7 @@ let Careers = () => {
               </div>
               <div id="bc5" className={styles.bencont}>
                 <Image
-                  src={"./imagesnew/Career/ben5.png"}
+                  src={"/imagesnew/Career/ben5.png"}
                   alt="Benefits Image"
                   width={100}
                   height={100}
@@ -309,7 +309,7 @@ let Careers = () => {
               </div>
               <div id="bc6" className={styles.bencont}>
                 <Image
-                  src={"./imagesnew/Career/ben6.png"}
+                  src={"/imagesnew/Career/ben6.png"}
                   alt="Benefits Image"
                   width={100}
                   height={100}

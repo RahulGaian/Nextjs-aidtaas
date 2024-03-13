@@ -116,13 +116,14 @@
   position: relative;
   /* top: -8rem; */
   height: 550px;
-  margin-right: 10%;
+  /* margin-right: 10%; */
   object-fit: contain;
 }
 
 
 /* .bannerContentImageForPI,
 .bannerContentImageForBoB {
+  border: 2px solid blue;
   width: 40%;
   margin-top: -10rem;
 } */
@@ -241,7 +242,7 @@
     width: 100%;
   }
   .rightCont {
-    display: none;
+    display: none !important;
   }
   .leftCont > h2 {
     font-size: 36px;

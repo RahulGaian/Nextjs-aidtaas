@@ -1,15 +1,15 @@
 import style from "./index.module.css"
-const SecondHeading = ({heading,subheading,description}) => {
+const SecondHeading = ({data}) => {
   return (
     <>
       <div className={style.featureBoxHeading}>
-        <h1>{heading}</h1>
+        <h1>{data.heading}</h1>
       </div>
       <div className={style.featureBoxSubHeading}>
-        <p>{subheading}</p>
+        <p>{data.subheading}</p>
       </div>
       <div className={style.featureBoxDescription}>
-        <p>{description}</p>
+        <p>{data.description}</p>
       </div>
     </>
   );

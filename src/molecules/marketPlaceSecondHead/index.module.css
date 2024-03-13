@@ -1,50 +1,54 @@
-.featureBoxHeading>h1 {
-       -webkit-text-fill-color: #0000;
-    background: linear-gradient(90deg,#9919ae -1.56%,#513dd0 51.65%,#cb5efe 104.86%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-family: DM Sans;
-    font-size: 40px!important;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 58px;
-    text-align: center;
+.featureBoxHeading > h1 {
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(
+    90deg,
+    #9919ae -1.56%,
+    #513dd0 51.65%,
+    #cb5efe 104.86%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: DM Sans;
+  font-size: 40px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 2%;
 }
 
 .featureBoxSubHeading {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    text-align: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.featureBoxSubHeading>p {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 58px;
-    color: #9919AE;
+.featureBoxSubHeading > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+  color: #9919ae;
 }
 
 .featureBoxDescription {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.featureBoxDescription>p {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+.featureBoxDescription > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }

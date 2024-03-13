@@ -1,15 +1,20 @@
 import React from "react";
-import { marketplaceData } from "../../constants/data";
+// import { marketplaceData } from "../../constants/data";
 import MarketPlaceBanner from "../../molecules/marketplaceBanner";
 import Features from "../../molecules/features";
 import AppSwiper from "../../molecules/appSwiper";
 import MarketPlaceDesc from "../../molecules/marketplaceDesc";
+import SecondHeading from "../../molecules/marketPlaceSecondHead";
 
 const MarketPlacePage = ({ data }) => {
   return (
     <div>
       <section>
         <MarketPlaceBanner bannerData={data.banner} />
+      </section>
+
+      <section>
+      <SecondHeading  data={data.marketPlaceDescription}/>
       </section>
 
       <section>

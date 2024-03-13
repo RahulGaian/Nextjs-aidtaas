@@ -16,14 +16,12 @@ const MarketPlacePage = ({ data }) => {
         <Features
           // featureData={marketplaceData[0].marketPlaceDescription.details}
           featureData={data.marketPlaceDescription.details}
-
         />
       </section>
 
       <section>
         {/* <MarketPlaceDesc appDescription={marketplaceData[0].description} /> */}
         <MarketPlaceDesc appDescription={data.description} />
-
       </section>
 
       <section>

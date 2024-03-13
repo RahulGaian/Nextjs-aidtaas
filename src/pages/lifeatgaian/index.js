@@ -1,6 +1,6 @@
 import st from "./index.module.css";
 import Link from "next/link";
-// import NewsLetter from "../../molecules/newsletter";
+import NewsLetter from "../../molecules/newsletter";
 
 const Blogmain = () => {
   return (
@@ -20,48 +20,48 @@ const Blogmain = () => {
               </Link>
             </div>
             <div className={st.rightdiv}>
-            <Link href={"/comingsoon"} id={st.link}>
-              <div className={st.blogtitle}>
-                <span>Future-Proof Your Organization : </span>
-                <span>
-                  Cultivating a Culture of Learning and Innovation in the Age of
-                  AI
-                </span>
-              </div>
-            </Link>
+              <Link href={"/comingsoon"} id={st.link}>
+                <div className={st.blogtitle}>
+                  <span>Future-Proof Your Organization : </span>
+                  <span>
+                    Cultivating a Culture of Learning and Innovation in the Age
+                    of AI
+                  </span>
+                </div>
+              </Link>
             </div>
           </div>
           <div className={st.sdiv}>
             <div className={st.ldiv}>
               <div className={st.ldivfdiv}>
-              <Link href={"/comingsoon"} id={st.link}>
-                <div className={st.blogtitle}>
-                  <span>Building a More Inclusive Digital World : </span>
-                  <span>The Role of Universal Design</span>
-                </div>
+                <Link href={"/comingsoon"} id={st.link}>
+                  <div className={st.blogtitle}>
+                    <span>Building a More Inclusive Digital World : </span>
+                    <span>The Role of Universal Design</span>
+                  </div>
                 </Link>
               </div>
               <div className={st.ldivsdiv}>
-              <Link href={"/comingsoon"} id={st.link}>
-                <div className={st.blogtitle}>
-                  <span>Behind the Scenes at Mobius</span>
-                </div>
-              </Link>
+                <Link href={"/comingsoon"} id={st.link}>
+                  <div className={st.blogtitle}>
+                    <span>Behind the Scenes at Mobius</span>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className={st.rdiv}>
-            <Link href={"/comingsoon"} id={st.link}>
-              <div className={st.blogtitleb}>
-                <span>
-                  How AI Is Revolutionizing the broadcast industry in the USA
-                </span>
-              </div>
-            </Link>
+              <Link href={"/comingsoon"} id={st.link}>
+                <div className={st.blogtitleb}>
+                  <span>
+                    How AI Is Revolutionizing the broadcast industry in the USA
+                  </span>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-      {/* <NewsLetter/> */}
+      <NewsLetter />
     </div>
   );
 };

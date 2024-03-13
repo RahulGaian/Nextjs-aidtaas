@@ -5,7 +5,8 @@ import "./index.css";
 import Img from "../../Image";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
-import { Jobopeningsdata as data } from "../../../pages/career-openings/jobopenings_dataHr";
+// import { Jobopeningsdata as data } from "../../../pages/career-openings/jobopenings_dataHr";
+import { Jobopeningsdata as data } from "../../../components/career-openings/jobopenings_dataHr";
 // import {fetchJobOpenings}  from './../../../Redux/Jobopeningsdata'
 function Jobopenings() {
   const ChangeRoute = (Route) => {

@@ -16,7 +16,8 @@ const Vision = () => {
         <div className={st.bg_blue_color_1}>
           <div className={"mt-24 " + st.main}>
             <Image
-              src={"images/vision/vision_banner.png"}
+              // src={"images/vision/1.png"}
+              src={"/images/vision/vision_banner.png"}
               style={{
                 width: "90vw",
                 display: "flex",
@@ -24,15 +25,15 @@ const Vision = () => {
                 borderRadius: "30px",
               }}
               className={st.firstImg}
-              width={0}
-              height={0}
+              width={500}
+              height={500}
             ></Image>
             <Image
-              src={"images/vision/2.png"}
+              src={"/images/vision/2.png"}
               style={{ width: "90vw", margin: "0 auto", borderRadius: "30px" }}
               className={st.img2}
-              width={0}
-              height={0}
+              width={500}
+              height={500}
             ></Image>
 
             <h1 className={st.text1}>Our Mission, Vision and Values</h1>
@@ -44,7 +45,7 @@ const Vision = () => {
               <h1 className={st.mobius}>Mobius</h1>
             </div>
             <Image
-              src={"images/vision/4.png"}
+              src={"/images/vision/4.png"}
               className={st.img4}
               width={400}
               height={300}
@@ -76,7 +77,7 @@ const Vision = () => {
                     <div className={st.missonImage}>
                       {" "}
                       <Image
-                        src={"images/vision/6.png"}
+                        src={"/images/vision/6.png"}
                         width={300}
                         height={300}
                       ></Image>
@@ -94,7 +95,7 @@ const Vision = () => {
                   <div className={st.mission1}>
                     <div className={st.missonImage}>
                       <Image
-                        src={"images/vision/5.png"}
+                        src={"/images/vision/5.png"}
                         width={300}
                         height={300}
                       ></Image>

@@ -1,13 +1,14 @@
 "use client";
+import { useState } from "react";
 import st from "./index.module.css";
 import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 import { getDatabase, ref as dbRef, push, set } from "firebase/database";
 
 const NewsLetter = () => {
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
-  const [sent, setSent] = React.useState(false);
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [sent, setSent] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();

@@ -6,6 +6,7 @@
   background: linear-gradient(108.56deg, #bfeeff, #ffe6f7 56.93%, #ffe6e6);
   border-radius: 0 0 60px 60px;
   box-shadow: 0 10px 30px #0000004d;
+  margin: 3% 0;
 }
 
 .contentContainer {
@@ -19,7 +20,7 @@
 }
 
 .contentContainer > h1 {
-  width: 100%;
+  width: 70%;
   font-family: "DM Sans";
   font-size: 130px;
   font-weight: 700;
@@ -138,6 +139,7 @@
     padding-top: 100px;
   }
   .contentContainer > h1 {
+    width: 80%;
     bottom: -8%;
     z-index: 100;
   }

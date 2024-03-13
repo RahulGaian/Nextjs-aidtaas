@@ -25,7 +25,7 @@ const PlatformBanner = ({ bannerData }) => {
             </Link>
           </div>
           <div className={st.rightCont}>
-          {/* <div className={st.classname ? st.classname : "rightCont"}> */}
+          {/* <div className={bannerData.classname ? bannerData.classname : st.rightCont}> */}
             <Image
               src={bannerData.imageUrl}
               alt="Banner"

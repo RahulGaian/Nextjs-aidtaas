@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import Popup from './popup';
+import React, { useState } from "react";
+import Popup from "./popup";
 
 const Resume = (props) => {
- const buttondata=props.buttondata
+  const buttondata = props.buttondata;
   const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const[alerting,setalerting]=useState(false)
-//   const [userData, setUserData] = useState(null);
+  const [alerting, setalerting] = useState(false);
+  //   const [userData, setUserData] = useState(null);
 
   const openPopup = () => {
     setIsPopupOpen(true);
@@ -13,16 +13,19 @@ const Resume = (props) => {
 
   const closePopup = () => {
     setIsPopupOpen(false);
-    setalerting(false)
+    setalerting(false);
   };
-
-
 
   return (
     <div>
       <button onClick={openPopup}>{buttondata}</button>
-      <Popup isOpen={isPopupOpen} onClose={closePopup} alerting={alerting} setalerting={setalerting}/>
-{/* 
+      <Popup
+        isOpen={isPopupOpen}
+        onClose={closePopup}
+        alerting={alerting}
+        setalerting={setalerting}
+      />
+      {/* 
       {userData && (
         <div>
           <h2>User Data:</h2>

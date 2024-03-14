@@ -1,15 +1,10 @@
-import Landingpagenew from "@/molecules/landingnew"
-import Layout from "./Layout"
+import Landingpagenew from "@/molecules/landingnew";
 const Landing = () => {
   return (
-    <Layout>
-
     <section>
-
-        <Landingpagenew></Landingpagenew>
+      <Landingpagenew></Landingpagenew>
     </section>
-    </Layout>
-  )
-}
+  );
+};
 
-export default Landing
+export default Landing;

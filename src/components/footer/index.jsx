@@ -138,22 +138,22 @@ const Footer = () => {
           <nav>
             {/* <ul className="flex flex-row justify-center items-center"> */}
             <ul className={Style.icons}>
-              <li className={Style.mx - 4}>
+              <li className={Style.mx}>
                 <a href="https://www.linkedin.com/company/14438464/">
                   <img src={images.linkedin} alt="Linkedin Icon" />
                 </a>
               </li>
-              <li className={Style.mx - 4}>
+              <li className={Style.mx}>
                 <a href="https://www.instagram.com/gaiansolutions/">
                   <img src={images.Instagram} alt="Instagram Icon" />
                 </a>
               </li>
-              <li className={Style.mx - 4}>
+              <li className={Style.mx}>
                 <a href="https://twitter.com/Gaian_Solutions">
                   <img src={images.Twitter} alt="Twitter Icon" />
                 </a>
               </li>
-              <li className={Style.mx - 4}>
+              <li className={Style.mx}>
                 <a href="https://www.youtube.com/@Gaiansolutions">
                   <img src={images.Youtube} alt="Facebook Icon" />
                 </a>

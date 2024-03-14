@@ -17,7 +17,6 @@ let SingleApp2 = ({image,heading,content,Route}) => {
           <div className={style.contentcontainer}>
               <div className={style.content1}>
                  <p>
-                  
                      {content}
                   </p>
               </div>

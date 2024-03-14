@@ -100,7 +100,7 @@ function Header() {
                   router2.push("/");
                 }}
               >
-                <Img src={"/imagesnew/brand-logo.svg"} width={50} height={50} />
+                <Img src={"/imagesnew/brand-logo.svg"} width={50} height={50} priority />
               </div>
 
               <div className={!isOpen ? Style.marginfixer1 : Style.marginfixer}>

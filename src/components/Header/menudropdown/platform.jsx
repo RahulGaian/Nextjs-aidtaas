@@ -6,8 +6,10 @@ import Style2 from "./menu2.module.css"
 import Img from "../../Image"
 import images from "../../../constants/images";
 
+import { useRouter } from "next/router";
 function Platform(props) {
     const data = props.data
+      const router = useRouter()
     const setplatform=props.setplatform
     console.log(data)
     const [data3, setdata3] = useState([]);
@@ -17,7 +19,8 @@ function Platform(props) {
 
     // console.log(data[0].menuItems[0].list[0].article.coverImage) 
     const changeRoute = (Route) => {
-        window.location.href = Route;
+        // window.location.href = Route;
+        router.push(Route)
     }
     return (
         <>

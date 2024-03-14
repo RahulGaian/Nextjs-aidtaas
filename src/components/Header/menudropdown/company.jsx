@@ -4,6 +4,7 @@ import Style from "./menu.module.css";
 import Style2 from "./menu2.module.css";
 import Img from "../../Image";
 import images from "../../../constants/images";
+import { useRouter } from "next/router";
 
 function Company(props) {
   const data = props.data;
@@ -16,8 +17,10 @@ function Company(props) {
   const [data3, setdata3] = useState([]);
   const [cont3, setcont3] = useState(false);
   const [data2, setdata2] = useState(data[0].menuItems[0].list[0].subitems);
+      const router = useRouter()
   const changeRoute = (Route) => {
-    window.location.href = Route;
+    // window.location.href = Route;
+    router.push(Route);
   };
   return (
     <>

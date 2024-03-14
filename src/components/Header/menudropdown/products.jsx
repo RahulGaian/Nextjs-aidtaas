@@ -6,7 +6,9 @@ import { useState } from "react"
 import Img from "../../Image"
 import images from "../../../constants/images"
 
+import { useRouter } from "next/router"
 function Products(props){
+      const router = useRouter()
     const data=props.data;
     const setproducts=props.setproducts;
     const [url,setUrl] = useState("");
@@ -18,7 +20,9 @@ function Products(props){
     const [isdata4,setisdata4]=useState(false);
    
     const changeRoute=(Route)=>{
-        window.location.href = Route;
+        // window.location.href = Route;
+        
+        router.push(Route)
      }
     return(
         <>

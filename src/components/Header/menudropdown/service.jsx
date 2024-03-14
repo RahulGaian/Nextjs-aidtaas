@@ -4,8 +4,9 @@ import Style from "./menu.module.css"
 // import { FiArrowRight } from 'react-icons/fi';
 import Img from "../../Image"
 import images from "../../../constants/images";
-
+import { useRouter } from "next/router";
 function Services(props) {
+      const router = useRouter()
   const data = props.data;
   const setservice=props.setservice;
   // const [visible, setvisible] = useState(true)
@@ -16,8 +17,8 @@ function Services(props) {
   const [data2, setdata2] = useState(data[0].menuItems[0].list[0].subitems)
   console.log(data2)
   const changeRoute = (Route) => {
-    window.location.href = Route;
-
+    // window.location.href = Route;
+      router.push(Route)
   }
   return (
     <>

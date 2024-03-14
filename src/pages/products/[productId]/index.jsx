@@ -3,12 +3,11 @@ import Layout from "@/pages/Layout";
 import { productsData } from "@/constants/data";
 
 function Product(props) {
-  return(
+  return (
     <Layout>
-
-    <ProductPage data={props.data}></ProductPage>;
+      <ProductPage data={props.data}></ProductPage>;
     </Layout>
-  ) 
+  );
 }
 
 export async function getStaticPaths(context) {

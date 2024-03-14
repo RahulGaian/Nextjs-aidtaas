@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Style from "./header.module.css";
 import { useState, useEffect } from "react";
 import Platform from "./menudropdown/platform";
@@ -7,12 +7,11 @@ import Solutions from "./menudropdown/solutions";
 import Products from "./menudropdown/products";
 import Firstview from "./mobiledropdown/firstview";
 import Services from "./menudropdown/service";
-import Img from "../Image";
-import data from "./headerData"
+import Img from "next/image";
+import data from "./headerData";
 import { useRouter } from "next/router";
 
 function Header() {
-
   const data1 = [data[0]];
   const data2 = [data[1]];
   const data3 = [data[2]];
@@ -98,10 +97,10 @@ function Header() {
                 className={Style.logo}
                 onClick={() => {
                   // window.location.href = "/";
-                  router2.push("/")
+                  router2.push("/");
                 }}
               >
-                <Img src={"/imagesnew/brand-logo.svg"} />
+                <Img src={"/imagesnew/brand-logo.svg"} width={50} height={50} />
               </div>
 
               <div className={!isOpen ? Style.marginfixer1 : Style.marginfixer}>
@@ -120,7 +119,11 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/imagesnew/icons/Vector.svg"}
+                      width={50}
+                      height={50}
+                    />
                   </div>
                 )}
               </div>
@@ -140,7 +143,11 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/imagesnew/icons/Vector.svg"}
+                      width={50}
+                      height={50}
+                    />
                   </div>
                 )}
               </div>
@@ -162,7 +169,11 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/imagesnew/icons/Vector.svg"}
+                      width={50}
+                      height={50}
+                    />
                   </div>
                 )}
               </div>
@@ -184,7 +195,11 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/imagesnew/icons/Vector.svg"}
+                      width={50}
+                      height={50}
+                    />
                   </div>
                 )}
               </div>
@@ -206,7 +221,11 @@ function Header() {
                   ""
                 ) : (
                   <div className={Style.bottombar2}>
-                    <Img src={"/imagesnew/icons/Vector.svg"} />
+                    <Img
+                      src={"/imagesnew/icons/Vector.svg"}
+                      width={50}
+                      height={50}
+                    />
                   </div>
                 )}
               </div>
@@ -236,7 +255,7 @@ function Header() {
                   window.location.href = "/";
                 }}
               >
-                <Img src={"/imagesnew/brand-logo.svg"} />
+                <Img src={"/imagesnew/brand-logo.svg"} width={50} height={50} />
               </div>
             </div>
             <div className={Style.hambermenu}>
@@ -247,7 +266,11 @@ function Header() {
                       setisdropped(true);
                     }}
                   >
-                    <Img src={"/imagesnew/icons/menu.svg"} />
+                    <Img
+                      src={"/imagesnew/icons/menu.svg"}
+                      width={50}
+                      height={50}
+                    />
                   </div>
                 ) : (
                   <div
@@ -255,7 +278,11 @@ function Header() {
                       setisdropped(false);
                     }}
                   >
-                    <Img src={"/imagesnew/icons/close-outline.svg"} />
+                    <Img
+                      src={"/imagesnew/icons/close-outline.svg"}
+                      width={50}
+                      height={50}
+                    />
                   </div>
                 )}
               </div>

@@ -1,8 +1,7 @@
 "use client"
 import React from "react";
 import { useState } from "react";
-// import Img from "../../../components/Image";
-import {default as Img} from "next/image";
+import Image from "next/image";
 import st from "./index.module.css";
 import { Suspense } from "react";
 import dynamic from "next/dynamic";
@@ -49,7 +48,7 @@ const Topsection = () => {
             </div>
           </div>
           <div className={st.imagecont}>
-            <Img src={imagessrc[activeSlideIndex]} fill priority></Img>
+            <Image src={imagessrc[activeSlideIndex]} alt="" fill priority></Image>
           </div>
         </div>
       </div>

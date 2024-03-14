@@ -2,8 +2,7 @@ import "swiper/css";
 // import SingleApp from "../AppPowered";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow} from "swiper";
-// import Img from "../Image";
-import {default as Img} from "next/image";
+import Image from "next/image";
 import style from "./index.module.css";
 import SwiperCore, { Autoplay } from 'swiper';
 import { useRef,useEffect,useState} from "react";
@@ -90,37 +89,37 @@ let AndroidApps = () => {
         className="swipermenu"
         >
             {/* <SwiperSlide className={style.content1}>
-                <Img src="/images/apps/Alpaco.svg" ></Img>
+                <Image src="/images/apps/Alpaco.svg" ></Image>
             </SwiperSlide> */}
             <SwiperSlide className={style.content1}>
-                <Img fill src="/images/apps/13.png" ></Img>
+                <Image fill src="/images/apps/13.png" alt="" priority ></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Img fill src="/images/apps/14.png"></Img>
+                <Image fill src="/images/apps/14.png" alt="" priority></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Img fill src="/images/apps/appstore.png" ></Img>
+                <Image fill src="/images/apps/appstore.png" alt="" priority></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Img fill src="/images/apps/drive.png" ></Img>
+                <Image fill src="/images/apps/drive.png" alt="" priority></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Img fill src="/images/apps/playstore.png" ></Img>
+                <Image fill src="/images/apps/playstore.png" alt="" priority></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Img fill src="/images/apps/slack.png"></Img>
+                <Image fill src="/images/apps/slack.png" alt="" priority></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Img  fill src="/images/apps/zoom.png" ></Img>
+                <Image  fill src="/images/apps/zoom.png" alt="" priority></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Img fill src="/images/apps/twillonew.png" ></Img>
+                <Image fill src="/images/apps/twillonew.png" alt="" priority></Image>
             </SwiperSlide>
             {/* <SwiperSlide className={style.content1}>
-                <Img src="/images/apps/Alpaco.svg" ></Img>
+                <Image src="/images/apps/Alpaco.svg" ></Image>
             </SwiperSlide> */}
             <SwiperSlide className={style.content1}>
-                <Img fill src="/images/apps/13.png" ></Img>
+                <Image fill src="/images/apps/13.png" alt="" priority></Image>
             </SwiperSlide>
            
         </Swiper>

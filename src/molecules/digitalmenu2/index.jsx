@@ -1,7 +1,7 @@
 "use client"
 import Style from "./index.module.css" 
 import { useState } from "react";
-import {default as Img} from "next/image"
+import Image from "next/image";
 
 function DigitalMenu2(index = 0) {
   const menu = [
@@ -114,7 +114,7 @@ function DigitalMenu2(index = 0) {
                   </div>
                       
                       <div className={Style.cont2section2}>
-                          <div><Img priority fill src={menu[digital].image} ></Img></div>
+                          <div><Image priority fill src={menu[digital].image} alt=""></Image></div>
                       </div>             
                 </div>
             </div>

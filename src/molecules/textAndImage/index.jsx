@@ -1,7 +1,7 @@
 // import { useEffect,useState } from "react";
 // import "./index.css"
 import st from "./index.module.css"
-import {default as Img} from "next/image";
+import Image from "next/image"
 const TextandImage = ({text1,text2,img,side}) => {
 
         // const [side,setSide] = useState("right")
@@ -20,7 +20,7 @@ const TextandImage = ({text1,text2,img,side}) => {
                         <p className={st.T2}>{text2}</p>
                     </div>
                     <div className={st.cont2}>
-                    <Img priority fill src={img} />
+                    <Image priority fill src={img} alt="" />
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const TextandImage = ({text1,text2,img,side}) => {
             
             <div className={st.contleft + " pt-8"}  >
                 <div className={st.cont2} >
-                <Img priority fill src={img} />
+                <Image priority fill src={img} alt="" />
 
                 </div>
                 

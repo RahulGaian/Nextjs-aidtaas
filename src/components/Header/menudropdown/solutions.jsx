@@ -4,9 +4,10 @@ import React,{ useState } from "react"
 import Img from "../../Image"
 import images from "../../../constants/images"
 
-
+import { useRouter } from 'next/router'
 
 function Solutions(props){
+      const router = useRouter()
     const data=props.data
     const setIsOpen = props.setIsOpen
     const [data2, setdata2] = useState([data[0].menus[1].items[0].subitems[0]]);
@@ -15,7 +16,9 @@ function Solutions(props){
     const [url,setUrl] = useState("");
 
     const changeRoute=(Route)=>{
-        window.location.href = Route;
+
+        router.push(Route)
+        // window.location.href = Route;
     }
     // 
     return(

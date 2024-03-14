@@ -1,7 +1,8 @@
 import Landingpagenew from "@/molecules/landingnew";
+import style from "./index.module.css"
 const Landing = () => {
   return (
-    <section>
+    <section className={style.main}>
       <Landingpagenew></Landingpagenew>
     </section>
   );

@@ -3,7 +3,7 @@
 // import 'leaflet/dist/leaflet.css';
 import Style from "./index.module.css";
 import ProductExp from "../../components/ProductEndExplaner";
-import MapComponent from "../../components/contact/mapcomponent";
+// import MapComponent from "../../components/contact/mapcomponent";
 // import Img from "../../components/Image";
 import Carousel from "../../components/contact/CarouselComponent/Carousel";
 import Image from "next/image";
@@ -52,6 +52,7 @@ let Contact = () => {
                   src={"/images/contact/location pin.png"}
                   width={15}
                   height={15}
+                  alt=""
                 ></Image>
               </div>
               <div className={Style.mapcontent1section2}>
@@ -66,6 +67,7 @@ let Contact = () => {
                       src={"/images/contact/phone.png"}
                       width={15}
                       height={15}
+                      alt=""
                     ></Image>
                   </div>
                   <div className={Style.num}>+1 (415) 624 7431</div>
@@ -76,6 +78,7 @@ let Contact = () => {
                       src={"/images/contact/envelope.png"}
                       width={15}
                       height={15}
+                      alt=""
                     ></Image>
                   </div>
                   <div>usaoffice@mobiusplatforms.com</div>
@@ -89,6 +92,7 @@ let Contact = () => {
                   src={"/images/contact/location pin.png"}
                   width={15}
                   height={15}
+                  alt=""
                 ></Image>
               </div>
               <div className={Style.mapcontent1section2}>
@@ -102,6 +106,7 @@ let Contact = () => {
                       src={"/images/contact/phone.png"}
                       width={15}
                       height={15}
+                      alt=""
                     ></Image>
                   </div>
                   <div className={Style.num}>+91 (402) 980 0716</div>
@@ -112,6 +117,7 @@ let Contact = () => {
                       src={"/images/contact/envelope.png"}
                       width={15}
                       height={15}
+                      alt=""
                     ></Image>
                   </div>
                   <div>indiaoffice@mobiusplatforms.com</div>
@@ -125,6 +131,7 @@ let Contact = () => {
                   src={"/images/contact/location pin.png"}
                   width={15}
                   height={15}
+                  alt=""
                 ></Image>
               </div>
               <div className={Style.mapcontent1section2}>
@@ -138,6 +145,7 @@ let Contact = () => {
                       src={"/images/contact/phone.png"}
                       width={15}
                       height={15}
+                      alt=""
                     ></Image>
                   </div>
                   <div className={Style.num}>+65 6587 4666</div>
@@ -148,6 +156,7 @@ let Contact = () => {
                       src={"/images/contact/envelope.png"}
                       width={15}
                       height={15}
+                      alt=""
                     ></Image>
                   </div>
                   <div>indiaoffice@mobiusplatforms.com</div>

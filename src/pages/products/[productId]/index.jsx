@@ -1,13 +1,8 @@
 import ProductPage from "@/components/productPage";
-import Layout from "@/pages/Layout";
 import { productsData } from "@/constants/data";
 
 function Product(props) {
-  return (
-    <Layout>
-      <ProductPage data={props.data}></ProductPage>;
-    </Layout>
-  );
+  return <ProductPage data={props.data}></ProductPage>;
 }
 
 export async function getStaticPaths(context) {

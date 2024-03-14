@@ -1,12 +1,9 @@
 import PlatformPage from "@/components/platformPage";
-import Layout from "@/pages/Layout";
 import { platformData } from "@/constants/data";
 
 function Platform(props) {
   return (
-    <Layout>
-      <PlatformPage data={props.data}></PlatformPage>;
-    </Layout>
+      <PlatformPage data={props.data}></PlatformPage>
   );
 }
 

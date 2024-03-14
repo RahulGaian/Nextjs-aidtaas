@@ -1,13 +1,14 @@
 *{
     margin: 0px;
+    /* font-family: "DM Sans"; */
     padding: 0px;
 }
 ul{
   text-decoration: none;
   list-style: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap");
 @font-face {
   font-family: 'Avenir';
   font-style: normal;
@@ -15,3 +16,8 @@ ul{
   src: local('AvenirLTStd-Black'), url('../fonts/AvenirLTStd-Black.otf') format('truetype');
 }
 
+img{
+  object-fit: contain;
+
+
+}

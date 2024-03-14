@@ -9,6 +9,8 @@ import Firstview from "./mobiledropdown/firstview";
 import Services from "./menudropdown/service";
 import Img from "../Image";
 import data from "./headerData"
+import { useRouter } from "next/router";
+
 function Header() {
 
   const data1 = [data[0]];
@@ -16,6 +18,7 @@ function Header() {
   const data3 = [data[2]];
   const data4 = [data[4]];
   const data5 = [data[3]];
+  const router2 = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [isprod, setIsprod] = useState(false);
   const [isplatform, setplatform] = useState(false);
@@ -94,7 +97,8 @@ function Header() {
               <div
                 className={Style.logo}
                 onClick={() => {
-                  window.location.href = "/";
+                  // window.location.href = "/";
+                  router2.push("/")
                 }}
               >
                 <Img src={"/imagesnew/brand-logo.svg"} />

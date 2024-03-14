@@ -1,5 +1,5 @@
 import images from "../../constants/images";
-
+import Link from "next/link";
 import Style from "./index.module.css";
 const Footer = () => {
   return (
@@ -11,29 +11,29 @@ const Footer = () => {
             <h5 className={Style.header}>Company</h5>
             <ul className={Style.cards1 + " md:mt-9"}>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/vision-and-mission">
+                <Link className={Style.navlink} href="/vision-and-mission">
                   Mission and Vision
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/careers">
+                <Link className={Style.navlink} href="/careers">
                   Careers
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/About">
+                <Link className={Style.navlink} href="/About">
                   Overview
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/comingsoon">
+                <Link className={Style.navlink} href="/comingsoon">
                   People
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/contactus">
+                <Link className={Style.navlink} href="/contactus">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -41,32 +41,32 @@ const Footer = () => {
             <h5 className={Style.header}>Solutions</h5>
             <ul className={Style.cards1 + " md:mt-9"}>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/solutions/NextGen-TV">
+                <Link className={Style.navlink} href="/solutions/NextGen-TV">
                   NextGen TV
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/solutions/runrun">
+                <Link className={Style.navlink} href="/solutions/runrun">
                   Run Run
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a
+                <Link
                   className={Style.navlink}
                   href="/solutions/smart-city-as-a-service"
                 >
                   Smartcities as a Service
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/solutions/moScribe">
+                <Link className={Style.navlink} href="/solutions/moScribe">
                   moScribe
-                </a>
+                </Link>
               </li>
               {/* <li className={Style.listelements}>
-                <a className={Style.navlink} href="/solutions/Antara">
+                <Link className={Style.navlink} href="/solutions/Antara">
                   Antara
-                </a>
+                </Link>
               </li> */}
             </ul>
           </nav>
@@ -74,29 +74,29 @@ const Footer = () => {
             <h5 className={Style.header}>Product</h5>
             <ul className={Style.cards1 + " md:mt-9"}>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/products/iZAK">
+                <Link className={Style.navlink} href="/products/iZAK">
                   iZAK
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/products/live-news">
+                <Link className={Style.navlink} href="/products/live-news">
                   Live news
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/products/Impressio">
+                <Link className={Style.navlink} href="/products/Impressio">
                   Impressio
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/products/C-Link">
+                <Link className={Style.navlink} href="/products/C-Link">
                   C-Link
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/products/live-traffic">
+                <Link className={Style.navlink} href="/products/live-traffic">
                   Live Traffic
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -104,32 +104,32 @@ const Footer = () => {
             <h5 className={Style.header}>Platform</h5>
             <ul className={Style.cards1 + " md:mt-9"}>
               <li className={Style.listelements}>
-                <a
+                <Link
                   className={Style.navlink}
                   href="/platform/pascal-intelligence"
                 >
                   Pascal Intelligence(PI)
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/platform/boltzman-bot">
+                <Link className={Style.navlink} href="/platform/boltzman-bot">
                   Boltzmann's Bot(BOB)
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/platform/monet">
+                <Link className={Style.navlink} href="/platform/monet">
                   Monet
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/platform/vinci">
+                <Link className={Style.navlink} href="/platform/vinci">
                   Vinci
-                </a>
+                </Link>
               </li>
               <li className={Style.listelements}>
-                <a className={Style.navlink} href="/platform/holacracy">
+                <Link className={Style.navlink} href="/platform/holacracy">
                   Holacracy
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -139,38 +139,38 @@ const Footer = () => {
             {/* <ul className="flex flex-row justify-center items-center"> */}
             <ul className={Style.icons}>
               <li className={Style.mx}>
-                <a href="https://www.linkedin.com/company/14438464/">
+                <Link href="https://www.linkedin.com/company/14438464/">
                   <img src={images.linkedin} alt="Linkedin Icon" />
-                </a>
+                </Link>
               </li>
               <li className={Style.mx}>
-                <a href="https://www.instagram.com/gaiansolutions/">
+                <Link href="https://www.instagram.com/gaiansolutions/">
                   <img src={images.Instagram} alt="Instagram Icon" />
-                </a>
+                </Link>
               </li>
               <li className={Style.mx}>
-                <a href="https://twitter.com/Gaian_Solutions">
+                <Link href="https://twitter.com/Gaian_Solutions">
                   <img src={images.Twitter} alt="Twitter Icon" />
-                </a>
+                </Link>
               </li>
               <li className={Style.mx}>
-                <a href="https://www.youtube.com/@Gaiansolutions">
+                <Link href="https://www.youtube.com/@Gaiansolutions">
                   <img src={images.Youtube} alt="Facebook Icon" />
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
           <div className={Style.bottomcontent}>
             <div className={Style.Termscontent}>
-              <a href="/terms-and-conditions">
+              <Link href="/terms-and-conditions">
                 Terms and Conditions&nbsp;| &nbsp;
-              </a>
+              </Link>
             </div>
             <div>All Rights Reserved. 2023 Copyright&nbsp; &nbsp;</div>
             <div>
-              <a href="/" className={Style.routingcontent}>
+              <Link href="/" className={Style.routingcontent}>
                 Gaian Solutions
-              </a>
+              </Link>
             </div>
           </div>
         </div>

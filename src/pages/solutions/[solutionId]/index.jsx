@@ -1,15 +1,9 @@
 
-import Layout from "@/pages/Layout";
 import SolutionsTemplate from "@/components/SolutionsPage";
 import { solutionData } from "@/constants/data";
 
 function Solution(props) {
-  return (
-<Layout>
-
-    <SolutionsTemplate data={props.data} />;
-</Layout>
-    )
+  return (<SolutionsTemplate data={props.data} />)
 }
 
 export async function getStaticPaths(context) {

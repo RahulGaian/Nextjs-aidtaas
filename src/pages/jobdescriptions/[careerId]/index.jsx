@@ -1,11 +1,8 @@
-import Layout from "@/pages/Layout";
 import { Jobopeningsdata as Jobopeningsdata } from "@/components/career-openings/jobopenings_dataHr/index";
 import Jobdescriptions from "@/components/career-openings/jobdescriptionspage";
 function JobOpenings(props) {
   return (
-    <Layout>
-      <Jobdescriptions data={props.data}></Jobdescriptions>;
-    </Layout>
+      <Jobdescriptions data={props.data}></Jobdescriptions>
   );
 }
 

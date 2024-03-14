@@ -2,10 +2,7 @@ import ProductPage from "@/components/productPage";
 import { productsData } from "@/constants/data";
 
 function Product(props) {
-  return(
-
-    <ProductPage data={props.data}></ProductPage>
-  ) 
+  return <ProductPage data={props.data}></ProductPage>;
 }
 
 export async function getStaticPaths(context) {

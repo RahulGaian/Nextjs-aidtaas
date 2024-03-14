@@ -3,7 +3,6 @@ import React from "react";
 import ProductsNSolutionBanner from "../../molecules/pandsBanner";
 // import { productsData } from "../../constants/data";
 import HeroImageNQuickJump from "../../molecules/heroImage&QuickJumpProducts";
-
 import Features from "../../molecules/features";
 // import BenefitsComponent2 from "../../molecules/benefits/index.stories";
 import BenefitsComponent2 from "../../molecules/benefits/index";

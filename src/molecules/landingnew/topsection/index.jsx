@@ -48,7 +48,7 @@ const Topsection = () => {
             </div>
           </div>
           <div className={st.imagecont}>
-            <Image src={imagessrc[activeSlideIndex]} alt="" fill priority></Image>
+            <Image src={imagessrc[activeSlideIndex]} alt="" fill priority unoptimized></Image>
           </div>
         </div>
       </div>

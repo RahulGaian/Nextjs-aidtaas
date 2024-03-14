@@ -1,3 +1,4 @@
+import { marketplaceData } from "../../constants/data";
 import SecondHeading from "./index";
 
 export default {
@@ -6,5 +7,8 @@ export default {
 };
 
 export const SecondHeadingComp = () => (
-  <SecondHeading heading={"hello there"} subheading={"Testtt"} description={"testt"} />
+  <SecondHeading  data={marketplaceData[0].marketPlaceDescription}/>
+);
+export const SecondHeadingComp1 = () => (
+  <SecondHeading  data={marketplaceData[1].marketPlaceDescription}/>
 );

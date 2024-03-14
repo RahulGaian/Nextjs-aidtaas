@@ -1,5 +1,4 @@
 import React from "react";
-// import Img from "../../components/Image";
 import Image from "next/image";
 
 import st from "./index.module.css";

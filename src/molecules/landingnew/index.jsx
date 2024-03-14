@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Topsection from "./topsection";
 import Section2 from "./secondsectionnew";

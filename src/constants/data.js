@@ -14,7 +14,7 @@ const platformData = [
       getStartedUrl: "",
       learnMoreUrl: "",
       imageUrl: images.PascalCover,
-      classname: "bannerContentImageWithDodge",
+      // classname: "bannerContentImageWithDodge",
     },
     features: [
       {

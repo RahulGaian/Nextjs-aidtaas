@@ -4,6 +4,8 @@ import { useState } from "react";
 // import Img from "../../../components/Image";
 import {default as Img} from "next/image";
 import st from "./index.module.css";
+import { Suspense } from "react";
+import dynamic from "next/dynamic";
 import ChangingContent2 from "../awesomeflip";
 import CustomerPartners from "../../customerPartners";
 const Topsection = () => {
@@ -47,7 +49,7 @@ const Topsection = () => {
             </div>
           </div>
           <div className={st.imagecont}>
-            <Img src={imagessrc[activeSlideIndex]} fill></Img>
+            <Img src={imagessrc[activeSlideIndex]} fill priority></Img>
           </div>
         </div>
       </div>

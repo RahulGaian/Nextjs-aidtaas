@@ -85,67 +85,67 @@ let CustomerPartners = () => {
       >
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-            <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr6.png"} style={{objectFit:'contain'}}></Img>
+            <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr6.png"} style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr7.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr7.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr8.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr8.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr9.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr9.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr1.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr1.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr2.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr2.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr3.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr3.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr4.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr4.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr5.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr5.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr6.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr6.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr7.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr7.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr8.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr8.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
         <SwiperSlide className="">
           <div style={{position:"relative"}} className={style.customerPartnersI} >
-          <Img priority fill className={style.customerPartnersI} unoptimized src={"/images/landingmainpagenew/cr9.png"}style={{objectFit:'contain'}}></Img>
+          <Img priority fill className={style.customerPartnersI} src={"/images/landingmainpagenew/cr9.png"}style={{objectFit:'contain'}}></Img>
           </div>
         </SwiperSlide>
       </Swiper>

@@ -51,7 +51,7 @@ const TextandImage = ({text1,text2,img,side}) => {
       <div className={st.TextImg}>
           <div className={st.contleft + " pt-8"}>
             <div className={st.cont2}>
-              <Img priority fill src={img} />
+              <Image priority fill src={img} />
             </div>
 
             <div className={st.cont1}>

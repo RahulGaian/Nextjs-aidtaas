@@ -92,34 +92,34 @@ let AndroidApps = () => {
                 <Image src="/images/apps/Alpaco.svg" ></Image>
             </SwiperSlide> */}
             <SwiperSlide className={style.content1}>
-                <Image fill src="/images/apps/13.png" alt="" priority unoptimized ></Image>
+                <Image fill src="/images/apps/13.png" alt="" priority  ></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Image fill src="/images/apps/14.png" alt="" priority unoptimized></Image>
+                <Image fill src="/images/apps/14.png" alt="" priority ></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Image fill src="/images/apps/appstore.png" alt="" priority unoptimized></Image>
+                <Image fill src="/images/apps/appstore.png" alt="" priority ></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Image fill src="/images/apps/drive.png" alt="" priority unoptimized></Image>
+                <Image fill src="/images/apps/drive.png" alt="" priority ></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Image fill src="/images/apps/playstore.png" alt="" priority unoptimized></Image>
+                <Image fill src="/images/apps/playstore.png" alt="" priority ></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Image fill src="/images/apps/slack.png" alt="" priority unoptimized></Image>
+                <Image fill src="/images/apps/slack.png" alt="" priority ></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Image  fill src="/images/apps/zoom.png" alt="" priority unoptimized></Image>
+                <Image  fill src="/images/apps/zoom.png" alt="" priority ></Image>
             </SwiperSlide>
             <SwiperSlide className={style.content1}>
-                <Image fill src="/images/apps/twillonew.png" alt="" priority unoptimized></Image>
+                <Image fill src="/images/apps/twillonew.png" alt="" priority ></Image>
             </SwiperSlide>
             {/* <SwiperSlide className={style.content1}>
                 <Image src="/images/apps/Alpaco.svg" ></Image>
             </SwiperSlide> */}
             <SwiperSlide className={style.content1}>
-                <Image fill src="/images/apps/13.png" alt="" priority unoptimized></Image>
+                <Image fill src="/images/apps/13.png" alt="" priority ></Image>
             </SwiperSlide>
            
         </Swiper>

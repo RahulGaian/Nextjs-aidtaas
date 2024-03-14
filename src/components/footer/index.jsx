@@ -11,7 +11,7 @@ const Footer = () => {
             <h5 className={Style.header}>Company</h5>
             <ul className={Style.cards1 + " md:mt-9"}>
               <li className={Style.listelements}>
-                <Link className={Style.navlink} href="/vision-and-mission">
+                <Link className={Style.navlink} href="/visionAndMission">
                   Mission and Vision
                 </Link>
               </li>
@@ -21,7 +21,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li className={Style.listelements}>
-                <Link className={Style.navlink} href="/About">
+                <Link className={Style.navlink} href="/about">
                   Overview
                 </Link>
               </li>

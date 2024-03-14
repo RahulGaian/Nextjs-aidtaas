@@ -4,11 +4,10 @@ import { platformData } from "@/constants/data";
 
 function Platform(props) {
   return (
-
     <Layout>
-  <PlatformPage data={props.data}></PlatformPage>;
-  </Layout> 
-    )
+      <PlatformPage data={props.data}></PlatformPage>;
+    </Layout>
+  );
 }
 
 export async function getStaticPaths(context) {

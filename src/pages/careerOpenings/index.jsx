@@ -2,13 +2,13 @@ import React from "react";
 // import images from "../../constants/images";
 // import Pagination from 'react-bootstrap/Pagination';
 import "./index.css";
-import Paginationdatamain from "./pagination_data";
-import Resume from "./resumecomponent";
+import Paginationdatamain from "../../components/career-openings/pagination_data";
+import Resume from "../../components/career-openings/resumecomponent";
 // import { PaginationItem } from "@mui/material";
-import { Jobopeningsdata as Data2 } from "./jobopenings_dataHr";
-export const Jobspage = () => {
+import { Jobopeningsdata as Data2 } from "../../components/career-openings/jobopenings_dataHr";
+const Jobspage = () => {
   const buttondata = "Send Resume";
-  console.log(Data2);
+  // console.log(Data2);
   const itemsPerPage = 15;
   return (
     <>
@@ -56,3 +56,5 @@ export const Jobspage = () => {
     </>
   );
 };
+
+export default Jobspage;

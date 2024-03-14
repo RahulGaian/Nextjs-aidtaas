@@ -7855,92 +7855,92 @@ const Jobopeningsdata = [
       },
     ],
   },
-  {
-    url: "platform-architect",
-    title: "Platform Architect",
-    description:
-      "Platform Architect, AWS, Kubernetes, Docker, Cloudcomputing, Enterprise Architecture",
-    location: "Hyderabad",
-    experience: "8+ years experience",
-    jobdescription:
-      "Platform Architect, AWS, Kubernetes, Docker, Cloudcomputing, Enterprise Architecture",
+  // {
+  //   url: "platform-architect",
+  //   title: "Platform Architect",
+  //   description:
+  //     "Platform Architect, AWS, Kubernetes, Docker, Cloudcomputing, Enterprise Architecture",
+  //   location: "Hyderabad",
+  //   experience: "8+ years experience",
+  //   jobdescription:
+  //     "Platform Architect, AWS, Kubernetes, Docker, Cloudcomputing, Enterprise Architecture",
 
-    listmain: [
-      {
-        head: "The Job and its Impact",
+  //   listmain: [
+  //     {
+  //       head: "The Job and its Impact",
 
-        listdescription: [
-          {
-            list: "Experience in software development life cycle involving analysis, design, and development.",
-          },
-          {
-            list: "Good ability to rapidly acquire knowledge on new technologies and implement them in software projects.",
-          },
-          {
-            list: "Good working knowledge of Java, Spring, Spring MVC, Spring Boot, AWS, Python, Flask, Hadoop ecosystems, J2EE technologies, Spring Data JPA, JPA, Hibernate, and AWS",
-          },
-          {
-            list: "Good team player with good communication, interpersonal, and presentation skills.",
-          },
-          {
-            list: "Part of the Architectural design team to design the project.",
-          },
-          {
-            list: "Migrating existing RIM application from JBoss 3.2.3 to Oracle Weblogic 10.3.0 on Linux RHEL, upgrading EJB 2 to EJB 3, and replacing entity beans with JPA.",
-          },
-          {
-            list: "Interaction with businesses to gather all the requirements.",
-          },
-        ],
-      },
-      {
-        head: "What We're Looking For ",
+  //       listdescription: [
+  //         {
+  //           list: "Experience in software development life cycle involving analysis, design, and development.",
+  //         },
+  //         {
+  //           list: "Good ability to rapidly acquire knowledge on new technologies and implement them in software projects.",
+  //         },
+  //         {
+  //           list: "Good working knowledge of Java, Spring, Spring MVC, Spring Boot, AWS, Python, Flask, Hadoop ecosystems, J2EE technologies, Spring Data JPA, JPA, Hibernate, and AWS",
+  //         },
+  //         {
+  //           list: "Good team player with good communication, interpersonal, and presentation skills.",
+  //         },
+  //         {
+  //           list: "Part of the Architectural design team to design the project.",
+  //         },
+  //         {
+  //           list: "Migrating existing RIM application from JBoss 3.2.3 to Oracle Weblogic 10.3.0 on Linux RHEL, upgrading EJB 2 to EJB 3, and replacing entity beans with JPA.",
+  //         },
+  //         {
+  //           list: "Interaction with businesses to gather all the requirements.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       head: "What We're Looking For ",
 
-        listdescription: [
-          {
-            list: " Bachelors degree in engineering (computer science or equivalent) with 12+ years of experience. This experience should include expertise in creating microservices that have adopted a managed API way of working targeting cloud deployments.",
-          },
-          {
-            list: "Expertise in designing, developing, and deploying React/Angular-based front-end applications.",
-          },
-          {
-            list: "Expertise in designing and developing solutions/services using SOA/Rest/Micro Service patterns and the associated programming languages used [Java, C#, Python, Go, NodeJS]",
-          },
-          {
-            list: "Experience in designing APIs, common services, and an orchestration layer.",
-          },
-          {
-            list: "Experience with cloud technologies offered by public cloud providers and their associated middleware and popular programming languages",
-          },
-          {
-            list: "Experience with Open API Specification and API documentation tools (such as Swagger and Postman)",
-          },
-          {
-            list: "Experience with the concepts around virtualization and containerization",
-          },
-        ],
-      },
+  //       listdescription: [
+  //         {
+  //           list: " Bachelors degree in engineering (computer science or equivalent) with 12+ years of experience. This experience should include expertise in creating microservices that have adopted a managed API way of working targeting cloud deployments.",
+  //         },
+  //         {
+  //           list: "Expertise in designing, developing, and deploying React/Angular-based front-end applications.",
+  //         },
+  //         {
+  //           list: "Expertise in designing and developing solutions/services using SOA/Rest/Micro Service patterns and the associated programming languages used [Java, C#, Python, Go, NodeJS]",
+  //         },
+  //         {
+  //           list: "Experience in designing APIs, common services, and an orchestration layer.",
+  //         },
+  //         {
+  //           list: "Experience with cloud technologies offered by public cloud providers and their associated middleware and popular programming languages",
+  //         },
+  //         {
+  //           list: "Experience with Open API Specification and API documentation tools (such as Swagger and Postman)",
+  //         },
+  //         {
+  //           list: "Experience with the concepts around virtualization and containerization",
+  //         },
+  //       ],
+  //     },
 
-      {
-        head: "What are the Benefits ",
+  //     {
+  //       head: "What are the Benefits ",
 
-        listdescription: [
-          {
-            list: "You'll get to work in some of the hottest & fastest-growing technologies in the USA right now.",
-          },
-          {
-            list: "You'll get paid a competitive salary & be working directly with a super-experienced team of people.",
-          },
-          {
-            list: "You'll get a great place to come to work every day. Varied, complex, challenging, and with a great culture that you can shape & change.",
-          },
-          {
-            list: "And many more…",
-          },
-        ],
-      },
-    ],
-  },
+  //       listdescription: [
+  //         {
+  //           list: "You'll get to work in some of the hottest & fastest-growing technologies in the USA right now.",
+  //         },
+  //         {
+  //           list: "You'll get paid a competitive salary & be working directly with a super-experienced team of people.",
+  //         },
+  //         {
+  //           list: "You'll get a great place to come to work every day. Varied, complex, challenging, and with a great culture that you can shape & change.",
+  //         },
+  //         {
+  //           list: "And many more…",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     url: "head-of-knowledge-management",
     title: "Head of Knowledge Management",

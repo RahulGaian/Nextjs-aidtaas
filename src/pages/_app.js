@@ -1,12 +1,19 @@
 import "./index.css";
+import Header from "@/components/Header/header";
+import Footer from "@/components/footer";
+import App from "next/app";
+class MyApp extends App {
+  render() {
+    const { Component, pageProps } = this.props;
 
-export default function MyApp({ Component, pageProps }) {
-      const getLayout = Component.getLayout ?? ((page) => page)
- 
-  return (
-
-      <main > 
-  {getLayout(<Component {...pageProps} />)}
-  </main>
-      )
+    return (
+      <main>
+        <Header></Header>
+        <Component {...pageProps} />
+        <Footer></Footer>
+      </main>
+    );
+  }
 }
+
+export default MyApp;

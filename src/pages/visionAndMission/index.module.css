@@ -61,7 +61,7 @@
 
   position: absolute;
   bottom: 0px;
-  z-index: 1;
+  z-index: 1; 
   width: 90%;
   margin-left: 5% !important;
   margin-right: 5% !important;
@@ -1224,7 +1224,7 @@
   }
 }
 
-@media screen and (max-width: 379px) and (min-width: 300px) {
+@media screen and (max-width: 380px) and (min-width: 300px) {
   .img2 {
     height: 260px !important;
   }
@@ -1280,17 +1280,12 @@
     align-items: center;
     justify-content: center;
   }
-  /* .firstImg {
-    width: auto !important;
-    height: 400px;
-    object-fit: cover;
-  } */
+
   .prof {
     padding-top: 2rem;
   }
 
   .firsttext {
-    /* margin-left: 200px; */
     font-size: 2rem;
   }
 }
@@ -1339,7 +1334,7 @@
 
 /* --------for awesome1 slider----------- */
 
-@media screen and (max-width: 2800px) and (min-width: 2200px) {
+@media screen and (max-width: 2900px) and (min-width: 2200px) {
   .awesome1 {
     width: 35% !important;
     margin: 0 auto !important;

@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .hack {
@@ -12,6 +12,9 @@
   font-weight: 500;
   margin-bottom: 0;
   padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) and (min-width: 661px) {

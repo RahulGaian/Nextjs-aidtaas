@@ -9,7 +9,7 @@ const Features = ({ featureData }) => {
   return (
     <div className={styles.featureContainer}>
       <div className={styles.featureBoxHeadingplt}>
-        <h1>{Features && ""}</h1>
+        <h1>Features</h1>
       </div>
 
       <div className={styles.cardsContainer}>

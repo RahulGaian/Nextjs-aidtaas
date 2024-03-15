@@ -24,6 +24,7 @@ const Benefits = ({ benefitsData }) => {
                   alt="AI logo"
                   width={100}
                   height={100}
+                  // cover priority layout="responsive"
                 />
               </div>
               <div className={styles.benfitsDetails}>

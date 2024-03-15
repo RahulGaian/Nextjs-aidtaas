@@ -1,7 +1,7 @@
 "use client";
 // import images from '../../constants/images';
 // import Awesome from "../../components/AwesomeTeam";
-import Awesometeammain from "../../components/AwesomeTeam";
+// import Awesometeammain from "../../components/AwesomeTeam";
 
 // import DynamicContent from "./joinus";
 import ContentSlider from "../../components/careers/joinus";
@@ -17,6 +17,7 @@ import Img from "../../components/Image";
 import styles from "./index.module.css";
 import Gem from "../../components/gem";
 import Image from "next/image";
+import AwesomeTeam2 from "../../components/AwesomeTeam2";
 
 // import Slide1img1 from "../images/Career/slider_images/slide1img1.png"
 // import Slide1img2 from "../images/Career/slider_images/slide1img2.png"
@@ -350,7 +351,7 @@ let Careers = () => {
           <div className={styles.awesome2}>
             <div className={styles.awesome1}>
               <div>Join Our Awesome Team of talented</div>
-              <Awesometeammain></Awesometeammain>
+              <AwesomeTeam2></AwesomeTeam2>
             </div>
             <div className={styles.Career_buttonsmain + " " + styles._2pt}>
               <div

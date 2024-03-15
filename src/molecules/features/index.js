@@ -21,7 +21,7 @@ const Features = ({ featureData }) => {
                 alt="DataBaseCloudimage"
                 width={350}
                 height={350}
-                priority
+                cover priority layout="responsive"
                 className={styles.cardImage}
               />
             </div>

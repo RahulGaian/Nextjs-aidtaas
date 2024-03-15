@@ -16,6 +16,7 @@ const SolutionPageCapabilities = ({ data }) => {
                   alt="cimage"
                   width={100}
                   height={100}
+                  // cover priority layout="intrinsic"
                 />
               </div>
               <div>

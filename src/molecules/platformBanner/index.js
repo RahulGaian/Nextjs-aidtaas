@@ -24,14 +24,15 @@ const PlatformBanner = ({ bannerData }) => {
               <button>Book a demo</button>
             </Link>
           </div>
-          <div className={st.rightCont}>
-          {/* <div className={bannerData.classname ? bannerData.classname : st.rightCont}> */}
+          {/* <div className={st.rightCont}> */}
+          <div className={bannerData.classname ? bannerData.classname : st.rightCont}>
             <Image
               src={bannerData.imageUrl}
               alt="Banner"
               width={550}
               height={500}
               priority
+              // cover priority layout="responsive"
             ></Image>
           </div>
         </div>

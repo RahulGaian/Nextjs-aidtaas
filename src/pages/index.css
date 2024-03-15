@@ -16,8 +16,8 @@ ul{
   src: local('AvenirLTStd-Black'), url('../fonts/AvenirLTStd-Black.otf') format('truetype');
 }
 
-img{
-  object-fit: contain;
+/* img{ */
+  /* object-fit: contain; */
 
 
-}
+/* } */

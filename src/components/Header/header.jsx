@@ -100,7 +100,7 @@ function Header() {
                   router2.push("/");
                 }}
               >
-                <Img src={"/imagesnew/brand-logo.svg"} width={50} height={50} priority />
+                <Img src={"/imagesnew/brand-logo.svg"} width={80} height={54} priority cover layout="intrinsic" />
               </div>
 
               <div className={!isOpen ? Style.marginfixer1 : Style.marginfixer}>
@@ -255,7 +255,7 @@ function Header() {
                   window.location.href = "/";
                 }}
               >
-                <Img src={"/imagesnew/brand-logo.svg"} width={50} height={50} />
+                <Img src={"/imagesnew/brand-logo.svg"} width={80} height={54} priority cover layout="intrinsic"/>
               </div>
             </div>
             <div className={Style.hambermenu}>
@@ -270,6 +270,9 @@ function Header() {
                       src={"/imagesnew/icons/menu.svg"}
                       width={50}
                       height={50}
+                      cover
+                      priority
+                      layout="responsive"
                     />
                   </div>
                 ) : (

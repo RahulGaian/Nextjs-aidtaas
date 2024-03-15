@@ -24,6 +24,7 @@
 }
 .cont1{
      width: 50%;
+     height: auto;
 }
 .T1 {
     width: 90%;
@@ -49,7 +50,7 @@
 .cont2{
     width: 50%;
     position: relative;
-    height: 420px;
+    height: auto;
     /* height: 100%; */
 
 }
@@ -143,6 +144,7 @@
     } 
     .cont2{
         width: 100%;
+        height: auto;
     }
 
 

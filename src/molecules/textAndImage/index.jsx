@@ -20,7 +20,7 @@ const TextandImage = ({text1,text2,img,side}) => {
                         <p className={st.T2}>{text2}</p>
                     </div>
                     <div className={st.cont2}>
-                    <Image priority fill src={img} alt="" />
+                    <Image priority cover width={400} height={400} layout="responsive" src={img} alt="" />
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@ const TextandImage = ({text1,text2,img,side}) => {
             
             <div className={st.contleft + " pt-8"}  >
                 <div className={st.cont2} >
-                <Image priority fill src={img} alt="" />
+                <Image priority cover width={400} height={400} layout="responsive" src={img} alt="" />
 
                 </div>
                 
@@ -51,7 +51,7 @@ const TextandImage = ({text1,text2,img,side}) => {
       <div className={st.TextImg}>
           <div className={st.contleft + " pt-8"}>
             <div className={st.cont2}>
-              <Image priority fill src={img} alt=""/>
+              <Image priority cover width={400} height={400} layout="responsive" src={img} alt=""/>
             </div>
 
             <div className={st.cont1}>

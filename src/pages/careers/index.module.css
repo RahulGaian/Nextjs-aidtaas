@@ -286,6 +286,9 @@
   .topcomponentimage {
     margin-bottom: 20px;
   }
+  .maincomponent2 {
+    width: 90%;
+  }
 }
 
 /* secondcomponent css  */

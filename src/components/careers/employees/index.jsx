@@ -4,8 +4,8 @@ import SwiperCore, { Pagination, Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 // import images from '../../../constants/images';
 // import "swiper/components/pagination/pagination.min.css"; // Import the pagination CSS
-import "./index.css"; // Import your CSS file for styling (if needed)
-import Img from "../../Image";
+import Img from "next/image";
+import styles from "./index.module.css";
 // import Emp1careers_page from "../images/Career/emp1.png"
 // import Emp2careers_page from "../images/Career/emp2.png"
 // import Emp3careers_page from "../images/Career/emp3.png"
@@ -66,33 +66,43 @@ const EmployeeSlider = () => {
       >
         {contentData.map((content, index) => (
           <SwiperSlide key={index}>
-            <div className="contentemployee">
-              <div className="employeeimage">
-                <div className="imagefoldermain">
-                  <Img src={content.imagesrc} />
+            <div className={styles.contentemployee}>
+              <div className={styles.employeeimage}>
+                <div className={styles.imagefoldermain}>
+                  <Img src={content.imagesrc} width={100} height={100} />
                 </div>
               </div>
-              <div className="employeedetails">
+              <div className={styles.employeedetails}>
                 <div>
                   {" "}
-                  <p className="employeeheading"> {content.heading}</p>{" "}
+                  <p className={styles.employeeheading}>
+                    {" "}
+                    {content.heading}
+                  </p>{" "}
                 </div>
                 <div>
-                  <p className="employeeshortdesc"> {content.shortdesc}</p>
+                  <p className={styles.employeeshortdesc}>
+                    {" "}
+                    {content.shortdesc}
+                  </p>
                 </div>
                 <div>
-                  <p className="employeedescription">{content.description}</p>
+                  <p className={styles.employeedescription}>
+                    {content.description}
+                  </p>
                 </div>
               </div>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="pagination-dotsemployee">
+      <div className={styles.paginationDotsemployee}>
         {contentData.map((_, index) => (
           <div
             key={index}
-            className={`dotemployee ${index === activeSlide ? "active" : ""}`}
+            className={`${styles.dotemployee} ${
+              index === activeSlide ? styles.active : ""
+            }`}
           />
         ))}
       </div>

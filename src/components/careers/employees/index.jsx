@@ -69,7 +69,7 @@ const EmployeeSlider = () => {
             <div className={styles.contentemployee}>
               <div className={styles.employeeimage}>
                 <div className={styles.imagefoldermain}>
-                  <Img src={content.imagesrc} width={100} height={100} />
+                  <Img src={content.imagesrc} width={400} height={400} />
                 </div>
               </div>
               <div className={styles.employeedetails}>
@@ -96,7 +96,7 @@ const EmployeeSlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className={styles.paginationDotsemployee}>
+      {/* <div className={styles.paginationDotsemployee}>
         {contentData.map((_, index) => (
           <div
             key={index}
@@ -105,7 +105,7 @@ const EmployeeSlider = () => {
             }`}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

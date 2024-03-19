@@ -21,7 +21,7 @@ let ContactUs = ({ data }) => {
                 text={item.btn}
                 filled={true}
                 url={item.url}
-                openInNewTab={true}
+                openInNewTab={false}
                 className="buttonbottom"
               ></Button>
             </div>

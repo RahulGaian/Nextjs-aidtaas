@@ -6,11 +6,12 @@ import Features from "../../molecules/features";
 import ContactUs from "../../molecules/contactUs";
 import { contactUsData } from "../../molecules/contactUs/data";
 import SeeAlso from "../../molecules/seeAlso";
+import styles from "./index.module.css";
 
 const PlatformPage = ({ data }) => {
   // console.log(data);
   return (
-    <section>
+    <section className={styles.platform}>
       <section>
         <PlatformBanner bannerData={data.banner} />
       </section>

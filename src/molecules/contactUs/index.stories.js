@@ -6,12 +6,15 @@ export default {
   component: ContactUs,
 };
 
+//Learn More
 export const ContactComponent = () => (
   <ContactUs data={contactUsData.contact1} />
 );
+//Contact Us
 export const ContactComponent1 = () => (
   <ContactUs data={contactUsData.contact2} />
 );
+//Book a Demo
 export const ContactComponent2 = () => (
   <ContactUs data={contactUsData.contact3} />
 );

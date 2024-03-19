@@ -5,9 +5,9 @@ import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 import { getDatabase, ref as dbRef, push, set } from "firebase/database";
 import st from "./index.module.css";
-import Img from "../../Image";
-import { useNavigate } from 'react-router-dom';
-
+// import Img from "../../components/Image";
+import Img from "next/image";
+import { useRouter } from "next/router";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCcSHRELwxwi_Hk2cA3aJiTx5eKQ4tM9a0",
@@ -31,8 +31,6 @@ const ContactForm = () => {
   const [message, setMessage] = useState("");
   const [sent, setSent] = useState(false);
 
-  const navigate = useNavigate();
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -54,10 +52,11 @@ const ContactForm = () => {
     setMessage("");
   };
 
-  const handleClose = () => {
-    navigate(-1);
-  }
+  const router = useRouter();
 
+  const handleClose = () => {
+    router.back();
+  };
 
   return (
     <div className={st.contentContainer}>
@@ -66,12 +65,18 @@ const ContactForm = () => {
           <div className={st.modalContainer}>
             <div className={st.fdiv}>
               <h2 className={st.h11}>Get in Touch</h2>
-              <Img src="./cross.png" onClick={handleClose}></Img>
+              <Img
+                src="/images/cross.png"
+                onClick={handleClose}
+                width={10}
+                height={10}
+                alt="Cross Image"
+              ></Img>
             </div>
             <h2 className={st.h22}>Our team would love to hear from you.</h2>
             <br />
             <form onSubmit={handleSubmit} className={st.form}>
-              <label>
+              <label className={st.label}>
                 Name*
                 <input
                   type="text"
@@ -84,39 +89,37 @@ const ContactForm = () => {
 
               <br />
               <br />
-              <label>
+              <label className={st.label}>
                 Company name*
                 <input
                   type="text"
                   name="company"
                   onChange={(e) => setCompany(e.target.value)}
-
                   className={st.inputField}
                   required
                 />
               </label>
               <br />
               <br />
-              <label>
+              <label className={st.label}>
                 Business Email*
                 <input
                   type="email"
                   name="email"
                   onChange={(e) => setEmail(e.target.value)}
-
                   className={st.inputField}
                   required
                 />
               </label>
               <br />
               <br />
-              <label>
+              <label className={st.label}>
                 Phone Number*
                 <PhoneInput
                   className={st.inputField}
                   id={st.phinpt}
                   placeholder="Enter phone number"
-                  defaultCountry="US"
+                  defaultCountry="IN"
                   value={phoneNumber}
                   required
                   onChange={(value) => setPhoneNumber(value)}
@@ -124,7 +127,7 @@ const ContactForm = () => {
               </label>
               <br />
               <br />
-              <label>
+              <label className={st.label}>
                 Message*
                 <textarea
                   type="text"
@@ -147,11 +150,13 @@ const ContactForm = () => {
           // <h1 className={st.h111}>Our Team will contact you shortly</h1>
           <div className={st.tTemp}>
             <h1>THANK YOU!</h1>
-            <Img src="./msg.png"></Img>
-            <p>Your message has been received <br /> we will contact you very soon!!</p>
+            <Img src="/images/msg.png" width={100} height={100}></Img>
+            <p>
+              Your message has been received <br /> we will contact you very
+              soon!!
+            </p>
             <button onClick={handleClose}>Continue</button>
           </div>
-
         )}
       </div>
     </div>

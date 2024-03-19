@@ -5,7 +5,7 @@ import SwiperCore, { Pagination, Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 // import "swiper/components/pagination/pagination.min.css"; // Import the pagination CSS
 import "./index.css"; // Import your CSS file for styling (if needed)
-import Img from "../../Image";
+import Img from "next/image";
 
 // import CareerJoinus_image1 from "../images/Career/Joinus_images_careerspage/image1.png"
 // import CareerJoinus_image2 from "../images/Career/Joinus_images_careerspage/image2.png"
@@ -102,7 +102,11 @@ const ContentSlider = () => {
       </div>
       <div className="content_image">
         <div>
-          <Img src={contentData[activeSlide].imageurl} />
+          <Img
+            src={contentData[activeSlide].imageurl}
+            width={600}
+            height={600}
+          />
         </div>
       </div>
     </div>

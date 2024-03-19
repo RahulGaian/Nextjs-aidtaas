@@ -1,3 +1,6 @@
+.container{
+  margin: 2% 0;
+}
 .featureBoxHeading > h1 {
   -webkit-text-fill-color: #0000;
   background: linear-gradient(

@@ -1,7 +1,8 @@
 import style from "./index.module.css"
 const SecondHeading = ({data}) => {
   return (
-    <>
+    <div className={style.container}>
+    
       <div className={style.featureBoxHeading}>
         <h1>{data.heading}</h1>
       </div>
@@ -11,7 +12,7 @@ const SecondHeading = ({data}) => {
       <div className={style.featureBoxDescription}>
         <p>{data.description}</p>
       </div>
-    </>
+    </div>
   );
 };
 

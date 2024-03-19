@@ -435,7 +435,7 @@
   }
 
   .cardWrapper:nth-child(1) {
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
   }
 
   .cardWrapper:nth-child(even) {
@@ -549,7 +549,7 @@
   }
 
   .cardWrapper:nth-child(1) {
-    padding-top: 8rem;
+    /* padding-top: 8rem; */
   }
 
   .cardWrapper:nth-child(even) {

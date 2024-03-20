@@ -91,21 +91,21 @@ const ContentSlider = () => {
         </p>
       </div> */}
         </div>
-        <div className="pagination-dots">
+        {/* <div className="pagination-dots">
           {contentData.map((_, index) => (
             <div
               key={index}
               className={`dot ${index === activeSlide ? "active" : ""}`}
             />
           ))}
-        </div>
+        </div> */}
       </div>
-      <div className="content_image">
+      <div className="content_image" style={{ position: "relative" }}>
         <div>
           <Img
             src={contentData[activeSlide].imageurl}
-            width={600}
-            height={600}
+            fill
+            alt="imagenotfound"
           />
         </div>
       </div>

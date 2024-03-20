@@ -21,6 +21,7 @@ const Resume = (props) => {
       <button onClick={openPopup}>{buttondata}</button>
       <Popup
         isOpen={isPopupOpen}
+        setIsOpen={setIsPopupOpen}
         onClose={closePopup}
         alerting={alerting}
         setalerting={setalerting}

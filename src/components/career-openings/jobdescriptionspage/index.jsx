@@ -1,8 +1,8 @@
 import React from "react";
 import St from "./index.module.css";
 // import images from "../../../constants/images";
-import Img from "../../../components/Image";
 import Resume from "../resumecomponent";
+import Img from "next/image";
 
 import { Jobopeningsdata as jobData } from "../jobopenings_dataHr"; //this one
 
@@ -26,6 +26,8 @@ const Jobdescriptions = ({ data }) => {
                     <Img
                       src={"/imagesnew/Career/career_bottom_card_icon_01.svg"}
                       className=""
+                      width={20}
+                      height={20}
                     />
                   </div>
                   <div className={St.contentfont}>{data.location}</div>
@@ -36,6 +38,8 @@ const Jobdescriptions = ({ data }) => {
                     <Img
                       src={"/imagesnew/Career/Career_bottom_card_icon_02.svg"}
                       className=""
+                      width={20}
+                      height={20}
                     />
                   </div>
                   <div className={St.contentfont}>{data.experience}</div>

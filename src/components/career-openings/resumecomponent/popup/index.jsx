@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useState } from "react";
 import Modal from "react-modal";
-import Img from "../../../../components/Image";
+import Img from "next/image";
 import images from "../../../../constants/images";
 import { v4 } from "uuid";
 import "./index.css";
@@ -9,7 +11,7 @@ import { push, ref as ref2 } from "firebase/database";
 import { getDownloadURL, uploadBytes, ref } from "firebase/storage";
 import RedirectTimer from "../../../marketing/RedirectionTimer";
 
-const Popup = ({ isOpen, onClose, alerting, setalerting }) => {
+const Popup = ({ isOpen, onClose, setIsOpen, alerting, setalerting }) => {
   // const storage = getStorage(database2);
 
   const [name, setName] = useState("");
@@ -181,6 +183,8 @@ const Popup = ({ isOpen, onClose, alerting, setalerting }) => {
                         transform: `rotate(${rotation}deg)`,
                         transition: "transform 0.5s ease",
                       }}
+                      width={10}
+                      height={10}
                     />
                   </div>
                 </div>
@@ -257,7 +261,7 @@ const Popup = ({ isOpen, onClose, alerting, setalerting }) => {
                       // className="filebutton"
                       onClick={handleFileButtonClick}
                     >
-                      <Img src={images.Uploadbutton} />
+                      <Img src={images.Uploadbutton} width={30} height={30} />
                     </div>
                   </div>
                   <div>Choose a File or Drag it Here</div>
@@ -318,8 +322,7 @@ const Popup = ({ isOpen, onClose, alerting, setalerting }) => {
               Our team will get in touch to get you started.
             </div>
             <div>
-              <RedirectTimer></RedirectTimer>
-
+              <RedirectTimer setIsopen={setIsOpen}></RedirectTimer>
             </div>
             {/* <div><RedirectTimer></RedirectTimer></div> */}
           </div>

@@ -15,7 +15,7 @@ ul{
   font-weight: normal;
   src: local('AvenirLTStd-Black'), url('../fonts/AvenirLTStd-Black.otf') format('truetype');
 }
-
+.swiper-wrapper { transition-timing-function: linear; }
 /* img{ */
   /* object-fit: contain; */
 

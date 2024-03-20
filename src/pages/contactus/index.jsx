@@ -1,5 +1,10 @@
+// "use client"
 // import L from 'leaflet';
-
+import dynamic from "next/dynamic";
+const DynamicMapComponent = dynamic(() =>
+  import("../../components/contact/mapcomponent",{ssr:false,suspense:true})
+)
+import { Suspense } from "react";
 // import 'leaflet/dist/leaflet.css';
 import Style from "./index.module.css";
 import ProductExp from "../../components/ProductEndExplaner";
@@ -10,7 +15,7 @@ import Image from "next/image";
 
 let Contact = () => {
   return (
-    <div className={Style.maindivcontactspage}>
+    <div className={Style.maindivcontactspage} suppressHydrationWarning>
       <section className={Style.topcont1}>
         <div id={Style.contacthead}>
           <h1>Hola,how can we help?</h1>
@@ -41,7 +46,12 @@ let Contact = () => {
         </div> */}
 
         <div id={Style.mapcont}>
-          {/* <div className={Style.MapMain}><MapComponent /></div> */}
+          <div className={Style.MapMain } suppressHydrationWarning>
+            <Suspense fallback={<h1>Loading</h1>}>
+
+            <DynamicMapComponent />
+            </Suspense>
+            </div>
 
           <div className={Style.mapcontlocations}>
             <div className={Style.maplocationshead}>Our Locations</div>

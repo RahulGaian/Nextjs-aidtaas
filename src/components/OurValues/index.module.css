@@ -24,6 +24,14 @@
   font-weight: 500;
   color: #171717;
 }
+
+.textAndImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 .maincontainer {
   /* border: 2px solid aqua; */
 
@@ -81,6 +89,12 @@
     align-items: center;
     justify-content: center;
     column-gap: 200px;
+    row-gap: 50px;
+  }
+
+  .images {
+    width: 70px;
+    height: 70px;
   }
   .cont div:last-child {
     grid-column-end: span 2;
@@ -96,8 +110,13 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
-    gap: 50px;
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 50px;
+  }
+  .images {
+    width: 60px;
+    height: 60px;
   }
 }
 

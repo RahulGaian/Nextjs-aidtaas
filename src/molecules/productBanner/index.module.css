@@ -199,7 +199,7 @@
     .contentContainer {
       width: 90%;
       /* border: 1px solid black; */
-      flex-direction: column-reverse;
+      flex-direction: column !important;
     }
     .contentContainer > .leftcont {
       width: 100%;
@@ -209,10 +209,12 @@
       width: 100%;
       height: auto;
       border-radius: 8px;
+      padding: 10%;
     }
     .contentContainer > .rightcont {
       width: 100%;
       margin-bottom: 20px;
+      margin-top: 8%;
     }
     .leftcont button {
       width: 142px;

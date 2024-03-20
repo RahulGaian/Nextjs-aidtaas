@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 import Style from "./index.module.css";
-// import Img from "../../../components/Image";
 import Image from "next/image";
 
 SwiperCore.use([Pagination, Autoplay]);
@@ -58,7 +57,7 @@ const Carousel = () => {
           loop: true,
         }}
         loop
-        // autoplay={{ delay: 4000 }}
+        autoplay={{ delay: 4000 }}
         onSlideChange={handleSlideChange}
       >
         {contentData.map((content, index) => (

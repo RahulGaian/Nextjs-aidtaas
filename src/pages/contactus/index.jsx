@@ -2,15 +2,18 @@
 // import L from 'leaflet';
 import dynamic from "next/dynamic";
 const DynamicMapComponent = dynamic(() =>
-  import("../../components/contact/mapcomponent",{ssr:false,suspense:true})
-)
+  import("../../components/contact/mapcomponent", {
+    ssr: false,
+    suspense: true,
+  })
+);
 import { Suspense } from "react";
 // import 'leaflet/dist/leaflet.css';
 import Style from "./index.module.css";
 import ProductExp from "../../components/ProductEndExplaner";
 // import MapComponent from "../../components/contact/mapcomponent";
 // import Img from "../../components/Image";
-import Carousel from "../../components/contact/CarouselComponent/Carousel";
+import Carousel from "../../components/contact/CarouselComponent";
 import Image from "next/image";
 
 let Contact = () => {
@@ -39,19 +42,12 @@ let Contact = () => {
       </section>
 
       <section className={Style.botcont}>
-        {/* <div className={Style.botconthead}>
-          <div>
-            <h1>Ready To Help, across borders !</h1>
-          </div>
-        </div> */}
-
         <div id={Style.mapcont}>
-          <div className={Style.MapMain } suppressHydrationWarning>
+          <div className={Style.MapMain} suppressHydrationWarning>
             <Suspense fallback={<h1>Loading</h1>}>
-
-            <DynamicMapComponent />
+              <DynamicMapComponent />
             </Suspense>
-            </div>
+          </div>
 
           <div className={Style.mapcontlocations}>
             <div className={Style.maplocationshead}>Our Locations</div>
@@ -60,9 +56,9 @@ let Contact = () => {
               <div className={Style.mapcontent1section1}>
                 <Image
                   src={"/images/contact/location pin.png"}
-                  width={15}
-                  height={15}
-                  alt=""
+                  width={400}
+                  height={400}
+                  alt="location-icon"
                 ></Image>
               </div>
               <div className={Style.mapcontent1section2}>
@@ -100,9 +96,9 @@ let Contact = () => {
               <div className={Style.mapcontent1section1}>
                 <Image
                   src={"/images/contact/location pin.png"}
-                  width={15}
-                  height={15}
-                  alt=""
+                  width={400}
+                  height={400}
+                  alt="location-icon"
                 ></Image>
               </div>
               <div className={Style.mapcontent1section2}>
@@ -139,9 +135,9 @@ let Contact = () => {
               <div className={Style.mapcontent1section1}>
                 <Image
                   src={"/images/contact/location pin.png"}
-                  width={15}
-                  height={15}
-                  alt=""
+                  width={400}
+                  height={400}
+                  alt="location-icon"
                 ></Image>
               </div>
               <div className={Style.mapcontent1section2}>

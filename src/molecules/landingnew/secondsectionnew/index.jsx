@@ -1,7 +1,6 @@
-
 import dynamic from "next/dynamic";
 import TextandImage from "../../textAndImage";
-import Security from "../../Security";
+import Security from "@/components/Security/index";
 import ProductExp from "../../ProductEndExplaner";
 import style from "./index.module.css";
 import DigitalMenu2 from "../../digitalmenu2";
@@ -10,8 +9,8 @@ import Prebuilt from "../prebuiltcomponent";
 import AndroidApps from "../../AndroidAppsSwiper";
 
 const DynamicAndroidApps = dynamic(() =>
-  import("../../appSwiper",{ssr:false,suspense:true})
-)
+  import("../../appSwiper", { ssr: false, suspense: true })
+);
 import { Suspense } from "react";
 const Section2 = () => {
   const changeRoute = (Route) => {
@@ -57,18 +56,12 @@ const Section2 = () => {
           <AndroidApps></AndroidApps>
         </section>
         <section>
-          <Suspense >
-                <DynamicAndroidApps></DynamicAndroidApps>
-            </Suspense> 
+          <Suspense>
+            <DynamicAndroidApps></DynamicAndroidApps>
+          </Suspense>
         </section>
         <section>
-          {/* <Security
-            heading={"Enterprise Grade Trust and Security"}
-            content={
-              "Mobius Suite integrates with thousands of Apps, APIs, Content, IT & Infrastructure providers across various domains throughout the globe"
-            }
-            img={"/images/Security/8.png"}
-          ></Security> */}
+          <Security></Security>
         </section>
         <section>
           <ProductExp

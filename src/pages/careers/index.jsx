@@ -263,7 +263,7 @@ let Careers = () => {
           <div className={styles.benefitsgrid}>
             <h1>What we Offer</h1>
             <div className={styles.benContainer}>
-              <div id="bc1" className={styles.bencont}>
+              <div id={styles.bc1} className={styles.bencont}>
                 <Image
                   // src={r/quire("./images/User Multiple Female Group.png")}
                   src={"/imagesnew/Career/ben1.png"}
@@ -273,7 +273,7 @@ let Careers = () => {
                 />
                 <span>“People First” mindset</span>
               </div>
-              <div id="bc2" className={styles.bencont}>
+              <div id={styles.bc2} className={styles.bencont}>
                 <Image
                   src={"/imagesnew/Career/ben2.png"}
                   alt="Benefits Image"
@@ -282,7 +282,7 @@ let Careers = () => {
                 />
                 <span>Learning for Lifetime</span>
               </div>
-              <div id="bc3" className={styles.bencont}>
+              <div id={styles.bc3} className={styles.bencont}>
                 <Image
                   src={"/imagesnew/Career/ben3.png"}
                   alt="Benefits Image"
@@ -291,7 +291,7 @@ let Careers = () => {
                 />
                 <span>Innovation & Perseverance is our tradecraft</span>
               </div>
-              <div id="bc4" className={styles.bencont}>
+              <div id={styles.bc4} className={styles.bencont}>
                 <Image
                   src={"/imagesnew/Career/ben4.png"}
                   alt="Benefits Image"
@@ -300,7 +300,7 @@ let Careers = () => {
                 />
                 <span>Making winners of our workforce</span>
               </div>
-              <div id="bc5" className={styles.bencont}>
+              <div id={styles.bc5} className={styles.bencont}>
                 <Image
                   src={"/imagesnew/Career/ben5.png"}
                   alt="Benefits Image"
@@ -309,7 +309,7 @@ let Careers = () => {
                 />
                 <span>Value creation for all our stakeholders</span>
               </div>
-              <div id="bc6" className={styles.bencont}>
+              <div id={styles.bc6} className={styles.bencont}>
                 <Image
                   src={"/imagesnew/Career/ben6.png"}
                   alt="Benefits Image"

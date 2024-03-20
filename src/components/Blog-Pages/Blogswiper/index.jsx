@@ -1,7 +1,7 @@
 import "swiper/css";
 import "./index.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination } from "swiper";
+import { EffectCoverflow } from "swiper";
 // import images from "../../../constants/images";
 import SwiperCore, { Autoplay } from "swiper";
 import { useRef, useEffect, useState } from "react";
@@ -78,7 +78,7 @@ let Blogpostswiper = ({ data }) => {
             disableOnInteraction: false,
             reverseDirection: false,
           }}
-          modules={[EffectCoverflow, Pagination]}
+          modules={[EffectCoverflow]}
           className="blogsmain"
         >
           <SwiperSlide style={{ width: "33.33% !important" }}>

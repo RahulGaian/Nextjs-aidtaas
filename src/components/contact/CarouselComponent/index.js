@@ -57,7 +57,7 @@ const Carousel = () => {
           loop: true,
         }}
         loop
-        // autoplay={{ delay: 4000 }}
+        autoplay={{ delay: 4000 }}
         onSlideChange={handleSlideChange}
       >
         {contentData.map((content, index) => (

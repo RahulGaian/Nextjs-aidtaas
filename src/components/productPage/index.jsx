@@ -1,6 +1,6 @@
 import React from "react";
 // import ProductandSolutionBanner from "../../molecules/ProductandSolutionBanner/index";
-import ProductsNSolutionBanner from "../../molecules/pandsBanner";
+import ProductBanner from "../../molecules/ProductBanner";
 // import { productsData } from "../../constants/data";
 import HeroImageNQuickJump from "../../molecules/heroImage&QuickJumpProducts";
 import Features from "../../molecules/features";
@@ -9,12 +9,23 @@ import BenefitsComponent2 from "../../molecules/benefits/index";
 import AppSwiper from "../../molecules/appSwiper";
 import ContactUs from "../../molecules/contactUs";
 import { contactUsData } from "../../molecules/contactUs/data";
+import styles from "./index.module.css";
 
 const ProductPage = ({ data }) => {
   return (
-    <div>
+    <div
+      className={styles.container}
+      style={{
+        // background:
+        //   "linear-gradient(90deg, #bfeeff 0%, #ffe6f7 56.93%, #ffe6e6 80%)",
+          background: "linear-gradient(109deg, #d2f3ff 0%, #ffe3e3 100%)",
+
+      }}
+    >
       <section>
-        <ProductsNSolutionBanner bannerData={data.banner} />
+        {/* <ProductsNSolutionBanner bannerData={data.banner} /> */}
+        <ProductBanner bannerData={data.banner} /> 
+
       </section>
 
       <section>

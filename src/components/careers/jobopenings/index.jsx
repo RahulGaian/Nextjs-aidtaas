@@ -2,11 +2,12 @@ import React from "react";
 // import { useEffect } from 'react';
 // import images from '../../../constants/images';
 import "./index.css";
-import Img from "../../Image";
+import Img from "next/image";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 // import { Jobopeningsdata as data } from "../../../pages/career-openings/jobopenings_dataHr";
 import { Jobopeningsdata as data } from "../../../components/career-openings/jobopenings_dataHr";
+import Link from "next/link";
 // import {fetchJobOpenings}  from './../../../Redux/Jobopeningsdata'
 function Jobopenings() {
   const ChangeRoute = (Route) => {
@@ -70,6 +71,8 @@ function Jobopenings() {
                       <Img
                         src={"/imagesnew/Career/career_bottom_card_icon_01.svg"}
                         className=""
+                        width={20}
+                        height={20}
                       />
                     </div>
                     <div className="">{item.location}</div>
@@ -80,6 +83,8 @@ function Jobopenings() {
                       <Img
                         src={"/imagesnew/Career/Career_bottom_card_icon_02.svg"}
                         className=""
+                        width={20}
+                        height={20}
                       />
                     </div>
                     <div className="grid-exp">{item.experience}</div>
@@ -94,11 +99,16 @@ function Jobopenings() {
         <div className="openingsbottom3">
           <div
             className="openingsbutton"
-            onClick={() => {
-              changeRoute("careeropenings");
-            }}
+            // onClick={() => {
+            //   changeRoute("careeropenings");
+            // }}
           >
-            View All Openings
+            <Link
+              href="/careerOpenings"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              View All Openings
+            </Link>
           </div>
         </div>
       </div>

@@ -106,6 +106,7 @@
   justify-content: center;
   height: fit-content;
   /* padding-bottom: 20px; */
+  cursor: pointer;
 }
 .applybtn {
   height: fit-content;

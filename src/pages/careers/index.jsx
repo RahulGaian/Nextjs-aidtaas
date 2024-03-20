@@ -18,6 +18,7 @@ import styles from "./index.module.css";
 import Gem from "../../components/gem";
 import Image from "next/image";
 import AwesomeTeam2 from "../../components/AwesomeTeam2";
+import Link from "next/link";
 
 // import Slide1img1 from "../images/Career/slider_images/slide1img1.png"
 // import Slide1img2 from "../images/Career/slider_images/slide1img2.png"
@@ -356,11 +357,16 @@ let Careers = () => {
             <div className={styles.Career_buttonsmain + " " + styles._2pt}>
               <div
                 className={styles.Career_viewOpening_button2}
-                onClick={() => {
-                  changeRoute("careeropenings");
-                }}
+                // onClick={() => {
+                //   changeRoute("careeropenings");
+                // }}
               >
-                View openings
+                <Link
+                  href="/careerOpenings"
+                  style={{ textDecoration: "none", color: "#ad00a2" }}
+                >
+                  View Openings
+                </Link>
               </div>
             </div>
           </div>

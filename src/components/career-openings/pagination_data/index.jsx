@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 // import images from "../../../constants/images";
-import Img from "../../../components/Image";
+import Img from "next/image";
 const Paginationdatamain = ({ data, itemsPerPage }) => {
   //  console.log(data)
   //  console.log(itemsPerPage)
@@ -51,6 +51,8 @@ const Paginationdatamain = ({ data, itemsPerPage }) => {
                     {" "}
                     <Img
                       src={"/imagesnew/Career/career_bottom_card_icon_01.svg"}
+                      width={20}
+                      height={20}
                     />
                   </div>
                   <div className="">{item.location}</div>
@@ -60,6 +62,8 @@ const Paginationdatamain = ({ data, itemsPerPage }) => {
                     {" "}
                     <Img
                       src={"/imagesnew/Career/Career_bottom_card_icon_02.svg"}
+                      width={20}
+                      height={20}
                     />
                   </div>
                   <div>{item.experience}</div>
@@ -72,7 +76,12 @@ const Paginationdatamain = ({ data, itemsPerPage }) => {
 
       <div className="Jobspage_pagination">
         <div onClick={handlePreviousPage} disabled={currentPage === 1}>
-          <Img src={"/imagesnew/Career/leftarrowblue.svg"} />
+          <Img
+            src={"/imagesnew/Career/leftarrowblue.svg"}
+            width={25}
+            height={25}
+            style={{ cursor: "pointer" }}
+          />
         </div>
         {Array.from({ length: totalPages }).map((_, index) => (
           <div
@@ -86,7 +95,12 @@ const Paginationdatamain = ({ data, itemsPerPage }) => {
           </div>
         ))}
         <div onClick={handleNextPage} disabled={currentPage === totalPages}>
-          <Img src={"/imagesnew/Career/rightarrowblue.svg"} />
+          <Img
+            src={"/imagesnew/Career/rightarrowblue.svg"}
+            width={25}
+            height={25}
+            style={{ cursor: "pointer" }}
+          />
         </div>
       </div>
     </div>

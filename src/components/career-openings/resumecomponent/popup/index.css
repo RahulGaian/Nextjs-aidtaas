@@ -34,7 +34,7 @@ applyformtitle .modalcontainer {
   min-height: 600px;
   max-height: fit-content;
   background-color: #ffffff;
-  padding: 30px;
+  /* padding: 30px; */
   display: flex;
   flex-direction: column;
 }
@@ -69,6 +69,7 @@ applyformtitle .modalcontainer {
   text-align: center;
   color: #ad00a2;
 }
+
 .formlabel {
   font-size: 14px;
   line-height: 20px;
@@ -81,6 +82,7 @@ applyformtitle .modalcontainer {
   background-color: #e1e1e1;
   opacity: 65%;
   border-radius: 10px;
+  border: none;
 }
 .formselectcontainer {
   position: relative;
@@ -151,6 +153,7 @@ applyformtitle .modalcontainer {
   color: #ffffff;
   background-color: #ad00a2;
   border-radius: 10px;
+  border: none;
 }
 .formbottomcontent {
   text-align: center;

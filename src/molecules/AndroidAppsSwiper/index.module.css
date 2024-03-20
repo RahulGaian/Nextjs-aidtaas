@@ -15,11 +15,13 @@
 .content1{
     position: relative;
 
-    height: 50px;
+    height: 65px;
+    width: 280px;
 
 }
 .content1>img{
     object-fit: contain;
+    max-height: 55px;
 }
 .content{
     padding: 20px;

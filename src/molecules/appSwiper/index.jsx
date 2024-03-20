@@ -9,9 +9,8 @@ import { useRef, useEffect, useState } from "react";
 import SingleApp2 from "../singlecard";
 
 let AppSwiper = ({ data }) => {
-  // SwiperCore.use([Autoplay]);
+ SwiperCore.use([Autoplay]);
 
-  const swiperRef = useRef(null);
 
   const [slidesPerView, setSlidesPerView] = useState(5);
   const [effect,setEffect] = useState({
@@ -23,25 +22,7 @@ let AppSwiper = ({ data }) => {
     direction: "ltr",
   })
   useEffect(() => {
-    const swiperInstance = swiperRef.current.swiper;
 
-    let direction = "ltr";
-
-    const autoplayHandler = () => {
-      if (swiperInstance.isEnd && direction === "ltr") {
-        direction = "rtl";
-        swiperInstance.params.autoplay.reverseDirection = true;
-        swiperInstance.autoplay.stop();
-        swiperInstance.autoplay.start();
-      } else if (swiperInstance.isBeginning && direction === "rtl") {
-        direction = "ltr";
-        swiperInstance.params.autoplay.reverseDirection = false;
-        swiperInstance.autoplay.stop();
-        swiperInstance.autoplay.start();
-      }
-    };
-
-    swiperInstance.on("autoplay", autoplayHandler);
 
     const handleResize = () => {
       if(window.innerWidth <=1440){
@@ -107,7 +88,6 @@ let AppSwiper = ({ data }) => {
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
-      swiperInstance.off("autoplay", autoplayHandler);
     };
   }, []);
 
@@ -121,11 +101,11 @@ let AppSwiper = ({ data }) => {
         </div>
         <div className={style.appswipermain}>
           <Swiper
-            ref={swiperRef}
             effect={"coverflow"}
             centeredSlides={true}
             initialSlide={4}
             grabCursor={true}
+            loop={true}
             slidesPerView={slidesPerView}
             coverflowEffect={effect}
             pagination={{

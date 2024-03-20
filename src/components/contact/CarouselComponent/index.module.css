@@ -3,14 +3,13 @@
   padding-top: 30px;
   padding-bottom: 42px;
   width: 100%;
-  /* min-height: 340px; */
   position: relative;
 }
 
 /* our locataion */
 .maplocationshead {
-  width: 100%;
-  /* margin: 0 auto; */
+  /* border: 2px solid red; */
+  width: 70%;
   padding-left: 6.5%;
   padding-bottom: 2vh;
   font-weight: 700;
@@ -19,16 +18,15 @@
 }
 
 .mapcontent1 {
+  /* border: 2px solid red; */
   border-radius: 16px;
   border: 1px solid #d3d3d3;
   background: rgba(255, 255, 255, 0.5);
   height: 180px;
   width: 88%;
+  /* width: 90%; */
   display: flex;
   column-gap: 1%;
-  padding-right: 2%;
-  margin-left: 5%;
-  margin-right: 6%;
 }
 
 /* location-logo */
@@ -36,7 +34,7 @@
   height: 180px;
   min-width: 10%;
   /* padding-top: 4vh; */
-  padding-left: 2vw;
+  /* padding-left: 2vw; */
   color: #9a92f9;
 }
 
@@ -126,7 +124,7 @@
 
   .mapcontent1section1 {
     padding-top: 2.5vh;
-    padding-left: 4vw;
+    /* padding-left: 4vw; */
   }
   .mapcontent1 {
     /* column-gap: 3%; */
@@ -273,6 +271,7 @@
     display: flex;
     justify-content: center;
     margin-left: 6%;
+    column-gap: 3%;
   }
 
   .mapcontent1section1 {
@@ -313,7 +312,7 @@
   } */
 
   .mapcontent1 {
-    column-gap: 1%;
+    column-gap: 3%;
     padding-right: 2%;
     margin-left: 5%;
     /* margin-right: 6%; */

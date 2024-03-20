@@ -5,7 +5,7 @@ import Style from "./index.module.css";
 import ProductExp from "../../components/ProductEndExplaner";
 // import MapComponent from "../../components/contact/mapcomponent";
 // import Img from "../../components/Image";
-import Carousel from "../../components/contact/CarouselComponent/Carousel";
+import Carousel from "../../components/contact/CarouselComponent";
 import Image from "next/image";
 
 let Contact = () => {
@@ -34,11 +34,6 @@ let Contact = () => {
       </section>
 
       <section className={Style.botcont}>
-        {/* <div className={Style.botconthead}>
-          <div>
-            <h1>Ready To Help, across borders !</h1>
-          </div>
-        </div> */}
 
         <div id={Style.mapcont}>
           {/* <div className={Style.MapMain}><MapComponent /></div> */}

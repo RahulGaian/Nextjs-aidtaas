@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 import Style from "./index.module.css";
-// import Img from "../../../components/Image";
 import Image from "next/image";
 
 SwiperCore.use([Pagination, Autoplay]);

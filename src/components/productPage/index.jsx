@@ -19,59 +19,39 @@ const ProductPage = ({ data }) => {
       style={{
         // background:
         //   "linear-gradient(90deg, #bfeeff 0%, #ffe6f7 56.93%, #ffe6e6 80%)",
-          background: "linear-gradient(109deg, #d2f3ff 0%, #ffe3e3 100%)",
-
+        background: "linear-gradient(109deg, #d2f3ff 0%, #ffe3e3 100%)",
       }}
     >
       <section>
-        {/* <ProductsNSolutionBanner bannerData={data.banner} /> */}
-        <ProductBanner bannerData={data.banner} /> 
-
+        <ProductBanner bannerData={data.banner} />
       </section>
 
-      <section>
-        <div className={st.container}>
-          <div className={st.contentContainer}>
-            <Image
-              src={data.banner.viewDemoUrl}
-              alt="Banner"
-              width={400}
-              height={400}
-              priority
-            ></Image>
-            <div className={st.mainCont}>
-              <span className={st.global_paragraph}>
-                <a href="#feat">Features</a>
-              </span>
-              <span className={st.global_paragraph}>
-                <a href="#ben">Benefits</a>
-              </span>
-              <span className={st.global_paragraph}>
-                <a href="#desc">Case Study</a>
-              </span>
-              <span className={st.global_paragraph}>
-                <a href="#products">Related Products</a>
-              </span>
-            </div>
+      <div className={styles.bg_blue_color_1}>
+        <section>
+          <HeroImageNQuickJump data={data.banner} />
+        </section>
+
+        <div className={styles.bg_pink_blob_1}>
+          <div className={styles.bg_blue_color_2}>
+            <section>
+              <Features featureData={data.features} />
+            </section>
+
+            <section>
+              <BenefitsComponent2 benefitsData={data.benefits} />
+            </section>
+
+            <section>
+              <AppSwiper />
+            </section>
+
+            <section>
+              <ContactUs data={contactUsData.contact3} />
+            </section>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section id="feat">
-        <Features featureData={data.features} />
-      </section>
-
-      <section id="ben">
-        <BenefitsComponent2 benefitsData={data.benefits} />
-      </section>
-
-      <section id="desc">
-        <AppSwiper />
-      </section>
-
-      <section id="products">
-        <ContactUs data={contactUsData.contact3} />
-      </section>
     </div>
   );
 };

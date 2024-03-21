@@ -148,7 +148,7 @@
   /* border: 3px solid blue; */
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.8);
-  width: 90%;
+  width: 95%;
   min-height: 448px;
   backdrop-filter: blur(27px);
   margin: 0 auto;
@@ -203,7 +203,7 @@
   justify-content: space-between;
   align-items: center;
 
-  width: 90%;
+  width: 88%;
   /* min-height: 400px; */
 }
 .mission1 {
@@ -217,7 +217,7 @@
   align-items: center;
   flex-direction: row-reverse;
 
-  width: 90%;
+  width: 88%;
   /* min-height: 400px; */
 }
 
@@ -272,6 +272,7 @@
 .firsttext {
   font-size: 2rem;
   margin: 0;
+  font-weight: 400;
 }
 
 /* -----------------------font for mobile view------------------ */
@@ -1379,74 +1380,74 @@
 }
 @media screen and (max-width: 2000px) and (min-width: 1900px) {
   .awesome1 {
-    width: 40% !important;
+    width: 45% !important;
     margin: 0 auto !important;
   }
 }
 @media screen and (max-width: 1900px) and (min-width: 1800px) {
   .awesome1 {
-    width: 43% !important;
+    width: 47% !important;
     margin: 0 auto !important;
   }
 }
 
 @media screen and (max-width: 1800px) and (min-width: 1700px) {
   .awesome1 {
-    width: 42% !important;
+    width: 47% !important;
     margin: 0 auto !important;
   }
 }
 @media screen and (max-width: 1700px) and (min-width: 1600px) {
   .awesome1 {
-    width: 44% !important;
+    width: 50% !important;
     margin: 0 auto !important;
   }
 }
 @media screen and (max-width: 1600px) and (min-width: 1500px) {
   .awesome1 {
-    width: 48% !important;
+    width: 52% !important;
     margin: 0 auto !important;
   }
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1400px) {
   .awesome1 {
-    width: 51% !important;
+    width: 56% !important;
     margin: 0 auto !important;
   }
 }
 
 @media screen and (max-width: 1400px) and (min-width: 1300px) {
   .awesome1 {
-    width: 55% !important;
+    width: 61% !important;
     margin: 0 auto !important;
   }
 }
 
 @media screen and (max-width: 1300px) and (min-width: 1200px) {
   .awesome1 {
-    width: 60% !important;
+    width: 66% !important;
     margin: 0 auto !important;
   }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1100px) {
   .awesome1 {
-    width: 66% !important;
+    width: 73% !important;
     margin: 0 auto !important;
   }
 }
 
 @media screen and (max-width: 1100px) and (min-width: 1000px) {
   .awesome1 {
-    width: 75% !important;
+    width: 80% !important;
     margin: 0 auto !important;
   }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 980px) {
   .awesome1 {
-    width: 77% !important;
+    width: 83% !important;
     margin: 0 auto !important;
   }
 }

@@ -19,7 +19,7 @@ const Vision = () => {
               // src={"images/vision/1.png"}
               src={"/images/vision/vision_banner.png"}
               style={{
-                width: "90vw",
+                width: "100%",
                 display: "flex",
                 margin: "0 auto",
                 borderRadius: "30px",
@@ -30,7 +30,12 @@ const Vision = () => {
             ></Image>
             <Image
               src={"/images/vision/2.png"}
-              style={{ width: "90vw", margin: "0 auto", borderRadius: "30px" }}
+              style={{
+                width: "100%",
+                display: "flex",
+                margin: "0 auto",
+                borderRadius: "30px",
+              }}
               className={st.img2}
               width={500}
               height={500}

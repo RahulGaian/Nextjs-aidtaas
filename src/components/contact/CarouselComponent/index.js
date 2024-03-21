@@ -73,16 +73,22 @@ const Carousel = () => {
 
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
-                    <Image src={content.imagesrc2}width={15}
-                      height={15}></Image>
+                    <Image
+                      src={content.imagesrc2}
+                      width={15}
+                      height={15}
+                    ></Image>
                   </div>
                   <div className={Style.num}>{content.num}</div>
                 </div>
 
                 <div className={Style.section2bottom}>
                   <div className={Style.logo}>
-                    <Image src={content.imagesrc3} width={15}
-                      height={15}></Image>
+                    <Image
+                      src={content.imagesrc3}
+                      width={15}
+                      height={15}
+                    ></Image>
                   </div>
                   <div>{content.mail}</div>
                 </div>

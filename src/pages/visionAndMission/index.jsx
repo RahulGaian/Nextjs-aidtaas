@@ -119,7 +119,7 @@ const Vision = () => {
                   <div className={st.awesome}>
                     <div className={st.awesome1}>
                       <h1 className={st.firsttext}>
-                        Join Our Awesome Team of talented
+                        Join Our Awesome Team of Talented
                       </h1>
                       <Awesome></Awesome>
                     </div>

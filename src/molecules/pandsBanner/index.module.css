@@ -103,7 +103,7 @@
       width: 1200px;
     }
     .contentContainer > .leftcont {
-      padding-right: 3%;
+      padding-right: 5%;
     }
   
     .contentContainer > .leftcont > p {
@@ -124,8 +124,8 @@
     }
   
     .rightcont > img {
-      width: 600px;
-      height: 400px;
+      width: 100%;
+      height: auto;
     }
   }
   
@@ -158,8 +158,8 @@
       padding: 15px 26px;
     }
     .rightcont > img {
-      width: 336px;
-      height: 268px;
+      width: 100%;
+      height: auto;
       border-radius: 8px;
     }
   }
@@ -185,11 +185,6 @@
       border-radius: 6px;
       font-size: 13px;
       padding: 15px 26px;
-    }
-    .rightcont > img {
-      width: 336px;
-      height: 268px;
-      border-radius: 8px;
     }
   }
   

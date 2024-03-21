@@ -1,4 +1,5 @@
-import PlatformBanner from "../../molecules/platformBanner/index";
+import PlatformBanner1 from "../../molecules/platformBanner/index";
+import PlatformBanner2 from "@/molecules/platfrombanner2";
 import { platformData } from "../../constants/data";
 import React from "react";
 import { BenefitsComponent1 } from "../../molecules/benefits/index.stories";
@@ -13,7 +14,11 @@ const PlatformPage = ({ data }) => {
   return (
     <section className={styles.platform}>
       <section>
-        <PlatformBanner bannerData={data.banner} />
+        {data.id === "pascal-intelligence" || data.id === "boltzman-bot" ? (
+          <PlatformBanner1 bannerData={data.banner} />
+        ) : (
+          <PlatformBanner2 bannerData={data.banner} />
+        )}
       </section>
       <section>
         <Features featureData={data.features} />

@@ -13,16 +13,3 @@ export const pascalIntel = () => (
 export const Bob = () => (
   <PlatformBanner bannerData={platformData[1].banner}/>
 );
-
-export const monet = () => (
-  <PlatformBanner bannerData={platformData[2].banner}/>
-);
-
-export const vinci = () => (
-  <PlatformBanner bannerData={platformData[3].banner}/>
-)
-
-export const holacracy = () => (
-  <PlatformBanner bannerData={platformData[4].banner}/>
-)
-

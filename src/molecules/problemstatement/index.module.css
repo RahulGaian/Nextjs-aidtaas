@@ -1,4 +1,4 @@
-.psContainer {
+/* .psContainer {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -187,6 +187,9 @@
 }
 
 @media only screen and (max-width: 980px) {
+  .psContainer {
+    margin-top: 50px;
+  }
   .psContentContainer {
     width: 90%;
     min-height: fit-content;
@@ -271,5 +274,187 @@
   }
   .psContentContainer > .rightcont {
     width: 100%;
+  }
+} */
+
+.psContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.psContentContainer {
+  width: 1700px;
+  max-height: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftcont {
+  width: 45.17%;
+  height: inherit;
+}
+
+.leftcont > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.rightcont {
+  width: 48.1%;
+  height: inherit;
+}
+
+.rightcont > h1 {
+  width: 100%;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-size: clamp(
+    0.875rem,
+    0.3532608695652173rem + 2.608695652173913vw,
+    3.125rem
+  );
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+}
+
+.rightcont > p {
+  width: 100%;
+  font-family: DM Sans;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.rightcont button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  border: 2px solid #ad00a2;
+  color: #ad00a2;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.rightcont button {
+  cursor: pointer;
+}
+
+#link {
+  width: max-content;
+  text-decoration: none;
+}
+
+#link:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1441px) {
+  .psContentContainer {
+    width: 1420px;
+    height: 465px;
+  }
+  .rightcont>p{
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1250px) {
+  .psContentContainer {
+    width: 1200px;
+    height: 422px;
+  }
+  .rightcont>p{
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 980px) {
+  .psContentContainer {
+    width: 950px;
+    height: 310px;
+  }
+  .rightcont>h1{
+    font-size: 32px;
+  }
+  .rightcont>p{
+    font-size: 14px;
+    line-height: normal;
+  }
+  .rightcont button{
+    font-size: 14px;
+    padding: 15px 40px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+.psContentContainer{
+  width: 90%;
+  height: 270px;
+}
+.rightcont{
+  width: 50%;
+}
+.rightcont>p{
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.rightcont button{
+  font-size: 14px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .rightcont>h1{
+    font-size: 20px;
+  }
+  .rightcont>p{
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .psContentContainer{
+    flex-direction: column;
+    height: max-content;
+  }
+  .leftcont, .rightcont{
+    width: 100%;
+  }
+  .leftcont{
+    margin-bottom: 20px;
+  }
+  .rightcont>h1{
+    font-size: 26px;
+  }
+  .rightcont>p{
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 0;
+  }
+  .rightcont button{
+    font-size: 16px;
   }
 }

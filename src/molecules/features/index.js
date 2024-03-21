@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./index.module.css";
 import Image from "next/image";
+import PlatformPage from "../../components/platformPage";
+import MarketPlacePage from "../../components/marketPlacePage";
 
 const Features = ({ featureData }) => {
   if (!featureData || featureData.length === 0) {

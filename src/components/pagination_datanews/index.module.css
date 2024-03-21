@@ -8,6 +8,8 @@
   min-height: fit-content;
   max-height: fit-content;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .Jobopeningsmainnw {
   display: grid;
@@ -15,6 +17,8 @@
   grid-row-gap: 20px;
   grid-column-gap: 50px;
   width: 100%;
+  justify-items: center;
+  margin-left: 2.7%;
 }
 
 .griditemnw {
@@ -82,6 +86,7 @@
   }
   .Jobopeningsmainnw {
     grid-column-gap: 20px;
+    margin-left: 1%;
   }
   .readmorenw{
     top: -40px;
@@ -93,9 +98,10 @@
   }
   .Jobopeningsmainnw {
     grid-column-gap: 20px;
+    margin-left: 0;
   }
   .griditemnw {
-    width: 400px;
+    width: 385px;
   }
   .OneComponentnw {
     height: 486px;
@@ -108,6 +114,7 @@
   .Jobopeningsmainnw {
     display: grid;
     grid-template-columns: repeat(3, 0fr);
+    margin-left: 0;
   }
   .openingsmainpagenw {
     width: 950px;
@@ -133,6 +140,7 @@
   .Jobopeningsmainnw {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
   }
   .openingsmainpagenw {
     width: 90%;
@@ -173,6 +181,7 @@
   .Jobopeningsmainnw {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
   }
   .openingsmainpagenw {
     width: 90%;

@@ -868,7 +868,7 @@
   }
 }
 
-@media only screen and (max-width: 2560px) and (min-width: 1801px) {
+@media only screen and (max-width: 2800px) and (min-width: 1801px) {
 }
 .awesome1 {
   background-size: cover;
@@ -881,7 +881,7 @@
   line-height: 54px;
   letter-spacing: 0.03em;
   color: #1a1a1a;
-  min-width: 60%;
+  /* min-width: 60%; */
   max-width: fit-content;
   justify-content: flex-start;
 }

@@ -71,7 +71,7 @@
 }
 
 .marginfixer > .text {
-  color: #ad00a2 !important;
+  color: #B229AA !important;
 }
 .marginfixer1 > .text {
 }
@@ -110,8 +110,10 @@
   /* margin-top: 10px; */
   bottom: 0;
   height: 20px;
-  background: #ad00a2;
+  /* background: #ad00a2; */
   align-content: flex-end;
+  background: #CE31C4B2;
+
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
 }

@@ -42,7 +42,8 @@
     }
 
     .mySwiper2landingpage{
-        width:1420px
+        width:1420px;
+        width: 100%;
     }
     .AppsPowered > h1{
         font-weight: 500;
@@ -58,7 +59,7 @@
     }
 
     .mySwiper2landingpage{
-        width:90%;
+        width:100%;
     }
     .AppsPowered > h1{
         font-weight: 500;
@@ -74,7 +75,7 @@
     }
 
     .mySwiper2landingpage{
-        width:90%;
+        width:100%;
     }
     .AppsPowered > h1{
         font-weight: 500;
@@ -86,10 +87,10 @@
 }
 @media  screen and (max-width:980px){
     .AppsPowered{
-        width: 90%;
+        width: 100%;
     }
     .mySwiper2landingpage{
-        width: 90%;
+        width: 100%;
     }
     .mySwiper2landingpage > .swiper-slide{
         width:100%;
@@ -110,7 +111,7 @@
         width: 90%;
     }
     .mySwiper2landingpage{
-        width: 90%;
+        width: 100%;
     }
     .mySwiper2landingpage > .swiper-slide{
         margin-left: 0px ;

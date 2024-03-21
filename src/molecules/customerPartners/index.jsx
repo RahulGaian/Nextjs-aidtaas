@@ -10,32 +10,6 @@ import { useRef, useEffect, useState } from "react";
 let CustomerPartners = () => {
 
   SwiperCore.use([Autoplay]);
-  const swiperRef2 = useRef(null);
-  useEffect(() => {
-    const swiperInstance2 = swiperRef2.current.swiper;
-
-    let direction = 'ltr';
-
-    const autoplayHandler = () => {
-      if (swiperInstance2.isEnd && direction === 'ltr') {
-        direction = 'rtl';
-        swiperInstance2.params.autoplay.reverseDirection = true;
-        swiperInstance2.autoplay.stop();
-        swiperInstance2.autoplay.start();
-      } else if (swiperInstance2.isBeginning && direction === 'rtl') {
-        direction = 'ltr';
-        swiperInstance2.params.autoplay.reverseDirection = false;
-        swiperInstance2.autoplay.stop();
-        swiperInstance2.autoplay.start();
-      }
-    };
-
-    swiperInstance2.on('autoplay', autoplayHandler);
-
-    return () => {
-      swiperInstance2.off('autoplay', autoplayHandler);
-    };
-  }, []);
   const [slidesPerView, setSlidesPerView] = useState(6);
   useEffect(() => {
     const handleResize = () => {
@@ -46,7 +20,7 @@ let CustomerPartners = () => {
             setSlidesPerView(4);
         } 
         else {
-        setSlidesPerView(6);
+        setSlidesPerView(8);
       }
     };
 
@@ -62,25 +36,17 @@ let CustomerPartners = () => {
   return (
     <div className={style.appswipermainlandingpage2}>
       <Swiper
-        ref={swiperRef2}
-        centeredSlides={false}
-        // loop={true}
+        loop={true}
         grabCursor={true}
         autoplay={{
-          delay: 2000,
+          delay: 0.5,
+          disableOnInteraction:true
         }}
         initialSlide={3}
         slidesPerView={slidesPerView}
         freeMode={true}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2,
-          slideShadows: false,
-          direction: "ltr",
-        }}
-        modules={[EffectCoverflow]}
+        speed={3000}
+        modules={[Autoplay]}
         className="swipermenu2"
       >
         <SwiperSlide className="">

@@ -13,12 +13,19 @@
   margin-bottom: 0;
   padding-top: 0;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: flex-start;
   align-items: center;
 }
 
 .swiper-pagination-bullets {
   display: none;
+}
+
+@media screen and (max-width:980px){
+  .hack{
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 768px) and (min-width: 661px) {

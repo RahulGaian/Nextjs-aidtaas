@@ -44,7 +44,7 @@ function MapComponent() {
   return (
     <div
       id="map-container"
-      style={{ width: "100%", height: "100%", zIndex: 1 }}
+      style={{ width: "100%", height: "100%", zIndex: 1 }} suppressHydrationWarning
     ></div>
   );
 }

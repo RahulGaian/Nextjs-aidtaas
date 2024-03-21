@@ -10,6 +10,7 @@ import Services from "./menudropdown/service";
 import Img from "next/image";
 import data from "./headerData";
 import { useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
 function Header() {
   const data1 = [data[0]];
@@ -27,7 +28,9 @@ function Header() {
   const [isdropped, setisdropped] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
+  const pathname = usePathname();
   useEffect(() => {
+    setIsOpen(false)
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
@@ -35,7 +38,7 @@ function Header() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [pathname]);
 
   const handlePlatform = () => {
     setplatform(!isplatform);

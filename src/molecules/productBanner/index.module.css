@@ -14,7 +14,8 @@
     min-height: 700px;
     max-height: fit-content;
     display: flex;
-    padding-top: 150px;
+    padding-top: 100px;
+    /* padding-top: 10%; */
     align-items: center;    
 }
 
@@ -105,7 +106,7 @@
       width: 1200px;
     }
     .contentContainer > .leftcont {
-      padding-right: 5%;
+      padding-right: 3%;
     }
   
     .contentContainer > .leftcont > p {
@@ -114,6 +115,9 @@
   }
   
   @media only screen and (max-width: 1250px) {
+    .contentContainer {
+      padding-top: 50px;
+  }
     .contentContainer > .leftcont {
       padding-right: 5%;
     }
@@ -126,8 +130,8 @@
     }
   
     .rightcont > img {
-      width: 100%;
-      height: auto;
+      width: 600px;
+      height: 400px;
     }
   }
   
@@ -141,6 +145,8 @@
     .contentContainer {
       width: 90%;
       min-height: fit-content;
+      /* padding-top: 100px; */
+      margin-top: 80px;
     }
     .contentContainer > .leftcont > h1 {
       font-size: 26px;
@@ -160,8 +166,8 @@
       padding: 15px 26px;
     }
     .rightcont > img {
-      width: 100%;
-      height: auto;
+      width: 336px;
+      height: 268px;
       border-radius: 8px;
     }
   }
@@ -188,13 +194,18 @@
       font-size: 13px;
       padding: 15px 26px;
     }
+    .rightcont > img {
+      width: 336px;
+      height: 268px;
+      border-radius: 8px;
+    }
   }
   
   @media only screen and (max-width: 600px) {
     .contentContainer {
       width: 90%;
       /* border: 1px solid black; */
-      flex-direction: column-reverse;
+      flex-direction: column !important;
     }
     .contentContainer > .leftcont {
       width: 100%;
@@ -204,10 +215,12 @@
       width: 100%;
       height: auto;
       border-radius: 8px;
+      padding: 10%;
     }
     .contentContainer > .rightcont {
       width: 100%;
       margin-bottom: 20px;
+      margin-top: 8%;
     }
     .leftcont button {
       width: 142px;

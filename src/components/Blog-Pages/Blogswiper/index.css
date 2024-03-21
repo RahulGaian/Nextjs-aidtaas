@@ -120,7 +120,7 @@
 }
 @media only screen and (max-width: 1250px) and (min-width: 980px) {
   .Blogcard1 {
-    width: 95%;
+    width: 100%;
     height: 430px;
     display: flex;
     flex-direction: column;
@@ -142,13 +142,13 @@
 }
 @media screen and (max-width: 980px) {
   .Blogcard1 {
-    width: 95%;
+    width: 100%;
     height: 400px;
   }
 }
 @media screen and (max-width: 600px) {
   .Blogcard1 {
-    width: 95%;
+    width: 100%;
     height: 300px;
   }
   /* .swiper-slide {
@@ -167,7 +167,7 @@
 
 @media screen and (max-width: 420px) {
   .Blogcard1 {
-    width: 95%;
+    width: 100%;
     height: 270px;
   }
 }

@@ -64,6 +64,7 @@
   font-style: normal;
   font-weight: 400 !important;
   line-height: 34.095px;
+  margin-left: 2.7%;
 }
 
 .bgImg {
@@ -215,6 +216,9 @@
   .text1 {
     width: 1420px;
   }
+  .mainheading > span{
+    margin-left: 1%;
+  }
 }
 @media only screen and (max-width: 1500px) and (min-width: 1250px) {
   .mainheading {
@@ -228,6 +232,9 @@
   }
   .text1 {
     width: 1200px;
+  }
+  .mainheading > span{
+    margin-left: 0;
   }
 }
 
@@ -243,6 +250,9 @@
   }
   .text1 {
     width: 950px;
+  }
+  .mainheading > span{
+    margin-left: 0;
   }
 }
 

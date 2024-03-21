@@ -8,7 +8,7 @@ let ContextualAndTargeting =
 let Speed = "/imagesnew/platform/PascalIntelligence/Speed.svg";
 let Budget = "/imagesnew/platform/PascalIntelligence/Icon_Budget.svg";
 let Competitve = "/imagesnew/platform/PascalIntelligence/Competitve.svg";
-let BoBCover = "/imagesnew/platform/BoltzmanBot/BoBCover.svg";
+let BoBCover = "/imagesnew/platform/BoltzmanBot/BoBCover.png";
 let RapidAutomation =
   "/imagesnew/platform/BoltzmanBot/Artificial Intelligence.svg";
 let CostEfficency = "/imagesnew/platform/BoltzmanBot/Business Startup.svg";

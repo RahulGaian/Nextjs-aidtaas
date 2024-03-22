@@ -7,8 +7,7 @@ import BenefitsComponent2 from "../../molecules/benefits/index";
 import AppSwiper from "../../molecules/appSwiper";
 import ContactUs from "../../molecules/contactUs";
 import { contactUsData } from "../../molecules/contactUs/data";
-import st from "./index.module.css";
-import Image from "next/image";
+import styles from "./index.module.css";
 
 const ProductPage = ({ data }) => {
   return (
@@ -49,7 +48,6 @@ const ProductPage = ({ data }) => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };

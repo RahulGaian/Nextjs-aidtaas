@@ -30,7 +30,7 @@ function Header() {
 
   const pathname = usePathname();
   useEffect(() => {
-    setIsOpen(false)
+    setIsOpen(false);
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
@@ -103,7 +103,14 @@ function Header() {
                   router2.push("/");
                 }}
               >
-                <Img src={"/imagesnew/brand-logo.svg"} width={80} height={54} priority cover layout="intrinsic" />
+                <Img
+                  src={"/imagesnew/brand-logo.svg"}
+                  width={80}
+                  height={54}
+                  priority
+                  cover
+                  layout="intrinsic"
+                />
               </div>
 
               <div className={!isOpen ? Style.marginfixer1 : Style.marginfixer}>
@@ -258,7 +265,14 @@ function Header() {
                   window.location.href = "/";
                 }}
               >
-                <Img src={"/imagesnew/brand-logo.svg"} width={80} height={54} priority cover layout="intrinsic"/>
+                <Img
+                  src={"/imagesnew/brand-logo.svg"}
+                  width={80}
+                  height={54}
+                  priority
+                  cover
+                  layout="intrinsic"
+                />
               </div>
             </div>
             <div className={Style.hambermenu}>

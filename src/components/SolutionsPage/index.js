@@ -5,27 +5,52 @@ import SolutionPageCapabilities from "../../molecules/capabilities";
 import AppSwiper from "../../molecules/appSwiper";
 import YouMayAlsoLike from "../../molecules/youMayAlsoLike";
 import SpeakExpert from "../../molecules/speakExpert";
+import st from "./index.module.css";
 
-const SolutionsTemplate = ({data}) => {
+const SolutionsTemplate = ({ data }) => {
   return (
     <div>
       <section>
         <ProductsNSolutionBanner bannerData={data.banner} />
       </section>
       <section>
-        <QuickJump />
+        <div className={st.menuContainer}>
+          <div className={st.menuContentContainer}>
+            <div className={st.content4}>
+              <div className={st.content3}>
+                <span id={st.firstele}>
+                  <a href="#statement">Problem Statement</a>
+                </span>
+                <span>
+                  <a href="#capabilities">Capabilities</a>
+                </span>
+                <span>
+                  <a href="#products">Products</a>
+                </span>
+                <span>
+                  <a href="#alsolike">You may also like</a>
+                </span>
+                <span id={st.lastele}>
+                  <a href="#resources">Resources</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section>
-        <SolutionPagePS problemData={data.problemStatement}/>
+      <section id="statement">
+        <SolutionPagePS problemData={data.problemStatement} />
       </section>
-      <section>
+      <section id="capabilities">
         <SolutionPageCapabilities data={data.capabilities} />
       </section>
-      <section><AppSwiper/></section>
-      <section>
+      <section id="products">
+        <AppSwiper />
+      </section>
+      <section id="alsolike">
         <YouMayAlsoLike likeData={data.youMayAlsoLike} />
       </section>
-      <section>
+      <section id="resources">
         <SpeakExpert />
       </section>
     </div>

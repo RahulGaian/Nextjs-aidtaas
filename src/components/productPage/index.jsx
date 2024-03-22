@@ -1,10 +1,8 @@
 import React from "react";
-// import ProductandSolutionBanner from "../../molecules/ProductandSolutionBanner/index";
 import ProductBanner from "../../molecules/ProductBanner";
 // import { productsData } from "../../constants/data";
 import HeroImageNQuickJump from "../../molecules/heroImage&QuickJumpProducts";
 import Features from "../../molecules/features";
-// import BenefitsComponent2 from "../../molecules/benefits/index.stories";
 import BenefitsComponent2 from "../../molecules/benefits/index";
 import AppSwiper from "../../molecules/appSwiper";
 import ContactUs from "../../molecules/contactUs";

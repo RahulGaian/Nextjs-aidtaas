@@ -2,20 +2,13 @@ import Image from "next/image";
 import st from "./index.module.css";
 import Link from "next/link";
 
-const PlatformBanner1 = ({ bannerData }) => {
-  let imageClass = "";
-
-  if (bannerData.heading === "Pascal Intelligence") {
-    imageClass = st.piImage;
-  } else if (bannerData.heading === "BoltzmanBot") {
-    imageClass = st.bobImage;
-  }
+const PlatformBanner2 = ({ bannerData }) => {
   return (
     <div className={st.container}>
       <div className={st.contentContainer}>
-        <h1>{bannerData.heading}</h1>
         <div className={st.maincont}>
           <div className={st.leftcont}>
+            <h1>{bannerData.heading}</h1>
             <h3>{bannerData.subheading}</h3>
             <p>{bannerData.description}</p>
             <Link
@@ -34,7 +27,6 @@ const PlatformBanner1 = ({ bannerData }) => {
               width={550}
               height={500}
               priority
-              className={imageClass}
             />
           </div>
         </div>
@@ -43,4 +35,4 @@ const PlatformBanner1 = ({ bannerData }) => {
   );
 };
 
-export default PlatformBanner1;
+export default PlatformBanner2;

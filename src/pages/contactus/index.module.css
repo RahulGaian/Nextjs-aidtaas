@@ -16,7 +16,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* background-color: rgba(255, 255, 255, 0.809);  */
-  /* backdrop-filter: blur(100000px); Adjust the blur value as needed */
 }
 #contacthead {
   width: 1700px;
@@ -163,7 +162,6 @@
   height: fit-content;
 }
 .section2bottom {
-  /* border: 2px solid red; */
 
   display: flex;
   justify-content: flex-start;

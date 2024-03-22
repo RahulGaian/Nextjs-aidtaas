@@ -132,10 +132,11 @@ const Vision = () => {
                     <div
                       className="mt-12"
                       onClick={() => {
-                        ChangeRoute("careerOpenings");
+                        ChangeRoute("careeropenings");
                       }}
                     >
-                      <Button text="View Openings" filled={false}></Button>
+                      {/* <Button text="View Openings" filled={false}></Button> */}
+                      <Button text="View Openings"></Button>
                     </div>
                   </div>
                 </div>
